@@ -1,3 +1,39 @@
+  
+/*========================================================
+	Author: Ruby Masciangelo
+	happyhalehawaii.com
+==========================================================
+	GENERIC STYLES
+==========================================================
+    COLOR PALETTE
+    Orange:  #003333
+    Dark Blue:   #99FFCC
+========================================================*/
+@-ms-viewport {
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
+@viewport {
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+html {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 62.5%;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+	font-size: 18px;
+	margin: 0;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	line-height: 1.42857143;
+}
+
 #top {
     background: url(./images/hh1-vect.png) no-repeat;
 }
