@@ -1,5 +1,4 @@
-  
-/*========================================================
+ /*========================================================
 	Author: Ruby Masciangelo
 	happyhalehawaii.com
 ==========================================================
@@ -82,4 +81,6 @@ body {
     width: calc(100vw-100px);
     background-size: cover;
     background-position: center;
+    margin-top: -26px;
+    margin-left: -1px;
 }
