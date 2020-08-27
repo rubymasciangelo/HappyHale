@@ -36,6 +36,42 @@ body {
 	line-height: 1.42857143;
 }
 
+#nav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+  
+#nav a:hover {
+    left: 0; /* On mouse-over, make the elements appear fully */
+}
+  
+#home {
+    top: 20px;
+}
+  
+#shop {
+    top: 80px;
+}
+  
+#about {
+    top: 140px;
+}
+  
+#policy {
+    top: 200px;
+}
+
+#contact {
+    top: 260px;
+}
+
 #home {
     background: url(./images/hh1-vect.png) no-repeat;
     height: 100vh;
