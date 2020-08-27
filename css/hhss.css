@@ -84,3 +84,9 @@ body {
     margin-top: -26px;
     margin-left: -1px;
 }
+
+/*=========BANNER=========*/
+#banner {
+    overflow: hidden;
+}
+
