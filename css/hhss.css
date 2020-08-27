@@ -75,7 +75,7 @@ body {
 
 
 /*============HOME==========*/
-#home {
+.cover {
     background: url(./images/hh1-vect.png) no-repeat;
     height: 100vh;
     width: calc(100vw-100px);
