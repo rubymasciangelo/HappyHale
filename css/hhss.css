@@ -88,6 +88,8 @@ body {
 /*=========BANNER=========*/
 #banner {
     overflow: hidden;
+    background: url(.images/hhbannervect.png) repeat-x;
+    height: 100px;
 }
 
 .sticky {
