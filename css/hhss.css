@@ -83,6 +83,7 @@ body {
     background-position: center;
     margin-top: -26px;
     margin-left: -1px;
+    border-bottom: 30px solid #e05e26;
 }
 
 /*=========BANNER=========*/
@@ -91,6 +92,7 @@ body {
     background: url(./images/hhbannervect.png) repeat-x;
     height: 200px;
     background-size: auto 200px;
+    margin-top: -25px;
 }
 
 .sticky {
