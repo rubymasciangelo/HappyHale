@@ -36,7 +36,7 @@ body {
 	line-height: 1.42857143;
 }
 
-#top {
+#home {
     background: url(./images/hh1-vect.png) no-repeat;
     height: 100vh;
     width: calc(100vw-100px);
