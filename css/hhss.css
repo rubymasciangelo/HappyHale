@@ -47,6 +47,7 @@ body {
     font-size: 20px; /* Increase font size */
     color: white; /* White text color */
     border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+    background-color: #243466;
 }
   
 #nav a:hover {
