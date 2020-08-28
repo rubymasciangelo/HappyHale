@@ -213,3 +213,14 @@ div.desc {
 .gridd {
     grid-template-rows: 1fr 1fr;
 }
+
+/*==================CONTACT/FOOT==========*/
+#contact {
+    width: 100%;
+    overflow: hidden;
+    /* background: url(./images/hhbannervect.png) repeat-x; */
+    background: url(./images/hhbannervect2.png) repeat-x;
+    height: 200px;
+    background-size: auto 200px;
+    margin-bottom: -500px;
+}
