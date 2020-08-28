@@ -176,6 +176,7 @@ div.desc {
 }
 
 .gridb {
+    padding-top: 5px;
     align-items: flex-start;
     justify-items: start;
 }
