@@ -103,7 +103,8 @@ body {
 /*=========BANNER=========*/
 #banner {
     overflow: hidden;
-    background: url(./images/hhbannervect.png) repeat-x;
+    /* background: url(./images/hhbannervect.png) repeat-x; */
+    background: url(./images/hhbannervect2.png) repeat-x;
     height: 100px;
     background-size: auto 100px;
     margin-top: -25px;
