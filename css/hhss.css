@@ -31,7 +31,7 @@ html {
 body {
 	font-size: 18px;
 	margin: 0;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-family: 'Catamaran';
 	line-height: 1.42857143;
 }
 
@@ -125,7 +125,8 @@ body {
 }
 
 h1 {
-    color: #e05e26;
+    color:#e05e26;
+    font-family: 'Chango';
 }
 
 .fade{
