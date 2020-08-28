@@ -161,22 +161,23 @@ div.desc {
 /*===============ABOUT================*/
 .grida, .gridb {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5px;
+    gap: 15px;
 }
 
 .grida img, .gridb img {
     max-width: 100%;
     height: auto;
+    padding-top: 15px;
 }
 
 .grida {
     align-items: flex-end;
     justify-items: end;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .gridb {
-    padding-top: 5px;
     align-items: flex-start;
     justify-items: start;
+    grid-template-columns: 1fr 2fr;
 }
