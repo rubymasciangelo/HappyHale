@@ -142,10 +142,6 @@ h1 {
     to {opacity: 1}
 }
 /*===================SHOP==============*/
-#shop {
-    background-color: #243466;
-}
-
 div.gallery {
     margin: 10px;
     float: left;
@@ -221,10 +217,10 @@ div.desc {
 /*==================CONTACT/FOOT==========*/
 #contact {
     width: 100%;
-    overflow: hidden;
+    overflow: unset;
     /* background: url(./images/hhbannervect.png) repeat-x; */
     background: url(./images/hhbannervect2.png) repeat-x;
     height: 200px;
     background-size: auto 200px;
-    margin-bottom: -500px;
+    margin-top: -150px;
 }
