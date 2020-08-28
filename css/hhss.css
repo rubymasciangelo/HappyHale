@@ -67,23 +67,23 @@ body {
     left: 0; /* On mouse-over, make the elements appear fully */
 }
   
-#home {
+#homea {
     top: 20px;
 }
   
-#shop {
+#shopa {
     top: 80px;
 }
   
-#about {
+#abouta {
     top: 140px;
 }
   
-#policy {
+#policya {
     top: 200px;
 }
 
-#contact {
+#contacta {
     top: 260px;
 }
 
