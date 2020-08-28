@@ -193,6 +193,7 @@ div.desc {
     background-color: #e05e26;
     border-top: 100px solid #e05e26;
     border-bottom: 60px solid #e05e26;
+    margin-top: -126px;
 }
 
 .gridc, .gridd {
