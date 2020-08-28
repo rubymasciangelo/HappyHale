@@ -159,6 +159,12 @@ div.desc {
 }
 
 /*===============ABOUT================*/
+#about {
+    background-color: #f0e193;
+    border-top: 100px solid #f0e193;
+    border-bottom: 60px solid #f0e193;
+}
+
 .grida, .gridb {
     display: grid;
     gap: 15px;
