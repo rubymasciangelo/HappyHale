@@ -35,6 +35,19 @@ body {
 	line-height: 1.42857143;
 }
 
+.content {
+    text-align: center;
+    margin: 10% auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5% 25%;
+    padding: auto;
+}
+
 /*================NAV============*/
 #nav a {
     position: fixed; /* stay in place on scroll */
@@ -108,7 +121,7 @@ body {
 
 /*===================SHOP==============*/
 div.gallery {
-    margin: 5px;
+    margin: 10px;
     float: left;
     width: 180px;
 }
