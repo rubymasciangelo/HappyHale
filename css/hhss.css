@@ -31,7 +31,8 @@ html {
 body {
 	font-size: 18px;
 	margin: 0;
-	font-family: 'Catamaran';
+    font-family: 'Catamaran';
+    color: #243466;
 	line-height: 1.42857143;
 }
 
