@@ -142,6 +142,10 @@ h1 {
     to {opacity: 1}
 }
 /*===================SHOP==============*/
+#shop {
+    background-color: #243466;
+}
+
 div.gallery {
     margin: 10px;
     float: left;
