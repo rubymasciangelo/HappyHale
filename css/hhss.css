@@ -115,7 +115,7 @@ body {
     width: 100%;
 }
 
-.sticky + .cover {
+.sticky + .content {
     padding-top: 60px;
 }
 
