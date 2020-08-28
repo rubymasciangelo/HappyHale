@@ -104,8 +104,8 @@ body {
 #banner {
     overflow: hidden;
     background: url(./images/hhbannervect.png) repeat-x;
-    height: 150px;
-    background-size: auto 150px;
+    height: 100px;
+    background-size: auto 100px;
     margin-top: -25px;
 }
 
