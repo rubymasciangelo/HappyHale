@@ -101,7 +101,7 @@ body {
 }
 
 /*=========BANNER=========*/
-#banner {
+#banner, .kapa {
     overflow: hidden;
     /* background: url(./images/hhbannervect.png) repeat-x; */
     background: url(./images/hhbannervect2.png) repeat-x;
