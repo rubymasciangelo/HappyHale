@@ -187,3 +187,29 @@ div.desc {
     justify-items: start;
     grid-template-columns: 1fr 2fr;
 }
+
+/*==================POLICY================*/
+#policy {
+    background-color: #e05e26;
+    border-top: 100px solid #e05e26;
+    border-bottom: 60px solid #e05e26;
+}
+
+.gridc, .gridd {
+    display: grid;
+    align-items: center;
+    justify-items: start;
+}
+
+.gridc {
+    grid-template-columns: 1fr 2fr;
+}
+
+.gridc img {
+    max-width: 70%;
+    height: auto;
+}
+
+.gridd {
+    grid-template-rows: 1fr 1fr;
+}
