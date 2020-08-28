@@ -15,3 +15,25 @@ function bannerFunction() {
         banner.classList.remove("sticky");
     }
 }
+
+
+// banner msg slide//
+var msgIndex = 1;
+showMsgs(msgIndex);
+
+function plusMsg(n) {
+    showMsgs(msgIndex += n);
+}
+
+function showMsgs(n) {
+    var i;
+    var msgs = document.getElementsByClassName("msg");
+    var dots = document.getElementsByClassName("dot");
+    if (n > msgs.length) {msgIndex = 1}
+    if (n < 1) {msgIndex = msgs.length}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    msgs[msgIndex-1].style.display = "block";
+    dots[msgIndex-1].className += " active";
+}
