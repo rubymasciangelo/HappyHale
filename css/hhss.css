@@ -58,10 +58,10 @@ body {
 #nav a {
     position: fixed; /* stay in place on scroll */
     z-index: 1; /* stay on top */
-    left: -133px; /* Position them outside of the screen */
+    left: -149px; /* Position them outside of the screen */
     transition: 0.3s; /* Add transition on hover */
     padding: 15px; /* 15px padding */
-    width: 143px; /* Set a specific width */
+    width: 159px; /* Set a specific width */
     text-decoration: none; /* Remove underline */
     font-size: 20px; /* Increase font size */
     color: #f0e193; /* White text color */
