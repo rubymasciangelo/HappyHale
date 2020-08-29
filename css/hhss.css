@@ -241,16 +241,21 @@ div.desc {
     margin-top: -155px;
 }
 
-.gride {
+.gride, .gridf, .gridg {
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    margin: 0;
+    gap: 10px;;
+}
 
+.gride {
+    grid-template-columns: 1fr 1fr;
 }
 
 .gridf, .gridg {
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .gride img {
