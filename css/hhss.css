@@ -72,14 +72,18 @@ body {
 #nav a:hover {
     left: 0; /* On mouse-over, make the elements appear fully */
 }
+
+#nav img {
+    height: 20px;
+    width: auto;
+}
   
 #homea {
     top: 108px;
 }
 
 #homea img {
-    height: 40px;
-    width: auto;
+    height: 40px !important;
     padding: 5px !important;
 }
   
