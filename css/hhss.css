@@ -211,7 +211,7 @@ div.desc {
     margin-top: -126px;
 }
 
-.gridc, .gridd, .gride {
+.gridc, .gridd {
     display: grid;
     align-items: center;
     justify-items: start;
@@ -242,5 +242,18 @@ div.desc {
 }
 
 .gride {
-    grid-template-columns: 2fr 1fr 2fr 1fr;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.gridf, .gridg {
+    grid-template-rows: 2fr 1fr;
+}
+
+.gride img {
+    max-width: 60px;
+    height: auto;
 }
