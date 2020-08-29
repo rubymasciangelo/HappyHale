@@ -185,7 +185,6 @@ div.desc {
 .grida img, .gridb img {
     max-width: 100%;
     height: auto;
-    padding-top: 15px;
 }
 
 .grida {
@@ -198,6 +197,10 @@ div.desc {
     align-items: flex-start;
     justify-items: start;
     grid-template-columns: 1fr 2fr;
+}
+
+.gridb img {
+    padding-top: 15px;
 }
 
 /*==================POLICY================*/
