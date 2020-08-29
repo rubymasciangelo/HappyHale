@@ -142,6 +142,10 @@ h1 {
     font-family: 'Fredoka One';
 }
 
+#banner a {
+    color: #243466;
+}
+
 .fade{
     -webkit-animation-name: fade;
     -webkit-transition-duration: 1.5s;
@@ -264,10 +268,6 @@ div.desc {
     max-height: 60px;
     width: auto;
 }
-/* 
-#contact a {
-    text-decoration: none; /* Remove underline */
-} */
 
 .cr {
     padding-top: 28px;
