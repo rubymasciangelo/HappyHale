@@ -234,9 +234,21 @@ div.desc {
     margin-top: -155px;
 }
 
+#contact h1 {
+    top: 0;
+    bottom: 0;
+}
+
+.contactbox {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    bottom: -20px;
+}
+
 .gride, .gridf {
     display: grid;
-    grid-template-columns: .5fr 2fr;
+    grid-template-columns: .5fr 1fr;
     align-items: center;
     justify-content: center;
     padding: 0;
