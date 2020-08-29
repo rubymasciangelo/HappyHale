@@ -211,23 +211,16 @@ div.desc {
     margin-top: -126px;
 }
 
-.gridc, .gridd {
+.gridc {
     display: grid;
     align-items: center;
     justify-items: start;
-}
-
-.gridc {
     grid-template-columns: 1fr 2fr;
 }
 
 .gridc img {
     max-width: 70%;
     height: auto;
-}
-
-.gridd {
-    grid-template-rows: 1fr 1fr;
 }
 
 /*==================CONTACT/FOOT==========*/
