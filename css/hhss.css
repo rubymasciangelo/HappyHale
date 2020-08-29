@@ -71,6 +71,12 @@ body {
 #homea {
     top: 20px;
 }
+
+#homea img {
+    height: 40px;
+    width: auto;
+    padding: 5px !important;
+}
   
 #shopa {
     top: 80px;
