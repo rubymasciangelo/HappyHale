@@ -49,6 +49,11 @@ body {
     padding: auto;
 }
 
+.header {
+    height: 80px;
+    width: auto;
+}
+
 /*================NAV============*/
 #nav a {
     position: fixed; /* stay in place on scroll */
