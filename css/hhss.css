@@ -78,7 +78,7 @@ body {
     width: auto;
 }
 
-#homea img {
+.homeicon {
     height: 40px !important;
     padding: 5px !important;
 }
