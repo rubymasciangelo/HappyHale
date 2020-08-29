@@ -58,10 +58,10 @@ body {
 #nav a {
     position: fixed; /* stay in place on scroll */
     z-index: 1; /* stay on top */
-    left: -110px; /* Position them outside of the screen */
+    left: -133px; /* Position them outside of the screen */
     transition: 0.3s; /* Add transition on hover */
     padding: 15px; /* 15px padding */
-    width: 120px; /* Set a specific width */
+    width: 143px; /* Set a specific width */
     text-decoration: none; /* Remove underline */
     font-size: 20px; /* Increase font size */
     color: #f0e193; /* White text color */
@@ -74,17 +74,17 @@ body {
 }
 
 #nav img {
-    height: 20px;
+    height: 28px;
     width: auto;
-}
-  
-#homea {
-    top: 108px;
 }
 
 #homea img {
     height: 40px !important;
     padding: 5px !important;
+}
+  
+#homea {
+    top: 108px;
 }
   
 #shopa {
