@@ -110,22 +110,41 @@ body {
     height: 100%;
     width: calc(100%-100px); /*was 100vw-100px*/
     border-bottom: 30px solid #e05e26;
+    background-color: #e05e26;
+    margin-top: -7%;
 }
 
 .smolcoverbox {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
-    row-gap: 7px;
+    grid-template-rows: .5fr 1fr;
+    row-gap: 0px;
+    padding-top: 3%;
 }
 
 .hulalogo {
-    grid-area: 1 / 1 / 2 / 2;
+    grid-area: 2 / 1 / 3 / 2;
+    margin: 0 10%;
 }
 
 .hhlogo {
-    grid-area: 2 / 1 / 3 / 2;
+    grid-area: 1 / 1 / 2 / 2;
 }
+
+.smolcoverbox img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* .hhlogo img {
+    width: 70%;
+    height: auto;
+}
+
+.hulalogo img {
+    max-width: 50%;
+    height: auto;
+} */
 
 /*=========BANNER=========*/
 #banner {
