@@ -41,7 +41,7 @@ body {
     margin: 10% auto;
 }
 
-.container {
+.container, .policybox {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -197,16 +197,22 @@ div.desc {
     margin-top: -126px;
 }
 
-.gridc {
+.policybox {
     display: grid;
-    align-items: center;
-    justify-items: start;
     grid-template-columns: 1fr;
+    grid-template-rows: .5fr 1fr;
+    column-gap: 0x;
+    row-gap: 20px;
+    align-items: center;
+    justify-items: center; /*was justify-items: start;*/
 }
 
-.gridc img {
-    display: none;
+.policylogo {
+    grid-area: 1 / 1 / 2 / 2;
+    max-width: 70%;
+    height: auto;
 }
+.ppolicy {grid-area: 2 / 1 / 3 / 2;}
 
 /*===============SMOL CONTACT BOX=============*/
 .smolcontactbox h1 {
