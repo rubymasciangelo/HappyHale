@@ -303,20 +303,26 @@ div.desc {
     .aboutbox {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr 2fr;
-        column-gap: 8px;
-        row-gap: 7px;
+        grid-template-rows: .75fr 2fr;
+        column-gap: 10px;
+        row-gap: 10px;
     }
 
     .aboutbox img {
         display: grid;
+        max-width: 100%;
+        height: auto;
     }
 
-    .about1 { grid-area: 1 / 2 / 2 / 2; }
+    .about1 { grid-area: 1 / 1 / 2 / 2; }
     .about2 { grid-area: 1 / 2 / 2 / 3; }
     .about3 { grid-area: 1 / 3 / 2 / 4; }
     .about4 { grid-area: 2 / 1 / 3 / 2; }
-    .pabout { grid-area: 2 / 2 / 3 / 4; }
+    .pabout { 
+        grid-area: 2 / 2 / 3 / 4;
+        margin: 0;
+        padding: 0;
+    }
     
 /*============POLICY===============*/
     .gridc {
