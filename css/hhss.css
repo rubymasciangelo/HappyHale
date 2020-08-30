@@ -208,8 +208,35 @@ div.desc {
     display: none;
 }
 
-/*==================CONTACT/FOOT==========*/
+/*===============SMOL CONTACT BOX=============*/
+.smolcontactbox h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
 
+.smolcontactbox {
+    display: grid;
+    grid-template-columns: .25fr .5fr ;
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 4px;
+    row-gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.smolcontactbox img {
+    max-height: 40px;
+    width: auto;
+}
+
+.smolmailicon { grid-area: 1 / 1 / 2 / 2;}
+.smolmail { grid-area: 1 / 2 / 2 / 2;}
+.smoligicon { grid-area: 2 / 1 / 3 / 2;}
+.smolig { grid-area: 2 / 2 / 3 / 3;}
+
+
+/*==================CONTACT/FOOT==========*/
 #contact {
     width: 100%;
     overflow: hidden;
