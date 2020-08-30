@@ -261,7 +261,10 @@ div.desc {
     .shopcontainer, .aboutbox, .policybox {
         margin: 5% 25%;
     }
-
+/*================COVER==========================*/
+    .smolcoverbox {
+        display: none;
+    }
 
 /*====================SHOP=====================*/
     div.gallery {
