@@ -56,10 +56,13 @@ body {
 }
 
 /*================NAV============*/
-.nav {
+#nav {
     visibility: hidden;
 }
 
+/* #nav img {
+    visibility: hidden !important;
+} */
 
 /*============HOME==========*/
 .cover {
@@ -352,9 +355,13 @@ div.desc {
                 NAV ONLY DISPLAY ON LAPTOPS BECAUSE OF HOVER 1200px+ 
 ========================================================================*/
 @media screen and (min-width: 1200px) {
-    .nav {
+    #nav {
         visibility: visible;
     }
+/* 
+    #nav img {
+        visibility: visible;
+    } */
 
     #nav a {
         position: fixed; /* stay in place on scroll */
