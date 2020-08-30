@@ -107,8 +107,8 @@ body {
 /*============HOME==========*/
 .cover {
     background: url(./images/hh1-vect.png) no-repeat;
-    height: 100vh;
-    width: calc(100vw-100px);
+    height: 100%;
+    width: calc(100%-100px); /*was 100vw-100px*/
     background-size: cover;
     background-position: center;
     margin-top: -26px;
@@ -163,7 +163,7 @@ h1 {
 }
 /*===================SHOP==============*/
 div.gallery {
-    margin: 10px;
+    margin: 10%;
     float: left;
     width: 180px;
 }
@@ -185,30 +185,8 @@ div.desc {
     border-bottom: 60px solid #f0e193;
 }
 
-.grida, .gridb {
-    display: grid;
-    gap: 15px;
-}
-
 .grida img, .gridb img {
-    max-width: 100%;
-    height: auto;
-}
-
-.grida {
-    align-items: flex-end;
-    justify-items: end;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.gridb {
-    align-items: flex-start;
-    justify-items: start;
-    grid-template-columns: 1fr 2fr;
-}
-
-.gridb img {
-    padding-top: 15px;
+    display: none;
 }
 
 /*==================POLICY================*/
@@ -276,4 +254,40 @@ div.desc {
 .cr {
     padding-top: 28px;
     padding-left: 3px;
+}
+
+/*========================================================================
+                                TABLET 500px+ (eventually 500px - 699px)
+=======================================================================*/
+@media screen and (min-width: 500px) {
+    div.gallery {
+        margin: 10px;
+    }
+
+    .grida, .gridb {
+        display: grid;
+        gap: 15px;
+    }
+    
+    .grida img, .gridb img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .grida {
+        align-items: flex-end;
+        justify-items: end;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .gridb {
+        align-items: flex-start;
+        justify-items: start;
+        grid-template-columns: 1fr 2fr;
+    }
+    
+    .gridb img {
+        padding-top: 15px;
+    }
+    
 }
