@@ -239,7 +239,7 @@ div.desc {
 /*==================CONTACT/FOOT==========*/
 #contact {
     width: 100%;
-    overflow: hidden;
+    position: relative;
     /* background: url(./images/hhbannervect.png) repeat-x; */
     background: url(./images/hhfootervect2.png) repeat-x;
     height: 80px;
@@ -252,7 +252,9 @@ div.desc {
 }
 
 .cr {
+    position: absolute;
     padding-left: 3px;
+    padding-top: 58px;
 }
 
 /*========================================================================
