@@ -41,11 +41,11 @@ body {
     margin: 10% auto;
 }
 
-.container, .aboutbox, .policybox {
+.shopcontainer, .aboutbox, .policybox {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 5% 25%;
+    margin: 5% 15%;
     padding: auto;
 }
 
@@ -267,6 +267,10 @@ div.desc {
                                 TABLET 500px+ (eventually 500px - 699px)
 =======================================================================*/
 @media screen and (min-width: 500px) {
+    .shopcontainer, .aboutbox, .policybox {
+        margin: 5% 25%;
+    }
+    
     div.gallery {
         margin: 10px;
     }
