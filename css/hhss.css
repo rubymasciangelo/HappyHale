@@ -41,7 +41,7 @@ body {
     margin: 10% auto;
 }
 
-.container, .policybox {
+.container, .aboutbox, .policybox {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
