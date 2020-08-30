@@ -270,6 +270,7 @@ div.desc {
     }
     
     .grida img, .gridb img {
+        display: grid;
         max-width: 100%;
         height: auto;
     }
