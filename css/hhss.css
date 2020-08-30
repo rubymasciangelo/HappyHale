@@ -297,6 +297,22 @@ div.desc {
     .gridb img {
         padding-top: 15px;
     }
+
+
+/*============ABOUT===================*/
+    .aboutbox {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 2fr;
+        column-gap: 8px;
+        row-gap: 7px;
+    }
+
+    .about1 { grid-area: 1 / 2 / 2 / 2; }
+    .about2 { grid-area: 1 / 2 / 2 / 3; }
+    .about3 { grid-area: 1 / 3 / 2 / 4; }
+    .about4 { grid-area: 2 / 1 / 3 / 2; }
+    .pabout { grid-area: 2 / 2 / 3 / 4; }
     
 /*============POLICY===============*/
     .gridc {
