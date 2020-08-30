@@ -209,49 +209,22 @@ div.desc {
 }
 
 /*==================CONTACT/FOOT==========*/
-/* footer {
-
-} */
 
 #contact {
     width: 100%;
-    overflow: unset;
+    overflow: hidden;
     /* background: url(./images/hhbannervect.png) repeat-x; */
     background: url(./images/hhfootervect2.png) repeat-x;
-    height: 200px;
-    background-size: auto 200px;
-    margin-top: -155px;
+    height: 80px;
+    background-size: auto 80px;
+    margin-top: -20px;
 }
 
-#contact h1 {
-    top: 0;
-    bottom: 0;
-}
-
-.contactbox {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    padding-top: 50px;
-}
-
-.gride, .gridf {
-    display: grid;
-    grid-template-columns: .5fr 1fr;
-    align-items: center;
-    justify-content: end;
-    padding: 0;
-    margin: 0;
-    gap: 3px;
-}
-
-.gride img, .gridf img {
-    max-height: 60px;
-    width: auto;
+.contactbox { /*CONTACTBOX NOT DISPLAY IN FOOTER ON SMOL SCREENS*/
+    display: none;
 }
 
 .cr {
-    padding-top: 28px;
     padding-left: 3px;
 }
 
