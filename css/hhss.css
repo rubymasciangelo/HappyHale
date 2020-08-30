@@ -308,6 +308,10 @@ div.desc {
         row-gap: 7px;
     }
 
+    .aboutbox img {
+        display: grid;
+    }
+
     .about1 { grid-area: 1 / 2 / 2 / 2; }
     .about2 { grid-area: 1 / 2 / 2 / 3; }
     .about3 { grid-area: 1 / 3 / 2 / 4; }
