@@ -66,16 +66,16 @@ body {
 #home {
     height: 100%;
     width: auto;
+    background-color: #e05e26;
 }
 
 .cover {
-    height: -moz-calc(100vh - 100px);
-    height: -webkit-calc(100vh - 100px);
-    height: calc(100vh - 100px);
+    max-height: -moz-calc(100vh - 200px);
+    max-height: -webkit-calc(100vh - 200px);
+    max-height: calc(100vh - 200px);
     /* max-height: 740px; */
     width: calc(100%-500px); /*was 100vw-100px*/
     border-bottom: 30px solid #e05e26;
-    background-color: #e05e26;
     margin-top: -7%;
 }
 
@@ -85,7 +85,8 @@ body {
     grid-template-rows: .5fr 1fr;
     row-gap: 0px;
     padding-top: 3%;
-    max-width: 410px;
+    height: 100%;
+    max-width: 310px;
     justify-items: center;
     justify-content: center;
     margin: auto;
@@ -101,8 +102,8 @@ body {
 }
 
 .smolcoverbox img {
-    max-width: 100%;
-    height: auto;
+    max-height: 100%;
+    width: auto;
 }
 
 /* .hhlogo img {
