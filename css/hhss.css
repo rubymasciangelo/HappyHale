@@ -137,31 +137,10 @@ body {
     padding-top: 100px;
 }
 
-.msg { /*needs padding*/
-    display: none;
-    text-align: center;
+.msg {
+    visibility: hidden;
 }
 
-h1 {
-    color:#243466;
-    font-family: 'Fredoka One';
-}
-
-#banner a {
-    color: #243466;
-}
-
-.fade{
-    -webkit-animation-name: fade;
-    -webkit-transition-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-}
 /*===================SHOP==============*/
 div.gallery {
     margin: 10%;
@@ -282,7 +261,35 @@ div.desc {
     .shopcontainer, .aboutbox, .policybox {
         margin: 5% 25%;
     }
+
+/*======================BANNER==============*/
+    .msg { /*needs padding*/
+        visibility: visible;
+        text-align: center;
+    }
     
+    h1 {
+        color:#243466;
+        font-family: 'Fredoka One';
+    }
+    
+    #banner a {
+        color: #243466;
+    }
+    
+    .fade{
+        -webkit-animation-name: fade;
+        -webkit-transition-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+    
+/*====================SHOP=====================*/
     div.gallery {
         margin: 10px;
     }
