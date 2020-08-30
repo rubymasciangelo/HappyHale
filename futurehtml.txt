@@ -1,4 +1,6 @@
-﻿﻿<!DOCTYPE html>
+<!DOCTYPE html>
+
+<!--CHECK POINT CHECK POINT BIG SAVE BEFORE RESPONSIVE DEVELOPING-->
 
 <html lang="en">
     <head>
@@ -143,11 +145,23 @@
             </div>
         </div>
         <!--POLICY-->
-        <div id="policy" class="content">
-            <div class="container gridc">
-                <img src="css/images/hhlogo.png" alt="logo">
-                <p>Angie and Jan believe that you must be happy with what you’ve gotten from us. If at
+        <div id="policy">
+            <div class="content">
+                <div class="container gridc">
+                    <img src="css/images/hhlogo.png" alt="logo">
+                    <p>Angie and Jan believe that you must be happy with what you’ve gotten from us. If at
                     anytime you are not happy, please get in touch with us.</p>
+                </div>
+            </div>
+            <div class="smolcontactbox">
+                <a href="mailto:happyhale808@gmail.com" class="smolmailicon" target="_blank">
+                <img src="css/images/mail.png" alt="Email">
+                </a>
+                <h1 class="smolmail">happyhale808@gmail.com</h1>
+                <a href="https://www.instagram.com/happyhalehawaii/" class="smoligicon" target="_blank">
+                <img src="css/images/ig.png" alt="Instagram">
+                </a>
+                <h1 class="smolig">@happyhalehawaii</h1>
             </div>
         </div>
         <!--CONTACT/FOOTER-->
