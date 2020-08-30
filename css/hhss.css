@@ -50,8 +50,9 @@ body {
 }
 
 .header {
-    height: 80px;
-    width: auto;
+    height: auto;
+    max-height: 90px;
+    width: 65%;
 }
 
 /*================NAV============*/
@@ -267,6 +268,11 @@ div.desc {
                                 TABLET 500px+ (eventually 500px - 699px)
 =======================================================================*/
 @media screen and (min-width: 500px) {
+    .header {
+        height: 90px;
+        width: auto;
+    }
+
     .shopcontainer, .aboutbox, .policybox {
         margin: 5% 25%;
     }
