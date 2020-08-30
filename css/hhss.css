@@ -275,34 +275,6 @@ div.desc {
         margin: 10px;
     }
 
-    .grida, .gridb {
-        display: grid;
-        gap: 15px;
-    }
-    
-    .grida img, .gridb img {
-        display: grid;
-        max-width: 100%;
-        height: auto;
-    }
-
-    .grida {
-        align-items: flex-end;
-        justify-items: end;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    
-    .gridb {
-        align-items: flex-start;
-        justify-items: start;
-        grid-template-columns: 1fr 2fr;
-    }
-    
-    .gridb img {
-        padding-top: 15px;
-    }
-
-
 /*============ABOUT===================*/
     .aboutbox {
         display: grid;
