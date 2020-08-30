@@ -201,12 +201,11 @@ div.desc {
     display: grid;
     align-items: center;
     justify-items: start;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr;
 }
 
 .gridc img {
-    max-width: 70%;
-    height: auto;
+    display: none;
 }
 
 /*==================CONTACT/FOOT==========*/
@@ -291,4 +290,13 @@ div.desc {
         padding-top: 15px;
     }
     
+/*============POLICY===============*/
+    .gridc {
+        grid-template-columns: 1fr 2fr;
+    }
+    .gridc img {
+        display: grid;
+        max-width: 70%;
+        height: auto;
+    }
 }
