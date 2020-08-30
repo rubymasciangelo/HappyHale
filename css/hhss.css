@@ -190,6 +190,12 @@ div.desc {
     display: none;
 }
 
+.pabout {
+    text-indent: 2em;
+    text-align: left;
+    padding-left: 10px;
+}
+
 /*==================POLICY================*/
 #policy {
     background-color: #e05e26;
