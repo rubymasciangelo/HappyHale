@@ -56,52 +56,8 @@ body {
 }
 
 /*================NAV============*/
-#nav a {
-    position: fixed; /* stay in place on scroll */
-    z-index: 1; /* stay on top */
-    left: -149px; /* Position them outside of the screen */
-    transition: 0.3s; /* Add transition on hover */
-    padding: 15px; /* 15px padding */
-    width: 159px; /* Set a specific width */
-    text-decoration: none; /* Remove underline */
-    font-size: 20px; /* Increase font size */
-    color: #f0e193; /* White text color */
-    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
-    background-color: #243466;
-}
-  
-#nav a:hover {
-    left: 0; /* On mouse-over, make the elements appear fully */
-}
-
-#nav img {
-    height: 28px;
-    width: auto;
-}
-
-.homeicon {
-    height: 40px !important;
-    padding: 5px !important;
-}
-  
-#homea {
-    top: 108px;
-}
-  
-#shopa {
-    top: 190px;
-}
-  
-#abouta {
-    top: 250px;
-}
-  
-#policya {
-    top: 310px;
-}
-
-#contacta {
-    top: 370px;
+.nav {
+    visibility: hidden;
 }
 
 
@@ -388,5 +344,63 @@ div.desc {
 @media screen and (min-width: 1054px) {
     .bigmsg {
         visibility: visible !important;
+    }
+}
+
+
+/*========================================================================
+                NAV ONLY DISPLAY ON LAPTOPS BECAUSE OF HOVER 1200px+ 
+========================================================================*/
+@media screen and (min-width: 1200px) {
+    .nav {
+        visibility: visible;
+    }
+
+    #nav a {
+        position: fixed; /* stay in place on scroll */
+        z-index: 1; /* stay on top */
+        left: -149px; /* Position them outside of the screen */
+        transition: 0.3s; /* Add transition on hover */
+        padding: 15px; /* 15px padding */
+        width: 159px; /* Set a specific width */
+        text-decoration: none; /* Remove underline */
+        font-size: 20px; /* Increase font size */
+        color: #f0e193; /* White text color */
+        border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+        background-color: #243466;
+    }
+      
+    #nav a:hover {
+        left: 0; /* On mouse-over, make the elements appear fully */
+    }
+    
+    #nav img {
+        height: 28px;
+        width: auto;
+    }
+    
+    .homeicon {
+        height: 40px !important;
+        padding: 5px !important;
+    }
+      
+    #homea {
+        top: 108px;
+    }
+      
+    #shopa {
+        top: 190px;
+    }
+      
+    #abouta {
+        top: 250px;
+    }
+      
+    #policya {
+        top: 310px;
+    }
+    
+    #contacta {
+        top: 370px;
     }
 }
