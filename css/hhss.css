@@ -77,7 +77,7 @@ body {
     align-items: center;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: .25fr .5fr;
+    grid-template-rows: .25fr .3fr;
     height: 70%;
     justify-content: center;
     justify-items: center;
