@@ -99,7 +99,7 @@ body {
 
 .smolcoverbox img {
     /* height: calc(100% - 30%); */
-    height: 100%;
+    height: 90%;
     width: auto;
 }
 
@@ -110,7 +110,7 @@ img.hhlogo {
 
 img.hulalogo {
     height: auto;
-    width: 50vw;
+    width: 10vw;
 }
 
 /*=========BANNER=========*/
