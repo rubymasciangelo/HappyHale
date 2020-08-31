@@ -83,7 +83,7 @@ body {
     justify-items: center;
     margin: auto;
     max-width: 310px;
-    padding-top: 20%;
+    padding-top: 30%;
     row-gap: 10px;
     width: auto;
 }
@@ -103,10 +103,10 @@ body {
     width: auto;
 }
 
-/* img.hhlogo {
+img.hhlogo {
     height: auto;
-    width: 100%;
-} */
+    width: 80vw;
+}
 
 /* img.hulalogo {
     height: 100%;
