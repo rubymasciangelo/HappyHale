@@ -74,27 +74,32 @@ body {
     max-height: -webkit-calc(100vh - 200px);
     max-height: calc(100vh - 200px);
     /* max-height: 740px; */
-    width: calc(100%-500px); /*was 100vw-100px*/
-    border-bottom: 30px solid #e05e26;
+    /* width: calc(100vw - 200px); was 100vw-100px */
+    /*border-bottom: 30px solid #e05e26;*/
     margin-top: -7%;
+    align-content: center;
+    justify-content: center;
 }
 
 .smolcoverbox {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: .5fr 1fr;
-    row-gap: 0px;
-    padding-top: 3%;
-    height: 100%;
+    grid-template-rows: .25fr .5fr;
+    row-gap: 10px;
+    height: 90%;
+    width: auto;
     max-width: 310px;
     justify-items: center;
+    align-items: center;
+    align-content: center;
     justify-content: center;
     margin: auto;
+    padding-top: 10%;
 }
 
 .hulalogo {
     grid-area: 2 / 1 / 3 / 2;
-    margin: 0 10%;
+    margin: 0 20%;
 }
 
 .hhlogo {
@@ -102,19 +107,20 @@ body {
 }
 
 .smolcoverbox img {
-    max-height: 100%;
+    /* height: calc(100% - 30%); */
+    height: 100%;
     width: auto;
 }
 
-/* .hhlogo img {
-    width: 70%;
+img.hhlogo {
+    width: 100%;
     height: auto;
 }
 
-.hulalogo img {
-    max-width: 50%;
-    height: auto;
-} */
+img.hulalogo {
+    height: 100%;
+    width: auto;
+}
 
 /*=========BANNER=========*/
 #banner {
