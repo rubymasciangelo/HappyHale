@@ -10,7 +10,7 @@
     Light Yellow:   #f0e193
     Yellow:     #eecb31
 ========================================================*/
-@-ms-viewport {
+/* @-ms-viewport {
     width: extend-to-zoom;
     zoom: 1.0;
 }
@@ -18,7 +18,7 @@
 @viewport {
     zoom: 1.0;
     width: extend-to-zoom;
-}
+} */
 
 html {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -190,7 +190,7 @@ div.desc {
 
 .policybox {
     align-items: center;
-    column-gap: 0x;
+    column-gap: 0px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: .5fr 1fr;
