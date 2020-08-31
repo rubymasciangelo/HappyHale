@@ -65,7 +65,7 @@ body {
     justify-content: center;
     /* max-height: -moz-calc(100vh - 200px);
     max-height: -webkit-calc(100vh - 200px); */
-    max-height: calc(100vh - 300px);
+    max-height: calc(100vh - 400px);
     /* max-height: 740px; */
     /* width: calc(100vw - 200px); was 100vw-100px */
     /*border-bottom: 30px solid #e05e26;*/
@@ -78,7 +78,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: .25fr .5fr;
-    height: 80%;
+    height: 70%;
     justify-content: center;
     justify-items: center;
     margin: auto;
@@ -103,15 +103,15 @@ body {
     width: auto;
 }
 
-img.hhlogo {
+/* img.hhlogo {
     height: auto;
     width: 100%;
-}
+} */
 
-img.hulalogo {
+/* img.hulalogo {
     height: 100%;
     width: auto;
-}
+} */
 
 /*=========BANNER=========*/
 #banner {
