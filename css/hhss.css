@@ -108,10 +108,10 @@ img.hhlogo {
     width: 80vw;
 }
 
-/* img.hulalogo {
-    height: 100%;
-    width: auto;
-} */
+img.hulalogo {
+    height: auto;
+    width: 60vw;
+}
 
 /*=========BANNER=========*/
 #banner {
