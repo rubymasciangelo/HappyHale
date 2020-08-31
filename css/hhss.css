@@ -267,14 +267,6 @@ div.desc {
         margin: 5% 25%;
     }
 /*================COVER==========================*/
-    #home {
-        /* justify-items: center;
-        align-items: center;
-        justify-content: center;
-        align-content: center; */
-        display: flexbox;
-    }
-
     .cover {
         background: url(./images/hh1-vect.png) no-repeat;
         background-size: contain;
