@@ -10,15 +10,6 @@
     Light Yellow:   #f0e193
     Yellow:     #eecb31
 ========================================================*/
-/* @-ms-viewport {
-    width: extend-to-zoom;
-    zoom: 1.0;
-}
-
-@viewport {
-    zoom: 1.0;
-    width: extend-to-zoom;
-} */
 
 html {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -72,8 +63,8 @@ body {
 .cover {
     align-content: center;
     justify-content: center;
-    max-height: -moz-calc(100vh - 200px);
-    max-height: -webkit-calc(100vh - 200px);
+    /* max-height: -moz-calc(100vh - 200px);
+    max-height: -webkit-calc(100vh - 200px); */
     max-height: calc(100vh - 200px);
     /* max-height: 740px; */
     /* width: calc(100vw - 200px); was 100vw-100px */
