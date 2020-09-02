@@ -12,7 +12,7 @@
 ========================================================*/
 
 html {
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-family: 'Quicksand';
     font-size: 62.5%;
     height: 100vh;
     -ms-text-size-adjust: 100%;
@@ -22,7 +22,7 @@ html {
 
 body {
     color: #243466;
-    font-family: 'Catamaran';
+    /* font-family: 'Catamaran'; */
     font-size: 18px;
     height: 100vh;
     line-height: 1.42857143;
@@ -332,7 +332,7 @@ div.desc {
     
     h1 {
         color:#243466;
-        font-family: 'Fredoka One';
+        font-family: 'Quicksand';
     }
     
     #banner a {
