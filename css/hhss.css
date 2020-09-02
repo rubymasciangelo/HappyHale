@@ -276,6 +276,12 @@ div.desc {
         justify-content: center;
         max-height: 100%;
         max-width: 100%;
+        position: relative;
+    }
+
+    .nalo {
+        position: absolute;
+        padding-top: 60%;
     }
     
     .smolcoverbox {
