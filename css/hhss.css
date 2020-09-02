@@ -258,9 +258,14 @@ div.desc {
         margin: 5% 25%;
     }
     /*================COVER==========================*/
+    #home {
+        background: url(./images/nalobay1.png) no-repeat;
+        background-size: cover;
+    }
+
     .cover {
         align-items: center;
-        background: url(./images/nalobay1.png) no-repeat;
+        background: url(./images/hhcoverlogo1.png) no-repeat;
         background-position: center center;
         background-size: contain;
         display: flex;
