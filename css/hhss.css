@@ -344,6 +344,7 @@ div.desc {
     .leftnav a, .rightnav a {
         color: #243466;
         display: block;
+        font-weight: 700;
         padding: 14px;
         text-align: center;
         text-decoration: none;
