@@ -332,7 +332,30 @@ div.desc {
 =======================================================================*/
 @media screen and (min-width: 768px) {
 
-    
+    #nav {
+        background-color: antiquewhite;
+        display: contents;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .leftnav a, .rightnav a {
+        color: #243466;
+        display: block;
+        padding: 14px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .leftnav a {
+        float: left;
+    }
+
+    .rightnav a {
+        float: right;
+    }
 
     /*======================BANNER==============*/
     .msg { /*needs padding*/
