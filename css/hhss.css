@@ -374,12 +374,3 @@ div.desc {
         width: auto;
     }
 }
-
-/*========================================================================
-                                ALL BANNER MSGS DISPLAY 1054px+ 
-========================================================================*/
-@media screen and (min-width: 1054px) {
-    .bigmsg {
-        visibility: visible !important;
-    }
-}
