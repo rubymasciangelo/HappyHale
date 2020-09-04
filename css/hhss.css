@@ -311,6 +311,7 @@ div.desc {
     #nav {
         background-color: whitesmoke;
         display: block;
+        height: 90px;
         overflow: hidden;
         position: fixed;
         top: 0;
