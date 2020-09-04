@@ -309,6 +309,7 @@ div.desc {
 @media screen and (min-width: 768px) {
 
     #nav {
+        align-items: center;
         background-color: whitesmoke;
         display: block;
         height: 90px;
@@ -323,7 +324,7 @@ div.desc {
         color: #243466;
         display: block;
         font-weight: 700;
-        padding: 14px;
+        padding: 14px auto;
         text-align: center;
         text-decoration: none;
     }
@@ -339,6 +340,8 @@ div.desc {
     h1 {
         color:#243466;
         font-weight: 700;
+        margin: 0;
+        padding: 0;
     }
     
     .fade{
