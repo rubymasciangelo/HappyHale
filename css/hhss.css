@@ -237,14 +237,41 @@ div.desc {
         margin: 5% 25%;
     }
     /*================COVER==========================*/
-    #home {
-        align-items: center;
+    .parallax {
+        perspective: 1px;
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .parallax_layer {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    .parallax_layer-base {
+        transform: translateZ(0);
+        z-index: 4;
+    }
+
+    .parallax_layer-back {
         background: url(./images/nalobay1.png) no-repeat;
         background-position: center center;
         background-size: cover;
-        height: 90vh;
-        justify-content: center;
+        transform: translateZ(-300px) scale(301);
+        z-index: 3;
     }
+
+    /* #home { */
+        /* align-items: center; */
+        /* background: url(./images/nalobay1.png) no-repeat;
+        background-position: center center;
+        background-size: cover; */
+        /* justify-content: center; */
+    /* } */
 
     .cover {
         align-items: center;
@@ -260,8 +287,7 @@ div.desc {
         margin: auto;
         max-height: 60%;
         max-width: 60%;
-        padding-top: 10vh;
-        position: relative;
+        /* padding-top: 10vh; */
     }
 
     .nalo {
@@ -316,7 +342,7 @@ div.desc {
 
     #nav {
         align-items: center;
-        background-color: whitesmoke;
+        background-color: rgb(252, 241, 228);
         display: grid;
         grid-template-columns: 1fr .5fr 1fr;
         grid-template-rows: 1fr;
