@@ -370,9 +370,22 @@ div.desc {
         margin: 0;
         padding: 0;
     }
+    .msg2 {
+        display: none;
+    }
 
     #nav h1 {
         font-size: 2.5vw;
+    }
+
+    #navlogo {
+        display: none;
+    }
+
+    .navhula {
+        height: 6vw;
+        max-height: 70px;
+        width: auto;
     }
     
     .fade{
