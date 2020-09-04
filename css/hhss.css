@@ -307,6 +307,9 @@ div.desc {
                                 IPAD 768px+ (826 for navbar)
 =======================================================================*/
 @media screen and (min-width: 826px) {
+    #home {
+        margin-top: 60px;
+    }
 
     #nav {
         align-items: center;
