@@ -311,7 +311,9 @@ div.desc {
     #nav {
         align-items: center;
         background-color: whitesmoke;
-        display: block;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
         height: 90px;
         overflow: hidden;
         position: fixed;
@@ -329,13 +331,36 @@ div.desc {
         text-decoration: none;
     }
 
-    .leftnav a {
+    .leftnav { 
+        display: grid;
+        grid-area: 1 / 1 / 2 / 2;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .midnav {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .rightnav { 
+        display: grid;
+        grid-area: 1 / 3 / 2 / 4;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+     }
+
+     .nav1 { grid-area: 1 / 1 / 2 / 2; }
+     .nav2 { grid-area: 1 / 2 / 2 / 3; }
+     .nav3 { grid-area: 1 / 3 / 2 / 4; }
+     .nav4 { grid-area: 1 / 4 / 2 / 5; }
+
+    /* .leftnav a {
         float: left;
     }
 
     .rightnav a {
         float: right;
-    }
+    } */
 
     h1 {
         color:#243466;
