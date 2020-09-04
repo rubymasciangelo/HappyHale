@@ -116,30 +116,6 @@ img.hulalogo {
     width: 10vw;
 }
 
-/*=========BANNER=========*/
-#banner {
-    background: url(./images/hhbannervect2.png) repeat-x;
-    /*background: url(./images/hhbannervect.png) repeat-x;*/
-    background-size: auto 100px;
-    height: 100px;
-    margin-top: -25px;
-    overflow: hidden;
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.sticky + .content {
-    padding-top: 100px;
-}
-
-.msg {
-    visibility: hidden;
-}
-
 /*===================SHOP==============*/
 div.gallery {
     float: left;
