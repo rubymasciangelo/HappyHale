@@ -390,14 +390,21 @@ div.desc {
     
     .fade{
         animation-duration: 1.5s;
+        animation-fill-mode: both;
         animation-name: fade;
+        -webkit-animation-fill-mode: both;
         -webkit-animation-name: fade;
-        -webkit-transition-duration: 1.5s;
+        -webkit-animation-duration: 1.5s;
     }
     
     @-webkit-keyframes fade {
-        from {opacity: .4}
-        to {opacity: 1}
+        0% {opacity: 0}
+        100% {opacity: 1}
+    }
+
+    @keyframes fade {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
     }
 
     .policybox {
