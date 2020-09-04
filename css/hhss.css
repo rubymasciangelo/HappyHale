@@ -334,23 +334,9 @@ div.desc {
         float: right;
     }
 
-    /*======================BANNER==============*/
-    .msg { /*needs padding*/
-        text-align: center;
-        visibility: visible;
-    }
-
-    .bigmsg {
-        visibility: hidden !important;
-    }
-    
     h1 {
         color:#243466;
         font-weight: 700;
-    }
-    
-    #banner a {
-        color: #243466;
     }
     
     .fade{
