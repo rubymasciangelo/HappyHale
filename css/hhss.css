@@ -315,6 +315,7 @@ div.desc {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
         height: 90px;
+        justify-items: center;
         overflow: hidden;
         position: fixed;
         top: 0;
