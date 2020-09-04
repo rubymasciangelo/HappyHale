@@ -253,6 +253,11 @@ div.desc {
     }
 
     .parallax_layer-base {
+        align-items: center;
+        background: url(./images/hhcoverlogo1.png) no-repeat;
+        background-position: center center;
+        background-size: contain;
+        display: flex;
         transform: translateZ(0);
         z-index: 4;
     }
@@ -273,22 +278,22 @@ div.desc {
         /* justify-content: center; */
     /* } */
 
-    .cover {
+    /* .cover {
         align-items: center;
         background: url(./images/hhcoverlogo1.png) no-repeat;
         background-position: center center;
         background-size: contain;
-        display: flex;
+        display: flex; */
         /* margin-top: -26px;
         margin-left: -1px; */
         /* margin: auto; */
         /* padding: auto; */
-        height: 60%;
+        /* height: 60%;
         margin: auto;
         max-height: 60%;
-        max-width: 60%;
+        max-width: 60%; */
         /* padding-top: 10vh; */
-    }
+    /* } */
 
     .nalo {
         display: block;
