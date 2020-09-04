@@ -240,7 +240,9 @@ div.desc {
     #home {
         align-items: center;
         background: url(./images/nalobay1.png) no-repeat;
+        background-position: center center;
         background-size: cover;
+        height: 90vh;
         justify-content: center;
     }
 
@@ -254,10 +256,11 @@ div.desc {
         margin-left: -1px; */
         /* margin: auto; */
         /* padding: auto; */
-        height: 80%;
-        margin: 0% auto;
-        max-height: 80%;
-        max-width: 80%;
+        height: 60%;
+        margin: auto;
+        max-height: 60%;
+        max-width: 60%;
+        padding-top: 10vh;
         position: relative;
     }
 
