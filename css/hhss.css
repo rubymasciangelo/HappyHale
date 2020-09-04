@@ -343,6 +343,7 @@ div.desc {
 
     .midnav {
         grid-area: 1 / 2 / 2 / 3;
+        text-align: center;
     }
 
     .rightnav { 
