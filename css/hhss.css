@@ -260,13 +260,14 @@ div.desc {
     }
 
     .parallax_layer-base {
-        align-items: center;
-        background: url(./images/hhcoverlogo1.png) no-repeat;
-        background-position: center center;
-        background-size: contain;
         display: block;
         transform: translateZ(0);
         z-index: 4;
+    }
+
+    .cover img {
+        max-height: 60vh;
+        width: auto;
     }
 
     .parallax_layer-back {
@@ -305,8 +306,7 @@ div.desc {
 
     .nalo {
         display: block;
-        position: absolute;
-        padding-top: 60%;
+        padding-top: 30%;
     }
     
     .smolcoverbox {
