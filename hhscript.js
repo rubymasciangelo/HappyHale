@@ -11,7 +11,7 @@ function showMsgs() {
     msgIndex++;
     if (msgIndex > msgs.length) {msgIndex = 1;}
     msgs[msgIndex-1].style.display = "block";
-    setTimeout(showMsgs, 15000);
+    setTimeout(showMsgs, 8000);
 }
 
 

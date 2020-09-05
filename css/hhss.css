@@ -21,6 +21,7 @@ html {
 }
 
 body {
+    background-color: #fa7339;
     color: #243466;
     font-size: 18px;
     height: 100vh;
@@ -367,7 +368,7 @@ div.desc {
 
     #nav {
         align-items: center;
-        background-color: rgb(252, 241, 228);
+        background-color: ivory;
         display: grid;
         grid-template-columns: 1fr .5fr 1fr;
         grid-template-rows: 1fr;
