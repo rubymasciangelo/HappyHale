@@ -240,7 +240,7 @@ div.desc {
     .parallax {
         display: block;
         perspective: 1px;
-        height: calc(100vh - 90px);
+        height: 80vh;
         overflow-x: hidden;
         overflow-y: auto;
         -webkit-perspective: 1px;
@@ -265,18 +265,36 @@ div.desc {
         z-index: 4;
     }
 
-    .cover img {
-        max-height: 60vh;
-        width: auto;
-    }
-
     .parallax_layer-back {
         background: url(./images/nalobay1.png) no-repeat;
         background-position: center center;
         background-size: cover;
+        height: 100vh;
         display: block;
         transform: translateZ(-1px) scale(2);
         z-index: 3;
+    }
+
+    .cover {
+        align-items: center;
+        height: 80vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr .5fr;
+        justify-items: center;
+        padding-top: 90px;
+        row-gap: 20px;
+    }
+
+    .cover img {
+        grid-area: 1 / 1 / 2 / 2;
+        max-height: 50vh;
+        width: auto;
+    }
+
+    .nalo {
+        display: block;
+        grid-area: 2 / 1 / 3 / 2;
     }
 
     /* #home { */
@@ -303,11 +321,6 @@ div.desc {
         max-width: 60%; */
         /* padding-top: 10vh; */
     /* } */
-
-    .nalo {
-        display: block;
-        padding-top: 30%;
-    }
     
     .smolcoverbox {
         display: none;
