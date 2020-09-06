@@ -381,6 +381,10 @@ div.desc {
         z-index: 1;
     }
 
+    #nav a:hover {
+        color: #e05e26;
+    }
+
     .leftnav a, .rightnav a {
         color: #243466;
         display: block;
