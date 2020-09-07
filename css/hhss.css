@@ -159,20 +159,37 @@ img.hulalogo {
 
 /*=============ADCLOTHES============*/
 .adclothes {
+    align-items: center;
     display: grid;
-    grid-template-columns: 2fr .5fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr .25fr;
+    grid-template-rows: .25fr .3fr .25fr;
     height: 50vh;
+    justify-items: center;
+    margin-top: 20vh;
 }
 
 .clothesimg {
-    grid-area: 1 / 1 / 2 / 2;
-    height: 50vh;
+    grid-area: 1 / 1 / 4 / 2;
+    height: 60vh;
     width: auto;
 }
 
 .clothesh2 {
-    grid-area: 1 / 2 / 2 / 3;
+    border: 4px solid #243466;
+    grid-area: 2 / 2 / 3 / 3;
+    height: 300px;
+    margin-right: 3vw;
+    width: 300px;
+}
+
+.clothesh2 a {
+    color: #243466;
+    display: flex;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 108px auto;
+    text-align: center;
+    text-decoration: none;
 }
 
 /*===================SHOP==============*/
