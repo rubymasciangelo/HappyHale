@@ -192,6 +192,19 @@ img.hulalogo {
     text-decoration: none;
 }
 
+/*====================ADHOMEGOODS===============*/
+.adhomegoods {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.box1 { grid-area: 1 / 1 / 2 / 2;}
+.box2 { grid-area: 1 / 2 / 2 / 3;}
+.box3 { grid-area: 1 / 3 / 2 / 4;}
+.box4 { grid-area: 1 / 4 / 2 / 5;}
+.box5 { grid-area: 1 / 5 / 2 / 6;}
+
 /*===================SHOP==============*/
 #shop {
     margin-top: 500px ;
