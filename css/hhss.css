@@ -117,6 +117,25 @@ img.hulalogo {
     width: 10vw;
 }
 
+/*===================BLURB==============*/
+.blurbbox {
+    /* background-color: #f0e193; */
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    /* padding: 50px; */
+    border-image: url(./images/hhbannervect.png) 20% round;
+    margin-top: -10px;
+    overflow: visible;
+    z-index: 0;
+}
+
+.blurb {
+    background-color: ivory;
+    padding: 5px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
 /*===================SHOP==============*/
 div.gallery {
     float: left;
