@@ -138,11 +138,18 @@ img.hulalogo {
 }
 
 .blurb {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    column-gap: 15px;
     background-color: ivory;
     padding: 60px;
     position: absolute;
     z-index: -1;
 }
+
+.blurbtext1 { grid-area: 1 / 1 / 2 / 2; }
+.blurbtext2 { grid-area: 1 / 2 / 2 / 3; }
 
 /*===================SHOP==============*/
 #shop {
