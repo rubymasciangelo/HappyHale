@@ -157,6 +157,23 @@ img.hulalogo {
     text-decoration: none;
 }
 
+/*=============ADCLOTHES============*/
+.adclothes {
+    display: grid;
+    grid-template-columns: 2fr .5fr;
+    grid-template-rows: 1fr;
+    height: 50vh;
+}
+
+.clothesimg {
+    grid-area: 1 / 1 / 2 / 2;
+    height: 50vh;
+    width: auto;
+}
+
+.clothesh2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
 
 /*===================SHOP==============*/
 #shop {
