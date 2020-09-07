@@ -119,6 +119,7 @@ img.hulalogo {
 
 /*===================BLURB==============*/
 .blurbbox {
+    background-color: ivory;
     position: relative;
 }
 
@@ -128,28 +129,18 @@ img.hulalogo {
     height: 50px;
 }
 
-.bannertop {
-    margin-top: -6px;
-    margin-bottom: -6px ;
-}
-
-.bannerbot {
-    margin-top: 350px;
-}
-
-.blurb {
+.blurbbox {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: .1fr 1fr .1fr;
     column-gap: 15px;
-    background-color: ivory;
-    padding: 60px;
-    position: absolute;
-    z-index: -1;
+    overflow: visible;
 }
 
-.blurbtext1 { grid-area: 1 / 1 / 2 / 2; }
-.blurbtext2 { grid-area: 1 / 2 / 2 / 3; }
+.bannertop { grid-area: 1 / 1 / 2 / 3; margin-top:-6px; }
+.bannerbot { grid-area: 3 / 1 / 4 / 3; margin-bottom: -6px; }
+.blurbtext1 { grid-area: 2 / 1 / 3 / 2; }
+.blurbtext2 { grid-area: 2 / 2 / 3 / 3; }
 
 /*===================SHOP==============*/
 #shop {
