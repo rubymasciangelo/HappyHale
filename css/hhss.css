@@ -333,10 +333,15 @@ img.hulalogo {
 /*==================================================================================
     SHOP / POLICY FROM 0PX
 ===================================================================================*/
+.shopbox {
+    margin: 2.5vw;
+}
+
 div.gallery {
     float: left;
-    margin: 10%;
-    width: 180px;
+    height: 25vw;
+    margin: 2.5vw;
+    width: 25vw;
 }
 
 div.gallery img {
