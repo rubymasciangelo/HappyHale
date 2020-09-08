@@ -653,11 +653,11 @@ div.desc {
         SHOP /POLOCY 768+
     ==========================================================================*/
     .policybox {
-        grid-template-columns: .15fr .75fr;
+        grid-template-columns: .15fr .8fr;
         grid-template-rows: 1fr;
         height: auto;
         margin: 10vw 5vw;
-        width: 100vw;
+        width: 90vw;
     }
 
     .policylogo { 
@@ -665,7 +665,15 @@ div.desc {
         height: auto;
         width: 10vw;
     }
-    .ppolicy { grid-area: 1 / 2 / 2 / 3; }
+    .ppolicy { 
+        grid-area: 1 / 2 / 2 / 3;
+        justify-self: left;
+    }
+
+    .ppmail {
+        justify-self: left;
+        padding-top: 13%;
+    }
     
     /*============================================================================
         OUR STORY / CONTACT 768+
