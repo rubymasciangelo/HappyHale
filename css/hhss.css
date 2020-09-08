@@ -52,6 +52,9 @@ body {
 #nav {
     display: none;
 }
+.showlogo {
+    display: block;
+}
 
 /*============HOME==========*/
 /* #home {
