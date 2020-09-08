@@ -665,14 +665,9 @@ div.desc {
         height: auto;
         width: 10vw;
     }
-    .ppolicy { 
+    .policytext { 
         grid-area: 1 / 2 / 2 / 3;
         justify-self: left;
-    }
-
-    .ppmail {
-        justify-self: left;
-        padding-top: 13%;
     }
     
     /*============================================================================
