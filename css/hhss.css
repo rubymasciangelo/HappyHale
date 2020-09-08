@@ -52,9 +52,6 @@ body {
 #nav {
     display: none;
 }
-.showlogo {
-    display: block;
-}
 
 /*============HOME==========*/
 /* #home {
@@ -333,10 +330,6 @@ img.hulalogo {
 }
 
 /*===================SHOP==============*/
-#shop {
-    margin-top: 500px ;
-}
-
 div.gallery {
     float: left;
     margin: 10%;
@@ -372,9 +365,6 @@ div.desc {
 
 /*==================POLICY================*/
 #policy {
-    background-color: #e05e26;
-    border-bottom: 60px solid #e05e26;
-    border-top: 100px solid #e05e26;
     margin-top: -10%;
 }
 
@@ -425,9 +415,9 @@ div.desc {
 
 /*==================CONTACT/FOOT==========*/
 #contact {
-    background: url(./images/hhfootervect2.png) repeat-x;
+    /* background: url(./images/hhfootervect2.png) repeat-x; */
     /*background: url(./images/hhbannervect.png) repeat-x;*/
-    background-size: auto 80px;
+    /* background-size: auto 80px; */
     height: 80px;
     margin-top: -20px;
     position: relative;
