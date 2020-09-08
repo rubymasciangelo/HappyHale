@@ -190,9 +190,10 @@ img.hulalogo {
 .clothesh2 a {
     color: #243466;
     display: flex;
-    font-size: 30px;
+    font-size: 3vw;
     font-weight: 600;
-    margin: 108px auto;
+    /* margin: 8vw auto; */
+    padding: 29% 3%;
     text-align: center;
     text-decoration: none;
 }
@@ -248,17 +249,18 @@ img.hulalogo {
     display: flex;
     font-size: 25px;
     font-weight: 600;
-    height: 150px;
+    height: 13vw;
     left: 50%;
     /* margin: 87px 20px; */
     opacity: 0;
     position: absolute;
     text-align: center;
+    text-justify: auto;
     text-decoration: none;
     top: 50%;
     transform: translate(-50%, -50%);
     transition: .5s ease;
-    width: 150px;
+    width: 13vw;
 }
 
 .box1:hover a, .box2:hover a, .box4:hover a, .box5:hover a {
