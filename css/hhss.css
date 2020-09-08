@@ -194,9 +194,13 @@ img.hulalogo {
 
 /*====================ADHOMEGOODS===============*/
 .adhomegoods {
+    align-items: center;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
+    height: 50vh;
+    justify-items: center;
+    margin-top: 10vh;
 }
 
 .box1 { grid-area: 1 / 1 / 2 / 2;}
@@ -204,6 +208,11 @@ img.hulalogo {
 .box3 { grid-area: 1 / 3 / 2 / 4;}
 .box4 { grid-area: 1 / 4 / 2 / 5;}
 .box5 { grid-area: 1 / 5 / 2 / 6;}
+
+.box1, .box2, .box3, .box4, .box5 {
+    height: 300px;
+    width: 300px;
+}
 
 /*===================SHOP==============*/
 #shop {
