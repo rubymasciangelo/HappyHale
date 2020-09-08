@@ -157,29 +157,34 @@ img.hulalogo {
     text-decoration: none;
 }
 
+/*============ADS===============*/
+#ads {
+    margin: 200px 5vw;
+}
+
 /*=============ADCLOTHES============*/
 .adclothes {
     align-items: center;
     display: grid;
     grid-template-columns: 1fr .25fr;
     grid-template-rows: .25fr .3fr .25fr;
-    height: 50vh;
+    height: 60vh;
     justify-items: center;
-    margin-top: 20vh;
+    column-gap: 5vw;
+    width: auto;
 }
 
 .clothesimg {
     grid-area: 1 / 1 / 4 / 2;
-    height: 60vh;
-    width: auto;
+    height: auto;
+    width: 60vw;
 }
 
 .clothesh2 {
     border: 4px solid #243466;
     grid-area: 2 / 2 / 3 / 3;
-    height: 300px;
-    margin-right: 3vw;
-    width: 300px;
+    height: 20vw;
+    width: 20vw;
 }
 
 .clothesh2 a {
@@ -196,15 +201,16 @@ img.hulalogo {
 .adhomegoods {
     align-items: center;
     display: grid;
-    grid-template-columns: repeat(5, .1fr);
-    grid-template-rows: .1fr;
-    /* height: 50vh; */
-    width: 50vw;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: .75fr;
+    height: 50vh;
     justify-items: center;
-    justify-self: center;
-    margin-top: 200px;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-top: 5px;
+}
+
+.box1, .box2, .box3, .box4, .box5 {
+    height: 15vw;
+    width: 15vw;
 }
 
 .box1 { 
@@ -223,9 +229,7 @@ img.hulalogo {
     border: 4px solid #243466;
     display: block;
     grid-area: 1 / 3 / 2 / 4;
-    height: 10px;
     position: relative;
-    width: 10px;
 }
 .box3 a {
     color: #243466;
@@ -272,11 +276,6 @@ img.hulalogo {
     background-size: contain;
     grid-area: 1 / 5 / 2 / 6;
     position: relative;
-}
-
-.box1, .box2, .box3, .box4, .box5 {
-    height: 300px;
-    width: 300px;
 }
 
 /*===================SHOP==============*/
