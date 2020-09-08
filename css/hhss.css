@@ -162,16 +162,20 @@ img.hulalogo {
     margin: 200px 5vw;
 }
 
+.adclothes, .adhomegoods {
+    margin-bottom: 8vw;
+}
+
 /*=============ADCLOTHES============*/
 .adclothes {
     align-items: center;
     display: grid;
     grid-template-columns: 1fr .25fr;
     grid-template-rows: .25fr .3fr .25fr;
-    height: 60vh;
+    height: auto;
     justify-items: center;
     column-gap: 5vw;
-    width: auto;
+    width: 90vw;
 }
 
 .clothesimg {
@@ -204,9 +208,9 @@ img.hulalogo {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: .75fr;
-    height: 50vh;
+    height: auto;
     justify-items: center;
-    margin-top: 5px;
+    width: 90vw;
 }
 
 .box1, .box2, .box3, .box4, .box5 {
@@ -302,10 +306,10 @@ img.hulalogo {
     display: grid;
     grid-template-columns: .25fr 1fr;
     grid-template-rows: .25fr .3fr .25fr;
-    height: 60vh;
+    height: auto;
     justify-items: center;
     column-gap: 5vw;
-    width: auto;
+    width: 90vw;
 }
 
 .quiltsimg {
