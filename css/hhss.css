@@ -14,7 +14,6 @@
 html {
 	font-family: 'Quicksand', sans-serif;
     font-size: 62.5%;
-    height: 100vh;
     -ms-text-size-adjust: 100%;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	-webkit-text-size-adjust: 100%;
@@ -24,14 +23,12 @@ body {
     background-color: ivory;
     color: #243466;
     font-size: 18px;
-    height: 100vh;
     line-height: 1.42857143;
 	margin: 0;
 }
 
-.content {
-    margin: 10% auto;
-    text-align: center;
+html, body {
+    height: 100vh;
 }
 
 .shopcontainer, .aboutbox, .policybox {
@@ -42,7 +39,7 @@ body {
     padding: auto;
 }
 
-.header {
+.heading {
     height: auto;
     max-height: 90px;
     width: 65%;
