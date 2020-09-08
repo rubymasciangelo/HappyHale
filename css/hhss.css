@@ -355,10 +355,6 @@ div.desc {
 }
 
 /*==================POLICY================*/
-#policy {
-    margin-top: -10%;
-}
-
 .policybox {
     align-items: center;
     column-gap: 0px;
@@ -513,9 +509,7 @@ div.desc {
     /*===================================================================
         SHOP / POLICY 500PX+
     ====================================================================*/
-    div.gallery {
-        margin: 10px;
-    }
+    
 
     /*==================================================================
         ABOUT / CONTACT 500PX+
@@ -659,11 +653,18 @@ div.desc {
         SHOP /POLOCY 768+
     ==========================================================================*/
     .policybox {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: .15fr .75fr;
         grid-template-rows: 1fr;
+        height: auto;
+        margin: 10vw 5vw;
+        width: 100vw;
     }
 
-    .policylogo { grid-area: 1 / 1 / 2 / 2; }
+    .policylogo { 
+        grid-area: 1 / 1 / 2 / 2; 
+        height: auto;
+        width: 10vw;
+    }
     .ppolicy { grid-area: 1 / 2 / 2 / 3; }
     
     /*============================================================================
