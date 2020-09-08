@@ -235,35 +235,40 @@ img.hulalogo {
 .box3 a {
     color: #243466;
     display: flex;
-    font-size: 30px;
+    font-size: 2vw;
     font-weight: 600;
-    /* margin: 87px 20px; */
+    padding: 22% 3%;
     text-align: center;
     text-decoration: none;
 }
 
-.box1 a, .box2 a, .box4 a, .box5 a {
-    color: #243466;
+.abox {
     background-color: ivory;
     border: 4px solid #243466;
-    display: flex;
-    font-size: 25px;
-    font-weight: 600;
+    display: block;
     height: 13vw;
     left: 50%;
-    /* margin: 87px 20px; */
     opacity: 0;
-    position: absolute;
+    position: relative;
     text-align: center;
-    text-justify: auto;
-    text-decoration: none;
     top: 50%;
     transform: translate(-50%, -50%);
     transition: .5s ease;
     width: 13vw;
 }
 
-.box1:hover a, .box2:hover a, .box4:hover a, .box5:hover a {
+.box1 a, .box2 a, .box4 a, .box5 a {
+    color: #243466;
+    display: flex;
+    font-size: 2vw;
+    font-weight: 600;
+    padding: 20% 3%;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+}
+
+.abox:hover {
     opacity: 1;
 }
 
