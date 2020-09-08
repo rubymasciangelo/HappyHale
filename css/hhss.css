@@ -242,36 +242,6 @@ img.hulalogo {
     text-decoration: none;
 }
 
-.abox {
-    background-color: ivory;
-    border: 4px solid #243466;
-    display: block;
-    height: 13vw;
-    left: 50%;
-    opacity: 0;
-    position: relative;
-    text-align: center;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    transition: .5s ease;
-    width: 13vw;
-}
-
-.box1 a, .box2 a, .box4 a, .box5 a {
-    color: #243466;
-    display: flex;
-    font-size: 2vw;
-    font-weight: 600;
-    padding: 20% 3%;
-    position: absolute;
-    text-align: center;
-    text-decoration: none;
-}
-
-.abox:hover {
-    opacity: 1;
-}
-
 .box4 { 
     background: url(./images/shopcats/California_Pottery-removebg-preview.png) center center no-repeat;
     background-size: contain;
@@ -283,6 +253,47 @@ img.hulalogo {
     background-size: contain;
     grid-area: 1 / 5 / 2 / 6;
     position: relative;
+}
+
+.abox {
+    background-color: ivory;
+    border: 4px solid #243466;
+    display: block;
+    height: 13vw;
+    left: 50%;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s ease;
+    width: 13vw;
+}
+
+.abox:hover {
+    opacity: 1;
+}
+
+.box1 a, .box2 a, .box4 a, .box5 a {
+    color: #243466;
+    display: flex;
+    font-size: 2vw;
+    font-weight: 600;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+}
+
+.box1 a {
+    padding: 18% 3%;
+}
+
+.box2 a {
+    padding: 39% 12%;
+}
+
+.box4 a, .box5 a {
+    padding: 28% 0;
 }
 
 /*===================SHOP==============*/
