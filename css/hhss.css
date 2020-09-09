@@ -359,17 +359,24 @@ img.hulalogo {
 #trends h2 {
     font-size: 25px;
     font-weight: 600;
-    padding: 100px 10vw 50px;
+    padding: 100px 5vw 0;
 }
 
 .trendbox {
+    column-gap: 2.5vw;
     display: grid;
-    grid-template-columns: 1fr .5fr;
+    grid-template-columns: .75fr .25fr;
     grid-template-rows: 1fr;
+    margin: 5vw 2.5vw 10vw;
 }
 
 .trendimgbox {
     grid-area: 1 / 1 / 2 / 2;
+}
+
+.trendimgbox img {
+    height: auto;
+    width: 100%;
 }
 
 .trendtext {
