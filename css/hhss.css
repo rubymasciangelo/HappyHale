@@ -412,19 +412,11 @@ img.hulalogo {
     OUR STORY / CONTACT FROM 0PX
 ==================================================================================*/
 #about {
-    background-color: #f0e193;
-    border-bottom: 60px solid #f0e193;
-    border-top: 100px solid #f0e193;
+    padding-top: 100px;
 }
 
 .aboutbox img {
     display: none;
-}
-
-.pabout {
-    text-align: left;
-    text-indent: 2em;
-    padding-left: 10px;
 }
 
 /*===============SMOL CONTACT BOX=============*/
@@ -559,19 +551,18 @@ img.hulalogo {
     }
 
     .aboutbox img {
-        display: grid;
+        display: block;
         height: auto;
         max-width: 100%;
     }
 
-    .about1 { grid-area: 1 / 1 / 2 / 2; }
-    .about2 { grid-area: 1 / 2 / 2 / 3; }
-    .about3 { grid-area: 1 / 3 / 2 / 4; }
-    .about4 { grid-area: 2 / 1 / 3 / 2; }
+
+    .aboutimg { 
+        grid-area: 2 / 1 / 3 / 2; 
+    }
+
     .pabout { 
         grid-area: 2 / 2 / 3 / 4;
-        margin: 0;
-        padding: 0;
     }
     
 }
