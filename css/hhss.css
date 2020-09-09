@@ -542,12 +542,17 @@ img.hulalogo {
     /*==================================================================
         ABOUT / CONTACT 500PX+
     =====================================================================*/
+    #about {
+        height: auto;
+        width: 100vw;
+    }
+
     .aboutbox {
-        column-gap: 10px;
+        column-gap: 2.5vw;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: .75fr 2fr;
-        row-gap: 10px;
+        grid-template-columns: 1fr 1.5fr;
+        grid-template-rows: .25fr;
+        margin: 5vw;
     }
 
     .aboutbox img {
@@ -558,11 +563,11 @@ img.hulalogo {
 
 
     .aboutimg { 
-        grid-area: 2 / 1 / 3 / 2; 
+        grid-area: 1 / 1 / 2 / 2; 
     }
 
     .pabout { 
-        grid-area: 2 / 2 / 3 / 4;
+        grid-area: 1 / 2 / 2 / 3;
     }
     
 }
