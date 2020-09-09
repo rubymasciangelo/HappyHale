@@ -356,10 +356,26 @@ img.hulalogo {
 /*================================================================================
     ISLAND STYLE FROM 0PX
 ==================================================================================*/
-#trends h2 {
-    font-size: 25px;
-    font-weight: 600;
+.trendtitle {
+    column-gap: 5vw;
+    display: grid;
+    grid-template-columns: .45fr .75fr;
+    grid-template-rows: .1fr;
     padding: 100px 5vw 0;
+}
+
+.trendtitle h2 {
+    font-size: 2vw;
+    font-weight: 600;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.trendtitleline {
+    background-color: #243466;
+    grid-area: 1 / 2 / 2 / 3;
+    height: 5px;
+    align-self: center;
+    width: 100%;
 }
 
 .trendbox {
