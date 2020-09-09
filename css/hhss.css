@@ -366,21 +366,40 @@ img.hulalogo {
     column-gap: 2.5vw;
     display: grid;
     grid-template-columns: .75fr .25fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: .1fr 1fr;
     margin: 5vw 2.5vw 10vw;
 }
 
 .trendimgbox {
-    grid-area: 1 / 1 / 2 / 2;
+    grid-area: 2 / 1 / 3 / 2;
+    position: relative;
 }
 
 .trendimgbox img {
+    display: block;
     height: auto;
     width: 100%;
 }
 
+.trendimglink {
+    background: #243466;
+    display: block;
+    grid-area: 1 / 1 / 2 / 2;
+    height: 6vw;
+    width: 100%;
+}
+
+.trendimglink a {
+    color: ivory;
+    display: flex;
+    font-size: 2.5vw;
+    padding: 2% 2%;
+    font-weight: 400;
+    text-decoration: none;
+}
+
 .trendtext {
-    grid-area: 1 / 2 / 2 / 3;
+    grid-area: 1 / 2 / 3 / 3;
 }
 
 /*================================================================================
