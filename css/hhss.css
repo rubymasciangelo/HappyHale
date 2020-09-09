@@ -362,6 +362,20 @@ img.hulalogo {
     padding: 100px 10vw 50px;
 }
 
+.trendbox {
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+    grid-template-rows: 1fr;
+}
+
+.trendimgbox {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.trendtext {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
 /*================================================================================
     OUR STORY / CONTACT FROM 0PX
 ==================================================================================*/
