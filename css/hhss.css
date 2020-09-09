@@ -333,28 +333,9 @@ img.hulalogo {
 /*==================================================================================
     SHOP / POLICY FROM 0PX
 ===================================================================================*/
-.shopbox {
-    margin: 2.5vw;
-}
 
-div.gallery {
-    float: left;
-    height: 25vw;
-    margin: 2.5vw;
-    width: 25vw;
-}
 
-div.gallery img {
-    height: auto;
-    width: 100%;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-
-/*==================POLICY================*/
+/*==================POLICY 0px================*/
 .policybox {
     align-items: center;
     column-gap: 0px;
@@ -650,13 +631,49 @@ div.desc {
     }
 
     /*========================================================================
-        SHOP /POLOCY 768+
+        SHOP /POLiCY 768+
     ==========================================================================*/
+    #shop {
+        display: flex;
+        height: auto;
+        padding: 100px 0;
+        position: relative;
+        width: 100vw;
+    }
+
+    .shopbox {
+        margin: 2.5vw;
+    }
+    
+    div.gallery {
+        float: left;
+        height: 26.6vw;
+        margin: 2.5vw;
+        width: 26.6vw;
+    }
+    
+    div.gallery img {
+        height: auto;
+        width: 100%;
+    }
+    
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+
+    /*===================Policy============*/
+    #policy {
+        height: auto;
+        position: relative;
+        width: 100vw;
+    }
+
     .policybox {
         grid-template-columns: .15fr .8fr;
         grid-template-rows: 1fr;
         height: auto;
-        margin: 10vw 5vw;
+        margin: 50px 5vw;
         width: 90vw;
     }
 
