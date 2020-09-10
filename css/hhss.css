@@ -505,16 +505,27 @@ img.hulalogo {
     padding: 8px 0;
 }
 
+.iglinkbox{
+    padding: 10px 15px 10px 10px;
+    text-align: right;
+}
+
 .iglink a {
-    padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
     color: ivory;
     display: block;
+    padding: none;
+    margin: none;
 }
 
 .orange {
     color: #e05e26;
+    margin: 0px;
+}
+
+.mbp {
+    margin: 0;
 }
 
 .iglink a:hover {
