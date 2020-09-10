@@ -761,7 +761,7 @@ img.hulalogo {
         column-gap: 2.5vw;
         row-gap: 2vw;
         display: grid;
-        grid-template-columns: 1fr .15fr 1.2fr;
+        grid-template-columns: 1fr .15fr 60vw;
         grid-template-rows: 1fr repeat(3, .1fr);
         margin: 5vw;
     }
