@@ -24,7 +24,8 @@ body {
     color: #243466;
     font-size: 18px;
     line-height: 1.42857143;
-	margin: 0;
+    margin: 0;
+    position: relative;
 }
 
 html, body {
@@ -318,6 +319,16 @@ img.hulalogo {
     padding: 7% 3%;
     text-align: center;
     text-decoration: none;
+}
+
+/*==============FOOTER================*/
+.foot {
+    position: relative;
+    justify-self: start;
+}
+
+.foot small.cr {
+    width: 300px;
 }
 
 /*==================================================================================
