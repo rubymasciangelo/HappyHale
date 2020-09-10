@@ -762,8 +762,8 @@ img.hulalogo {
         row-gap: 2vw;
         display: grid;
         grid-template-columns: 1fr .15fr 60vw;
-        grid-template-rows: 1fr repeat(3, .1fr);
-        margin: 5vw;
+        grid-template-rows: 1fr repeat(3, 5vw);
+        margin: 2vw 5vw 5vw;
     }
 
     .aboutbox img {
@@ -801,7 +801,7 @@ img.hulalogo {
     }
 
     h1.ig, h1.mail {
-        font-size: 3vw;
+        font-size: 2vw;
     }
 
     .mailicon {
