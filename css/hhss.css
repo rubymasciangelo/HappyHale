@@ -628,9 +628,11 @@ img.quiltsimg {
     }
 
     .parallax_layer-back {
-        /* background: url(./images/nalobay1.png) no-repeat; */
+        background: url(./images/nalobay1.png) no-repeat;
         /* background: url(./images/IMG_8244\ 2.jpeg) no-repeat; */
-        background: url(./images/mobileboutique/HH6.jpg) no-repeat;
+        /* background: url(./images/mobileboutique/HH6.jpg) no-repeat; */
+        /* background-image: linear-gradient(rgba(250, 247, 245, 0.329), rgba(252, 248, 245, 0.473)), url(./images/mobileboutique/HH6.jpg); */
+        /* background-image: linear-gradient(rgba(247, 149, 70, 0.329), rgba(245, 112, 23, 0.473)), url(./images/mobileboutique/HH6.jpg); */
         background-position: center center;
         background-size: cover;
         height: 100vh;
