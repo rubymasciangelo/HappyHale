@@ -210,13 +210,15 @@ img.clothesimg {
 }
 
 .box1 {
-    background: url(./images/shopcats/Monkey_Pod___Koa-removebg-preview\ \(1\).png) center center no-repeat;
+    background: url(./images/shopcats/Monkey_Pod___Koa-removebg.png) center center no-repeat;
+    /* background: url(./images/shopcats/Monkey-Pod-Koa.jpeg) center center no-repeat; */
     background-size: contain;
     grid-area: 1 / 1 / 2 / 2;
     position: relative;
 }
 .box2 {
     background: url(./images/shopcats/Etched_Glass-removebg-preview.png) center center no-repeat;
+    /* background: url(./images/shopcats/Etched-Glass.jpeg) center center no-repeat; */
     background-size: contain;
     grid-area: 1 / 2 / 2 / 3;
     position: relative;
@@ -239,12 +241,14 @@ img.clothesimg {
 
 .box4 {
     background: url(./images/shopcats/California_Pottery-removebg-preview.png) center center no-repeat;
+    /* background: url(./images/shopcats/California-Pottery.jpeg) center center no-repeat; */
     background-size: contain;
     grid-area: 1 / 4 / 2 / 5;
     position: relative;
 }
 .box5 {
     background: url(./images/shopcats/Funky_Mix-removebg-preview.png) center center no-repeat;
+    /* background: url(./images/shopcats/Funky-Mix.jpeg) center center no-repeat; */
     background-size: contain;
     grid-area: 1 / 5 / 2 / 6;
     position: relative;
@@ -945,9 +949,7 @@ img.quiltsimg {
     }
 
     .mailicon {
-        display: block;
         grid-area: 2 / 2 / 3 / 3;
-        text-align: center;
     }
 
     .mail {
