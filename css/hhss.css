@@ -145,6 +145,7 @@ img.hulalogo {
 /*============ADS===============*/
 .adbox {
     background-color: ivory;
+    justify-items: center;
     width: 100vw;
     position: relative;
 }
@@ -158,22 +159,26 @@ img.hulalogo {
     align-items: center;
     display: grid;
     grid-template-columns: 1fr .25fr;
-    grid-template-rows: .25fr .3fr .25fr;
+    grid-template-rows: 1.5fr;
     height: auto;
     justify-items: center;
     column-gap: 5vw;
-    width: 90vw;
+    margin: 0 10vw;
+    padding-top: 100px;
 }
 
 .clothesimg {
     grid-area: 1 / 1 / 4 / 2;
+}
+
+img.clothesimg {
     height: auto;
-    width: 60vw;
+    width: 100%;
 }
 
 .clothesh2 {
     border: 4px solid #243466;
-    grid-area: 2 / 2 / 3 / 3;
+    grid-area: 1 / 2 / 3 / 3;
     height: 20vw;
     width: 20vw;
 }
