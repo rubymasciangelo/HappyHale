@@ -628,7 +628,9 @@ img.quiltsimg {
     }
 
     .parallax_layer-back {
-        background: url(./images/nalobay1.png) no-repeat;
+        /* background: url(./images/nalobay1.png) no-repeat; */
+        /* background: url(./images/IMG_8244\ 2.jpeg) no-repeat; */
+        background: url(./images/mobileboutique/HH6.jpg) no-repeat;
         background-position: center center;
         background-size: cover;
         height: 100vh;
