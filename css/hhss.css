@@ -12,7 +12,8 @@
 =============================================================================================*/
 
 html {
-	font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    color: blueviolet;
     font-size: 62.5%;
     -ms-text-size-adjust: 100%;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -20,7 +21,7 @@ html {
 }
 
 body {
-    background-color: ivory;
+    background-color: blue;
     color: #243466;
     font-size: 18px;
     line-height: 1.42857143;
