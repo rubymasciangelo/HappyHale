@@ -202,7 +202,7 @@ img.clothesimg {
     grid-template-rows: .75fr;
     height: auto;
     justify-items: center;
-    width: 90vw;
+    padding-top: 150px;
 }
 
 .box1, .box2, .box3, .box4, .box5 {
