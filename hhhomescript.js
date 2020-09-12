@@ -27,12 +27,7 @@ var homeMsg = document.getElementById("homemsg");
 // target navlogo
 var navLogo = document.getElementById("navlogo");
 
-// // dont display navlogo til scroll
-// window.onload = function() {loadFunction();};
 
-// function loadFunction() {
-//     window.onload = navLogo.style.display = 'none';
-// }
 
 // switch out homeMsg for navLogo after homeHeight is surpassed
 function logoFunction() {
