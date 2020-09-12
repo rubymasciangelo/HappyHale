@@ -32,6 +32,10 @@ html, body {
     height: 100vh;
 }
 
+h2 {
+    font-family: 'Lily Script One', cursive;
+}
+
 /*================NAV============*/
 #nav {
     display: none;
