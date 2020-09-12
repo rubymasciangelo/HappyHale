@@ -606,7 +606,7 @@ img.quiltsimg {
     .parallax {
         display: block;
         perspective: 1px;
-        height: 90vh;
+        height: 100vh;
         overflow-x: hidden;
         overflow-y: auto;
         -webkit-perspective: 1px;
