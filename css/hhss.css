@@ -227,11 +227,14 @@ img.clothesimg {
 /*====================ADHOMEGOODS===============*/
 .adhomegoods {
     align-items: center;
+    height: auto;
+    justify-items: center;
+}
+
+.adhomegoodsgrid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: .75fr;
-    height: auto;
-    justify-items: center;
 }
 
 .hgbanner a {
