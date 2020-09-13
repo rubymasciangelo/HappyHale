@@ -204,6 +204,7 @@ img.clothesimg {
 }
 
 .clothesh2 {
+    background-color: ivory;
     border: 4px solid #243466;
     grid-area: 1 / 2 / 3 / 3;
     height: 20vw;
