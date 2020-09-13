@@ -181,14 +181,17 @@ img.hulalogo {
     background-attachment: fixed;
     background-size: cover;
     align-items: center;
+    height: auto;
+    justify-items: center;
+    padding-top: 100px;
+}
+
+.adclothesgrid {
     display: grid;
     grid-template-columns: 1fr .25fr;
     grid-template-rows: 1.5fr;
-    height: auto;
-    justify-items: center;
     column-gap: 5vw;
-    /* margin: 0 5vw; */
-    padding-top: 100px;
+    margin: 0 5vw;
 }
 
 .clothesimg {
