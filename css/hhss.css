@@ -171,6 +171,7 @@ img.hulalogo {
     justify-items: center;
     width: 100vw;
     position: relative;
+    padding-bottom: 50px;
 }
 
 .adclothes, .adhomegoods, .adquilts {
