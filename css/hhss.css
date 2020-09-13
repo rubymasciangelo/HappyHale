@@ -174,8 +174,8 @@ img.hulalogo {
     padding-bottom: 50px;
 }
 
-.adclothes, .adhomegoods, .adquilts {
-    padding-bottom: 8vw;
+.adclothes, .adquilts {
+    padding: 100px 0;
 }
 
 /*=============ADCLOTHES============*/
@@ -186,7 +186,6 @@ img.hulalogo {
     align-items: center;
     height: auto;
     justify-items: center;
-    padding-top: 100px;
 }
 
 .adclothesgrid {
@@ -334,7 +333,6 @@ img.clothesimg {
     align-items: center;
     height: auto;
     justify-items: center;
-    padding-top: 100px;
 }
 
 .adquiltsgrid {
