@@ -8,7 +8,7 @@ var homeMsg = document.getElementById("homemsg");
 var navLogo = document.getElementById("navlogo");
 // switch out homeMsg for navLogo after homeHeight is surpassed
 function logoFunction() {
-    if (window.pageYOffset > homeHeight) {
+    if (window.pageYOffset < homeHeight) {
         navLogo.style.display = 'none';
         homeMsg.style.display = 'block';
     }

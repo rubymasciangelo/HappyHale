@@ -32,10 +32,6 @@ html, body {
     height: 100vh;
 }
 
-h1 {
-    text-shadow: 1px .5px #f0e193;
-}
-
 h2 {
     font-family: 'Lily Script One', cursive;
 }
@@ -71,6 +67,18 @@ h2 {
     /*border-bottom: 30px solid #e05e26;*/
     /* margin-top: -10%;
 } */
+
+.cover h1 {
+    text-shadow: .5px .25px #f0e193;
+}
+
+.cvit h1 {
+    font-size: 25px;
+}
+
+.cvit {
+    margin-top: -55px;
+}
 
 .nalo {
     display: none;
@@ -646,7 +654,7 @@ img.quiltsimg {
         /* background: url(./images/IMG_8244\ 2.jpeg) no-repeat; */
         /* background: url(./images/mobileboutique/HH6.jpg) no-repeat; */
         /* background-image: linear-gradient(rgba(250, 247, 245, 0.329), rgba(252, 248, 245, 0.473)), url(./images/mobileboutique/HH6.jpg); */
-        background-image: linear-gradient(rgba(247, 149, 70, 0.329), rgba(245, 112, 23, 0.473)), url(./images/mobileboutique/HH6.jpg);
+        background-image: linear-gradient(rgba(247, 149, 70, 0.329), rgba(245, 112, 23, 0.753)), url(./images/mobileboutique/HH6.jpg);
         background-position: center center;
         background-size: cover;
         height: 100vh;
@@ -662,7 +670,7 @@ img.quiltsimg {
         grid-template-columns: 1fr;
         grid-template-rows: .6fr .2fr;
         justify-items: center;
-        padding-top: 90px;
+        padding-top: 80px;
         position: relative;
     }
 
