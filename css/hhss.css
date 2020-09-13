@@ -327,12 +327,19 @@ img.clothesimg {
 
 /*==============ADQUILTS================*/
 .adquilts {
+    background: url(./images/shopcats/Quilts.jpg);
+    background-attachment: fixed;
+    background-size: cover;
     align-items: center;
+    height: auto;
+    justify-items: center;
+    padding-top: 100px;
+}
+
+.adquiltsgrid {
     display: grid;
     grid-template-columns: .25fr 1fr;
     grid-template-rows: 1.5fr;
-    height: auto;
-    justify-items: center;
     column-gap: 5vw;
     margin: 0 5vw;
 }
@@ -347,6 +354,7 @@ img.quiltsimg {
 }
 
 .quiltsh2 {
+    background-color: ivory;
     border: 4px solid #243466;
     grid-area: 1 / 1 / 4 / 2;
     height: 20vw;
