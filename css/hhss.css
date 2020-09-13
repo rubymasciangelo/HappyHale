@@ -23,6 +23,7 @@ body {
     background-color: ivory;
     color: #243466;
     font-size: 18px;
+    font-weight: 532;
     line-height: 1.42857143;
     margin: 0;
     position: relative;
@@ -147,6 +148,7 @@ img.hulalogo {
     grid-template-rows: 1fr .2fr;
     /* margin-top: 80px; */
     overflow: visible;
+    padding-bottom: 2vw;
 }
 
 .blurbtext1 { grid-area: 1 / 1 / 2 / 2; padding: 5vw 0 5vw 5vw; }
