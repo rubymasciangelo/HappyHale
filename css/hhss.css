@@ -177,6 +177,9 @@ img.hulalogo {
 
 /*=============ADCLOTHES============*/
 .adclothes {
+    background: url(./images/shopcats/AlohaWear.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
     align-items: center;
     display: grid;
     grid-template-columns: 1fr .25fr;
@@ -184,7 +187,7 @@ img.hulalogo {
     height: auto;
     justify-items: center;
     column-gap: 5vw;
-    margin: 0 5vw;
+    /* margin: 0 5vw; */
     padding-top: 100px;
 }
 
