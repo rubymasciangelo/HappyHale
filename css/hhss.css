@@ -170,6 +170,10 @@ img.hulalogo {
     text-decoration: none;
 }
 
+.blurblink a:hover, .clothesh2 a:hover, .quiltsh2 a:hover, .hgbanner a:hover {
+    color: #e05e26;
+}
+
 /*============ADS===============*/
 .adbox {
     background-color: ivory;
@@ -315,7 +319,11 @@ img.clothesimg {
 }
 
 .abox:hover {
-    opacity: 1;
+    opacity: .9;
+}
+
+.abox a:active {
+    color: #e05e26;
 }
 
 .box1 a, .box2 a, .box3 a, .box4 a {
