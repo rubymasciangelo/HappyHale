@@ -496,9 +496,9 @@ img.quiltsimg {
     OUR STORY / CONTACT FROM 0PX
 ==================================================================================*/
 #about {
-    height: auto;
+    height: 100vh;
     width: 100vw;
-    padding-top: 100px;
+    padding-top: 5vw;
 }
 
 .aboutcover {
@@ -522,9 +522,10 @@ h2.aboutcovertitle {
 .aboutbox {
     column-gap: 2.5vw;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: .5fr .25fr;
-    margin: 5vw;
+    grid-template-columns: 20vw 40vw 23vw;
+    grid-template-rows: 15vh 24vh 60vh;
+    margin: 0 5vw;
+    width: 90vw;
 }
 
 .aboutbox img {
@@ -533,8 +534,17 @@ h2.aboutcovertitle {
     max-width: 100%;
 }
 
+img.aboutimg1 {
+    max-height: 80vh;
+}
+
+img.aboutimg2 {
+    width: 100%;
+    height: auto;
+}
+
 .aboutimg1 {
-    grid-area: 1 / 1 / 3 / 2;
+    grid-area: 1 / 1 / 4 / 2;
 }
 
 .pabout1 {
@@ -545,8 +555,12 @@ h2.aboutcovertitle {
     grid-area: 2 / 2 / 3 / 3;
 }
 
+.pabout3 {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
 .aboutimg2 {
-    grid-area: 2 / 3 / 3 / 4;
+    grid-area: 2 / 3 / 4 / 4;
 }
 
 
