@@ -235,6 +235,7 @@ img.clothesimg {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: .75fr;
+    margin: 0 5vw 100px 5vw;
 }
 
 .hgbanner a {
@@ -248,8 +249,8 @@ img.clothesimg {
 }
 
 .box1, .box2, .box3, .box4 {
-    height: 15vw;
-    width: 15vw;
+    height: 20vw;
+    width: 20vw;
 }
 
 .box1 {
