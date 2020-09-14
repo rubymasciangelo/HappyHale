@@ -523,7 +523,7 @@ h2.aboutcovertitle {
     column-gap: 2.5vw;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: .5fr .25fr;
     margin: 5vw;
 }
 
