@@ -222,7 +222,7 @@ img.clothesimg {
     color: #243466;
     display: flex;
     font-size: 3vw;
-    font-weight: 600;
+    font-weight: 500;
     /* margin: 8vw auto; */
     padding: 29% 3%;
     text-align: center;
@@ -367,7 +367,7 @@ img.quiltsimg {
     color: #243466;
     display: flex;
     font-size: 3vw;
-    font-weight: 600;
+    font-weight: 500;
     /* margin: 8vw auto; */
     padding: 7% 3%;
     text-align: center;
