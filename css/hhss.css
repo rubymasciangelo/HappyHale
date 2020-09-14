@@ -211,7 +211,7 @@ img.clothesimg {
 }
 
 .clothesh2 {
-    background-color: ivory;
+    background-color: rgba(255, 255, 240, 0.938);
     border: 4px solid #243466;
     grid-area: 1 / 2 / 3 / 3;
     height: 20vw;
@@ -288,7 +288,7 @@ img.clothesimg {
 }
 
 .abox {
-    background-color: ivory;
+    background-color: rgba(255, 255, 240, 0.938);
     border: 4px solid #243466;
     display: block;
     height: 18vw;
@@ -356,7 +356,7 @@ img.quiltsimg {
 }
 
 .quiltsh2 {
-    background-color: ivory;
+    background-color: rgba(255, 255, 240, 0.938);
     border: 4px solid #243466;
     grid-area: 1 / 1 / 4 / 2;
     height: 20vw;
