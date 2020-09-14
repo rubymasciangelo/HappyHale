@@ -499,6 +499,23 @@ img.quiltsimg {
     padding-top: 100px;
 }
 
+.aboutcover {
+    background: url(./images/nalobayreal.jpeg) center center no-repeat;
+    background-attachment: fixed;
+    background-position: cover;
+    background-size: 100vw;
+    height: 70vh; /*change for mobile */
+    width: auto;
+    padding-top: 90px;
+    transform: 50% 50%;
+}
+
+h2.aboutcovertitle {
+    font-size: 10vw;
+    padding-left: 5vw;
+    padding-top: 2vw;
+}
+
 .aboutbox img {
     display: none;
 }
