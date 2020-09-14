@@ -291,7 +291,7 @@ img.clothesimg {
     background-color: ivory;
     border: 4px solid #243466;
     display: block;
-    height: 13vw;
+    height: 18vw;
     left: 50%;
     opacity: 0;
     position: absolute;
@@ -299,7 +299,7 @@ img.clothesimg {
     top: 50%;
     transform: translate(-50%, -50%);
     transition: .5s ease;
-    width: 13vw;
+    width: 18vw;
 }
 
 .abox:hover {
@@ -309,23 +309,23 @@ img.clothesimg {
 .box1 a, .box2 a, .box3 a, .box4 a {
     color: #243466;
     display: flex;
-    font-size: 2vw;
-    font-weight: 600;
+    font-size: 2.5vw;
+    font-weight: 500;
     position: absolute;
     text-align: center;
     text-decoration: none;
 }
 
 .box1 a {
-    padding: 18% 3%;
+    padding: 19% 3%;
 }
 
 .box2 a {
-    padding: 39% 12%;
+    padding: 39% 16%;
 }
 
 .box3 a, .box4 a {
-    padding: 28% 0;
+    padding: 30% 0;
 }
 
 /*==============ADQUILTS================*/
