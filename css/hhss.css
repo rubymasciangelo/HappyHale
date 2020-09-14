@@ -240,9 +240,9 @@ img.clothesimg {
 .hgbanner a {
     color: #243466;
     display: flex;
-    font-size: 2vw;
-    font-weight: 600;
-    padding: 22% 3%;
+    font-size: 35px;
+    font-weight: 500;
+    padding: 20px 8vw;
     text-align: center;
     text-decoration: none;
 }
