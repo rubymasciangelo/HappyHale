@@ -496,6 +496,8 @@ img.quiltsimg {
     OUR STORY / CONTACT FROM 0PX
 ==================================================================================*/
 #about {
+    height: auto;
+    width: 100vw;
     padding-top: 100px;
 }
 
@@ -516,9 +518,37 @@ h2.aboutcovertitle {
     padding-top: 2vw;
 }
 
-.aboutbox img {
-    display: none;
+/*=============ABOUTBOX==============*/
+.aboutbox {
+    column-gap: 2.5vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 5vw;
 }
+
+.aboutbox img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.aboutimg1 {
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+.pabout1 {
+    grid-area: 1 / 2 / 2 / 4;
+}
+
+.pabout2 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.aboutimg2 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
 
 /*===============SMOL CONTACT BOX=============*/
 /* .smolcontactbox h1 {
@@ -753,41 +783,7 @@ h2.aboutcovertitle {
     /*==================================================================
         ABOUT / CONTACT 500PX+
     =====================================================================*/
-    #about {
-        height: auto;
-        width: 100vw;
-    }
 
-    .aboutbox {
-        column-gap: 2.5vw;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        margin: 5vw;
-    }
-
-    .aboutbox img {
-        display: block;
-        height: auto;
-        max-width: 100%;
-    }
-
-
-    .aboutimg1 {
-        grid-area: 1 / 1 / 3 / 2;
-    }
-
-    .pabout1 {
-        grid-area: 1 / 2 / 2 / 4;
-    }
-
-    .pabout2 {
-        grid-area: 2 / 2 / 3 / 3;
-    }
-
-    .aboutimg2 {
-        grid-area: 2 / 3 / 3 / 4;
-    }
 
     /*===============CONTACT 500+=======*/
     /* .smolcontactbox {
@@ -991,21 +987,16 @@ h2.aboutcovertitle {
     /*============================================================================
         OUR STORY / CONTACT 826+
     =============================================================================*/
-    .aboutbox {
+    /* .aboutbox {
         column-gap: 2.5vw;
         row-gap: 2vw;
         display: grid;
-        grid-template-columns: 1fr .15fr 60vw;
+        grid-template-columns: 1fr 30vw 30vw;
         grid-template-rows: 1fr repeat(3, 5vw);
         margin: 2vw 5vw 5vw;
-    }
+    } */
 
-    .aboutbox img {
-        display: block;
-        height: auto;
-        max-width: 100%;
-    }
-
+/* 
 
     .aboutimg {
         grid-area: 1 / 1 / 5 / 2;
@@ -1013,7 +1004,7 @@ h2.aboutcovertitle {
 
     .pabout {
         grid-area: 1 / 2 / 2 / 4;
-    }
+    } */
 
     .smolcontactbox {
         display: none;
