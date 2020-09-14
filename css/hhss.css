@@ -716,12 +716,6 @@ img.quiltsimg {
         grid-area: 2 / 1 / 3 / 2;
     }
 
-    .haletrans {
-        position: absolute;
-        bottom: 0;
-        right: 3vw;
-    }
-
     .smolcoverbox {
         display: none;
     }
