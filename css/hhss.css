@@ -496,7 +496,7 @@ img.quiltsimg {
     OUR STORY / CONTACT FROM 0PX
 ==================================================================================*/
 #about {
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
     padding-top: 5vw;
 }
@@ -523,7 +523,7 @@ h2.aboutcovertitle {
     column-gap: 2.5vw;
     display: grid;
     grid-template-columns: 20vw 40vw 23vw;
-    grid-template-rows: 15vh 24vh 60vh;
+    grid-template-rows: 15vh 24vh 15vh;
     margin: 0 5vw;
     width: 90vw;
 }
@@ -635,16 +635,16 @@ img.aboutimg2 {
 /*======================================================================================
                                 MOBILE BOUTIQUE FROM 0PX
 ======================================================================================*/
-.mbbody {
+#mobileboutique {
     position: relative;
+    padding: 0 5vw;
 }
 
 .iglink {
     width: 200px;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     top: 120px;
-    left: 5vw;
     background: #243466;
     overflow-x: hidden;
     padding: 8px 0;
