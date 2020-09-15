@@ -1,11 +1,28 @@
-<!DOCTYPE html>
+<?php
+
+if($_POST["submit"]) {
+    $recipient="happyhale808@gmail.com";
+    $subject="A site visitor sent you a message!";
+    $sender=$_POST["sender"];
+    $senderEmail=$_POST["senderEmail"];
+    $message=$_POST["message"];
+
+    $mailBody="Name: $sender\nEmail:
+$senderEmail\n\n$message";
+
+    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+
+    $thankYou="<p>Mahalo! Your message has been sent.</p>";
+}
+
+?><!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0"/>
         <title>Happy Hale</title>
         <link rel="stylesheet" href="./css/hhss.css">
-        <link href='https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;532;600;700&display=swap' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;532;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap" rel="stylesheet">
     </head>
     <body>
@@ -13,7 +30,7 @@
         <div id="nav">
             <div class="leftnav">
                 <a href="#home" id="homea">E KOMO MAI</a>
-                <a href="ourstory.html" id="abouta">OUR STORY</a>
+                <a href="mobileboutique.html" id="abouta">OUR STORY</a>
                 <a href="ourstory.html#contact" id="contacta">CONTACT US</a>
                 <a href="shop.html" id="shopa">SHOP</a>
             </div>
@@ -64,6 +81,25 @@
             </div>
         </div>
         </div>
+
+        <!--CONTACT FORM-->
+        <!-- https://htmldog.com/techniques/formtoemail/ -->
+        <?=$thankYou ?>
+
+        <form method="POST" action="contact.php">
+            <label>Name:</label>
+            <input name="sender">
+
+            <label>Email:</label>
+            <input name="senderEmail">
+
+            <label>Message:</label>
+            <textarea rows="5" cols="20" name="message"></textarea>
+
+            <input type="submit" name="submit">
+        </form>
+        
+
         <!--FOOTER-->
         <footer class="cr"> <small>&copy; Copyright 2020, Ruby Masciangelo</small> </footer>
     </body>
