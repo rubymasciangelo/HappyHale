@@ -528,13 +528,13 @@ h2.aboutcovertitle {
     width: 90vw;
 }
 
-.aboutbox img {
+.aboutbox img, .bigbox img {
     display: block;
     height: auto;
     max-width: 100%;
 }
 
-img.aboutimg1 {
+img.aboutimg1, img.imgalt {
     max-height: 80vh;
 }
 
@@ -656,9 +656,10 @@ img.aboutimg2 {
     text-align: right;
 }
 
-.iglink a {
+.iglink a, .iglinkalt a {
     text-decoration: none;
     font-size: 25px;
+    font-weight: 500;
     color: ivory;
     display: block;
     padding: none;
@@ -674,7 +675,7 @@ img.aboutimg2 {
     margin: 0;
 }
 
-.iglink a:hover {
+.iglink a:hover, .iglinkalt a:hover {
     color: #e05e26;
 }
 
@@ -710,6 +711,63 @@ img.aboutimg2 {
     z-index: 1;
     opacity: 1;
 }
+
+
+/*=============================================
+            MOBILE ABOUT ALT
+==============================================*/
+#ourstory {
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5vw 11vw 10vw;
+}
+
+.bigbox {
+    display: grid;
+    grid-template-columns: 20vw 50vw;
+    grid-template-rows: 80vh 30vh;
+    row-gap: 2vw;
+    column-gap: 2vw;
+    height: 110vh;
+    justify-self: center;
+}
+
+.imgalt {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.mbalt {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.mbbox {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.mbbox img {
+    width: 100% !important;
+    height: auto;
+    max-height: 79vh;
+}
+
+.iglinkalt {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.iglink, .iglinkalt {
+    width: 100%;
+    background: #243466;
+}
+
+.palt {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+
+
+
 
 /*=================//=====================================================================
                                 TABLET 500px+
