@@ -84,21 +84,24 @@ $senderEmail\n\n$message";
 
         <!--CONTACT FORM-->
         <!-- https://htmldog.com/techniques/formtoemail/ -->
-        <?=$thankYou ?>
+        <div id="contact">
+            <div class="contactbox">
+                <?=$thankYou ?>
 
-        <form method="POST" action="contact.php">
-            <label>Name:</label>
-            <input name="sender">
+                <form method="POST" action="contact.php">
+                    <label>Name:</label>
+                    <input name="sender">
 
-            <label>Email:</label>
-            <input name="senderEmail">
+                    <label>Email:</label>
+                    <input name="senderEmail">
 
-            <label>Message:</label>
-            <textarea rows="5" cols="20" name="message"></textarea>
+                    <label>Message:</label>
+                    <textarea rows="5" cols="20" name="message"></textarea>
 
-            <input type="submit" name="submit">
-        </form>
-        
+                    <input type="submit" name="submit">
+                </form>
+            </div>
+        </div>
 
         <!--FOOTER-->
         <footer class="cr"> <small>&copy; Copyright 2020, Ruby Masciangelo</small> </footer>
