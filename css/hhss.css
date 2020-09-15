@@ -568,9 +568,21 @@ img.aboutimg2 {
 #contact {
     height: 60vh;
     width: 100%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
 }
 
-
+.contactbox {
+    background: #f0e193;
+    height: 20vw;
+    width: 35vw;
+    margin: auto;
+    padding: auto;
+    display: flexs;
+    flex-wrap: wrap;
+}
 
 /* .smolcontactbox h1 {
     font-size: 15px;
