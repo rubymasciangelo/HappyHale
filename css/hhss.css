@@ -564,7 +564,14 @@ img.aboutimg2 {
 }
 
 
-/*===============SMOL CONTACT BOX=============*/
+/*=============== CONTACT BOX=============*/
+#contact {
+    height: 60vh;
+    width: 100%;
+}
+
+
+
 /* .smolcontactbox h1 {
     font-size: 15px;
     margin: 0;
@@ -593,16 +600,16 @@ img.aboutimg2 {
 
 
 /*==================CONTACT==========*/
-#contact {
+/* #contact {
     height: 80px;
     margin-top: -20px;
     position: relative;
     width: 100%;
 }
 
-.contactbox { /*CONTACTBOX NOT DISPLAY IN FOOTER ON SMOL SCREENS*/
+.contactbox { CONTACTBOX NOT DISPLAY IN FOOTER ON SMOL SCREENS
     display: none;
-}
+} */
 
 /*======================================================================================
                                 HAPPY PEOPLE FROM 0PX
@@ -1081,9 +1088,9 @@ img.aboutimg2 {
         grid-area: 1 / 2 / 2 / 4;
     } */
 
-    .smolcontactbox {
+    /* .smolcontactbox {
         display: none;
-    }
+    } */
 
     /* #contact {
         height: auto;
