@@ -638,6 +638,7 @@ img.aboutimg2 {
 #mobileboutique {
     position: relative;
     padding: 0 5vw;
+    height: 90vw;
 }
 
 .iglink {
@@ -696,6 +697,8 @@ img.aboutimg2 {
     position: absolute;
     transition: opacity 1s;
     opacity: 0;
+    height:auto;
+    width: 40vw;
 }
 
 .mbbox img:first-child {
