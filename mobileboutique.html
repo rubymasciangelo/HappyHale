@@ -90,15 +90,33 @@ $senderEmail\n\n$message";
                 <?=$thankYou ?>
 
                 <form method="POST" action="contact.php">
-                    <label>Name</label>
-                    <input type="text" id="visName" name="sender" placeholder="Your name">
-
-                    <label>Email</label>
-                    <input type="text" id="visEmail" name="senderEmail" placeholder="Your email address">
-
-                    <label>Send us a message!</label>
-                    <textarea rows="5" cols="20" name="message"></textarea>
-                    <input type="submit" id="visMsg" name="submit">
+                    <div class="row">
+                        <div class="col">
+                            <label>Name</label>
+                        </div>
+                        <div class="col">
+                            <input type="text" id="visName" name="sender" placeholder="Your name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label>Email</label>
+                        </div>
+                        <div class="col">
+                            <input type="text" id="visEmail" name="senderEmail" placeholder="Your email address">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label>Send us a message!</label>
+                        </div>
+                        <div class="col">
+                            <textarea rows="5" cols="20" name="message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="submit" id="visMsg" name="submit">
+                    </div>
                 </form>
             </div>
         </div>

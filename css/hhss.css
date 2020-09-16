@@ -572,26 +572,61 @@ img.aboutimg2 {
     justify-items: center;
     align-items: center;
     align-content: center;
+    margin-bottom: 10vw;
 }
 
 .contactbox {
     background: #fd87269a;
     border-radius: 5px;
-    height: 25vw;
-    width: 50vw;
     margin: auto;
-    padding: auto;
+    padding: 20px;
+    width: 50vw;
 }
 
-input[type=text] {
-    width: 90%;
-    padding: 12px 25px;
-    margin: 8px 0;
-    display: inline-block;
+.col {
+    float: left;
+    width: 100%;
+    margin-top: 0;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+input[type=text], textarea {
+    background-color: ivory;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
     border: 1px solid #ac4113;
     border-radius: 4px;
-    cursor: pointer;
+    resize: vertical;
 }
+
+label {
+    box-sizing: border-box;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #ac4113;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #243466;
+    color: #e05e26;
+}
+
+
 
 /* .smolcontactbox h1 {
     font-size: 15px;
