@@ -443,13 +443,14 @@ img.quiltsimg {
 .trendtitle {
     column-gap: 3vw;
     display: grid;
-    grid-template-columns: .45fr .75fr;
+    grid-template-columns: .75fr .75fr;
     grid-template-rows: .1fr;
     padding: 100px 5vw 0;
 }
 
 .trendtitle h2 {
     font-size: 3vw;
+    font-weight: 500;
     grid-area: 1 / 1 / 2 / 2;
 }
 
