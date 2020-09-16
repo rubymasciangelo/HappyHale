@@ -441,7 +441,7 @@ img.quiltsimg {
     ISLAND STYLE FROM 0PX
 ==================================================================================*/
 .trendtitle {
-    column-gap: 5vw;
+    column-gap: 3vw;
     display: grid;
     grid-template-columns: .45fr .75fr;
     grid-template-rows: .1fr;
@@ -449,8 +449,7 @@ img.quiltsimg {
 }
 
 .trendtitle h2 {
-    font-size: 2vw;
-    font-weight: 600;
+    font-size: 3vw;
     grid-area: 1 / 1 / 2 / 2;
 }
 
@@ -465,7 +464,7 @@ img.quiltsimg {
 .trendbox {
     column-gap: 2.5vw;
     display: grid;
-    grid-template-columns: .75fr .25fr;
+    grid-template-columns: .45fr .9fr;
     grid-template-rows: .1fr 1fr;
     margin: 5vw 2.5vw 10vw;
 }
@@ -477,8 +476,8 @@ img.quiltsimg {
 
 .trendimgbox img {
     display: block;
-    height: auto;
-    width: 100%;
+    height: 70vh;
+    width: auto;
 }
 
 .trendimglink {
@@ -492,8 +491,8 @@ img.quiltsimg {
 .trendimglink a {
     color: ivory;
     display: flex;
-    font-size: 2.5vw;
-    padding: 2% 2%;
+    font-size: 1.5vw;
+    padding: 5% 2%;
     font-weight: 400;
     text-decoration: none;
 }
