@@ -414,6 +414,7 @@ img.quiltsimg {
     align-items: center;
     column-gap: 0px;
     display: grid;
+    font-style: italic;
     grid-template-columns: 1fr;
     grid-template-rows: .5fr 1fr;
     justify-items: center; /*was justify-items: start;*/
@@ -426,6 +427,15 @@ img.quiltsimg {
     max-width: 70%;
 }
 .ppolicy {grid-area: 2 / 1 / 3 / 2;}
+
+.ppolicy a {
+    text-decoration: none;
+    color: #e05e26;
+}
+
+.ppolicy a:hover {
+    color: #ac4113;
+}
 
 /*================================================================================
     ISLAND STYLE FROM 0PX
