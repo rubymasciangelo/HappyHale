@@ -83,14 +83,14 @@ h2 {
 .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: ivory;
+    background-color: #e05e26;
     color: #243466;
     padding: 10px 15px;
     border: none;
 }
 
 .openbtn:hover {
-    color: #e05e26;
+    color: #ac4113;
 }
 
 /*===================FOOTER===========*/
