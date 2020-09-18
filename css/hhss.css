@@ -194,6 +194,9 @@ img.hulalogo {
 }
 
 /*=================BLURB==============*/
+.smolblurbbox {
+    padding: 8vw 3vw;
+}
 
 .blurbbox p {
     font-size: 20px;
