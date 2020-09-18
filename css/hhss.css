@@ -138,6 +138,10 @@ h2 {
     /* margin-top: -10%;
 } */
 
+#homepage {
+    display: none;
+}
+
 .cover h1 {
     text-shadow: .5px .25px #f0e193;
 }
@@ -985,6 +989,10 @@ h2.hppltext {
     /*=====================================================================
         HOME 500PX+
     =======================================================================*/
+    #homepage {
+        display: block;
+    }
+
     .parallax {
         display: block;
         perspective: 1px;
