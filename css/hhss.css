@@ -1077,6 +1077,9 @@ h2.hppltext {
                                 WIDTH 826px+
 ============================================================================================*/
 @media screen and (min-width: 826px) {
+    #bbSmolnav {
+        display: none;
+    }
 
     #nav {
         align-items: center;
