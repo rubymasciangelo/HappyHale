@@ -137,8 +137,9 @@ img.hulalogo {
 }
 
 .blurbbox h2 {
-    font-size: 43px;
+    font-size: 3.5vw;
     font-weight: 500;
+    line-height: 1.2;
 }
 
 .blurbbox {
@@ -162,7 +163,7 @@ img.hulalogo {
     grid-area: 2 / 2 / 3 / 3;
     /* grid-area: 2 / 1 / 3 / 3; perhaps mobile*/
     padding-right: 5vw;
-    justify-self: end;
+    justify-self: center;
 }
 
 .blurblink a {
@@ -170,6 +171,8 @@ img.hulalogo {
     color: #243466;
     padding: 15px;
     text-decoration: none;
+    font-weight: 700;
+    font-size: 1.6vw;
 }
 
 .blurblink a:hover, .clothesh2 a:hover, .quiltsh2 a:hover, .hgbanner a:hover {
@@ -251,7 +254,7 @@ img.clothesimg {
 
 .hgbanner {
     display: grid;
-    grid-template-columns: 55vw 35vw;
+    grid-template-columns: 755vw 15vw;
     grid-template-rows: .1fr;
     padding: 50px 5vw 20px 5vw;
 }
@@ -259,7 +262,7 @@ img.clothesimg {
 .hgbanner a {
     color: #243466;
     display: flex;
-    font-size: 3vw;
+    font-size: 5vw;
     font-weight: 500;
     text-align: center;
     text-decoration: none;
@@ -529,7 +532,7 @@ img.quiltsimg {
 }
 
 h2.aboutcovertitle {
-    font-size: 10vw;
+    font-size: 6vw;
     padding-left: 5vw;
     padding-top: 2vw;
 }
@@ -592,11 +595,14 @@ img.aboutimg2 {
 }
 
 .contactbox {
-    background: #fd87269a;
+    background: #f8692c;
     border-radius: 5px;
     margin: auto;
     padding: 20px;
     width: 50vw;
+    box-shadow: 2px 3px 12px 0px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 2px 3px 12px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 2px 3px 12px 0px rgba(0, 0, 0, 0.4);
 }
 
 .col {
@@ -626,11 +632,12 @@ label {
     box-sizing: border-box;
     padding: 12px 12px 12px 0;
     display: inline-block;
+    font-weight: 700;
 }
 
 input[type=submit] {
-    background-color: #ac4113;
-    color: #243466;
+    background-color: #243466;
+    color: #e05e26;
     padding: 12px;
     border: none;
     border-radius: 4px;
@@ -644,7 +651,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #243466;
-    color: #e05e26;
+    color: #f0e193;
 }
 
 
@@ -932,8 +939,8 @@ h2.hppltext {
         /* background-image: linear-gradient(rgba(176, 70, 247, 0.329), rgba(245, 241, 182, 0.473)), url(./images/nalobay1.png); */
         /* background: url(./images/IMG_8244\ 2.jpeg) no-repeat; */
         /* background: url(./images/mobileboutique/HH6.jpg) no-repeat; */
-        /* background-image: linear-gradient(rgba(250, 247, 245, 0.329), rgba(252, 248, 245, 0.473)), url(./images/mobileboutique/HH6.jpg); */
-        background-image: linear-gradient(rgba(247, 149, 70, 0.329), rgba(245, 112, 23, 0.753)), url(./images/mobileboutique/HH6.jpg);
+        background-image: linear-gradient(rgba(247, 177, 130, 0.329), rgba(252, 248, 245, 0.658)), url(./images/mobileboutique/HH6.jpg);
+        /* background-image: linear-gradient(rgba(247, 149, 70, 0.329), rgba(245, 112, 23, 0.753)), url(./images/mobileboutique/HH6.jpg); */
         background-position: center center;
         background-size: cover;
         height: 100vh;
@@ -1014,7 +1021,7 @@ h2.hppltext {
         align-items: center;
         background-color: ivory;
         display: grid;
-        grid-template-columns: 1fr .4fr 1fr;
+        grid-template-columns: 1fr .5fr 1fr;
         grid-template-rows: 1fr;
         height: 90px;
         justify-items: center;
@@ -1073,14 +1080,16 @@ h2.hppltext {
 
     .msg h1 {
         font-weight: 532;
+        font-family: 'Kaushan Script', cursive;
     }
 
     .msg2 {
         display: none;
+        font-family: 'Kaushan Script', cursive;
     }
 
     #nav h1 {
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
 
     #navlogo {
