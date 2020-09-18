@@ -621,11 +621,20 @@ img.aboutimg2 {
 input[type=text], textarea {
     background-color: ivory;
     box-sizing: border-box;
+    color: #243466;
     width: 100%;
     padding: 12px;
     border: 1px solid #ac4113;
     border-radius: 4px;
     resize: vertical;
+}
+
+input[type=text]:focus, textarea:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #2435668a;
 }
 
 label {
