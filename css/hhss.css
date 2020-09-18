@@ -1077,7 +1077,7 @@ h2.hppltext {
                                 WIDTH 826px+
 ============================================================================================*/
 @media screen and (min-width: 826px) {
-    #bbSmolnav {
+    .smolnavbar {
         display: none;
     }
 
