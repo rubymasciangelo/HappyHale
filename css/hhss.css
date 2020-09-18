@@ -46,6 +46,14 @@ h2 {
     display: none;
 }
 
+#smolnavbar {
+    background-color: #e05e26;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+}
+
 .smolnav {
     height: 100vh;
     width: 0;
@@ -1077,7 +1085,7 @@ h2.hppltext {
                                 WIDTH 826px+
 ============================================================================================*/
 @media screen and (min-width: 826px) {
-    .smolnavbar {
+    #smolnavbar {
         display: none;
     }
 
