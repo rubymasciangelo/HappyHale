@@ -46,6 +46,53 @@ h2 {
     display: none;
 }
 
+.smolnav {
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #243466;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.smolnav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #e05e26;
+    display: block;
+    transition: 0.3s;
+}
+
+.smolnav a:hover {
+    color: #ac4113;
+}
+
+.smolnav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: ivory;
+    color: #243466;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    color: #e05e26;
+}
+
 /*===================FOOTER===========*/
 .cr {
     padding-left: 3px;
