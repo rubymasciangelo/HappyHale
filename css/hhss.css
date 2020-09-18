@@ -124,6 +124,13 @@ h2 {
     display: none;
 }
 
+.smolhome {
+    background-image: linear-gradient(rgba(247, 177, 130, 0.411), rgba(252, 248, 245, 0.863)), url(./images/mobileboutique/HH6.jpg);
+    background-position: -175 -170;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 70%;
+}
 
 .smolcoverbox {
     align-content: center;
