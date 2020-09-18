@@ -400,6 +400,11 @@ img.quiltsimg {
 }
 
 /*==============FOOTER================*/
+#homehppl {
+    display: none;
+}
+
+/*==============FOOTER================*/
 .foot {
     position: relative;
     justify-self: start;
@@ -1265,4 +1270,14 @@ h2.hppltext {
         max-width: 25%;
     }
 
+}
+
+/*===========================================================================================
+                                WIDTH 1200px+
+============================================================================================*/
+@media screen and (min-width: 1200px) {
+    #homehppl {
+        display: block;
+        padding-top: -50px;
+    }
 }
