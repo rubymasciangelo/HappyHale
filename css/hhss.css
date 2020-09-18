@@ -50,17 +50,17 @@ h2 {
     background-color: #e05e26;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 300px;
     transition: top 0.3s;
 }
 
 #smolnavlogo {
     float: right;
-    padding-right: 15px;
+    padding: 5px 15px 0 0;
 }
 
 #smolnavlogo img {
-    height: 20px;
+    height: 40px;
     width: auto;
 }
 
