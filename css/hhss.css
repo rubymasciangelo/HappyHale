@@ -124,21 +124,6 @@ h2 {
     display: none;
 }
 
-.cover h1 {
-    text-shadow: .5px .25px #f0e193;
-}
-
-.cvit h1 {
-    font-size: 25px;
-}
-
-.cvit {
-    margin-top: -55px;
-}
-
-.nalo {
-    display: none;
-}
 
 .smolcoverbox {
     align-content: center;
@@ -179,6 +164,26 @@ img.hhlogo {
 img.hulalogo {
     height: auto;
     width: 10vw;
+}
+
+.cover h1, .smolcoverbox h1 {
+    text-shadow: .5px .25px #f0e193;
+}
+
+.smolnalo {
+    font-size: 2vw;
+}
+
+.smolcvit {
+    font-size: 2vw;
+}
+
+.cvit h1 {
+    font-size: 25px;
+}
+
+.cvit {
+    margin-top: -55px;
 }
 
 /*=================BLURB==============*/
