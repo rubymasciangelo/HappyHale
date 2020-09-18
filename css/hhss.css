@@ -120,24 +120,6 @@ h2 {
 /*==========================================================================================
     HOME PAGE FROM 0PX
 ============================================================================================*/
-/* #home {
-    background-color: #e05e26;
-    height: 110%;
-    width: auto;
-}
-
-.cover {
-    align-content: center;
-    justify-content: center; */
-    /* max-height: -moz-calc(100vh - 200px);
-    max-height: -webkit-calc(100vh - 200px); */
-    /* max-height: calc(100vh - 400px); */
-    /* max-height: 740px; */
-    /* width: calc(100vw - 200px); was 100vw-100px */
-    /*border-bottom: 30px solid #e05e26;*/
-    /* margin-top: -10%;
-} */
-
 #homepage {
     display: none;
 }
