@@ -54,6 +54,16 @@ h2 {
     transition: top 0.3s;
 }
 
+#smolnavlogo {
+    float: right;
+    padding-right: 15px;
+}
+
+#smolnavlogo img {
+    height: 20px;
+    width: auto;
+}
+
 .smolnav {
     height: 100vh;
     width: 0;
