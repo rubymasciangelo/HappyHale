@@ -185,6 +185,33 @@ img.hulalogo {
     font-size: 2vw;
 }
 
+/*=================BLURB==============*/
+.smolblurbbox {
+    padding: 8vw 3vw;
+}
+
+/*============ADS===============*/
+
+.smolblurb {
+    position: relative;
+    height: 60vh;
+}
+
+.smoladclothes {
+    position: relative;
+    height: 60vh;
+}
+
+.smoladclothes:before {
+    content: '';
+    background: url(./images/shopcats/AlohaWear.jpeg) no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+/*==============================================================HOMESTYLES MOVE===========================*/
 .cvit h1 {
     font-size: 25px;
 }
@@ -194,10 +221,6 @@ img.hulalogo {
 }
 
 /*=================BLURB==============*/
-.smolblurbbox {
-    padding: 8vw 3vw;
-}
-
 .blurbbox p {
     font-size: 20px;
 }
@@ -254,33 +277,12 @@ img.hulalogo {
     padding-bottom: 50px;
 }
 
-.adclothes, .adquilts, .smoladclothes, .smoladquilts {
+.adclothes, .adquilts {
     padding: 100px 0;
-}
-
-.smolblurb {
-    position: relative;
-    height: 60vh;
-}
-
-.smoladclothes {
-    position: relative;
-    height: 60vh;
-}
-
-.smoladclothes:before {
-    content: '';
-    background: url(./images/shopcats/AlohaWear.jpeg) no-repeat;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
 }
 
 /*=============ADCLOTHES============*/
 .adclothes {
-    display: none;
     background: url(./images/shopcats/AlohaWear.jpeg);
     background-attachment: fixed;
     background-size: cover;
