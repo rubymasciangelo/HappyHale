@@ -254,12 +254,33 @@ img.hulalogo {
     padding-bottom: 50px;
 }
 
-.adclothes, .adquilts {
+.adclothes, .adquilts, .smoladclothes, .smoladquilts {
     padding: 100px 0;
+}
+
+.smolblurb {
+    position: relative;
+    height: 60vh;
+}
+
+.smoladclothes {
+    position: relative;
+    height: 60vh;
+}
+
+.smoladclothes:before {
+    content: '';
+    background: url(./images/shopcats/AlohaWear.jpeg) no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
 
 /*=============ADCLOTHES============*/
 .adclothes {
+    display: none;
     background: url(./images/shopcats/AlohaWear.jpeg);
     background-attachment: fixed;
     background-size: cover;
