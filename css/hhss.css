@@ -120,17 +120,76 @@ h2 {
 /*==========================================================================================
     HOME PAGE FROM 0PX
 ============================================================================================*/
-#homepage {
+/* #homepage {
     display: none;
-}
+} */
+
+@media (hover: none) {
+    .homeHero {
+        background-attachment: initial;
+    }
+ }
 
 .smolhome {
     background-image: linear-gradient(rgba(247, 177, 130, 0.411), rgba(252, 248, 245, 0.863)), url(./images/mobileboutique/HH6.jpg);
     background-position: -175 -170;
-    background-attachment: fixed;
     background-size: cover;
-    height: 70%;
+    background-repeat: no-repeat;
+    height: 662px;
+    position: relative;
 }
+
+.smolblurb {
+    position: relative;
+    height: 662px;
+}
+
+.smoladclothes {
+    position: relative;
+    height: 662px;
+}
+
+.smoladclothes:before {
+    content: '';
+    background: url(./images/shopcats/AlohaWear.jpeg) no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.smoladhg {
+    position: relative;
+    height: 662px;
+}
+
+.smoladquilts {
+    position: relative;
+    height: 662px;
+}
+
+.smolblurb {
+    position: relative;
+    height: 60vh;
+}
+
+.smoladclothes {
+    position: relative;
+    height: 60vh;
+}
+
+.smoladquilts:before {
+    content: '';
+    background: url(./images/shopcats/Quilts.jpg) no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/*================SMOLHOME=================*/
 
 .smolcoverbox {
     align-content: center;
@@ -192,25 +251,14 @@ img.hulalogo {
 
 /*============ADS===============*/
 
-.smolblurb {
-    position: relative;
-    height: 60vh;
-}
 
-.smoladclothes {
-    position: relative;
-    height: 60vh;
-}
 
-.smoladclothes:before {
-    content: '';
-    background: url(./images/shopcats/AlohaWear.jpeg) no-repeat;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-}
+
+
+
+
+
+
 /*==============================================================HOMESTYLES MOVE===========================*/
 .cvit h1 {
     font-size: 25px;
