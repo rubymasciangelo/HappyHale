@@ -34,6 +34,12 @@ html, body {
     height: 100vh;
 }
 
+@media (hover: none) {
+    .homeHero {
+        background-attachment: initial;
+    }
+ }
+
 h2 {
     /* font-family: 'Lily Script One', cursive; */
     font-family: 'Kaushan Script', cursive;
@@ -47,10 +53,10 @@ h2 {
 }
 
 #smolnavbar {
-    background-color: #e05e26;
+    background-color: ivory;
     position: fixed;
     top: 0;
-    width: 300px;
+    width: 100%;
     transition: top 0.3s;
 }
 
@@ -68,7 +74,7 @@ h2 {
     height: 100vh;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 10;
     top: 0;
     left: 0;
     background-color: #243466;
@@ -101,7 +107,7 @@ h2 {
 .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: #e05e26;
+    background-color:ivory;
     color: #243466;
     padding: 10px 15px;
     border: none;
@@ -120,73 +126,20 @@ h2 {
 /*==========================================================================================
     HOME PAGE FROM 0PX
 ============================================================================================*/
-/* #homepage {
+#homepage {
     display: none;
-} */
-
-@media (hover: none) {
-    .homeHero {
-        background-attachment: initial;
-    }
- }
+}
 
 .smolhome {
+    background: #e05e26;
     background-image: linear-gradient(rgba(247, 177, 130, 0.411), rgba(252, 248, 245, 0.863)), url(./images/mobileboutique/HH6.jpg);
-    background-position: -175 -170;
     background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    height: 662px;
-    position: relative;
-}
-
-.smolblurb {
-    position: relative;
-    height: 662px;
-}
-
-.smoladclothes {
-    position: relative;
-    height: 662px;
-}
-
-.smoladclothes:before {
-    content: '';
-    background: url(./images/shopcats/AlohaWear.jpeg) no-repeat;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
+    height: 90vh;
     width: 100%;
-}
-
-.smoladhg {
     position: relative;
-    height: 662px;
-}
-
-.smoladquilts {
-    position: relative;
-    height: 662px;
-}
-
-.smolblurb {
-    position: relative;
-    height: 60vh;
-}
-
-.smoladclothes {
-    position: relative;
-    height: 60vh;
-}
-
-.smoladquilts:before {
-    content: '';
-    background: url(./images/shopcats/Quilts.jpg) no-repeat;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
+    z-index: -5;
 }
 
 /*================SMOLHOME=================*/
