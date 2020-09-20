@@ -135,9 +135,9 @@ h2 {
     background-image: linear-gradient(rgba(247, 177, 130, 0.411), rgba(252, 248, 245, 0.863)), url(./images/mobileboutique/HH6.jpg);
     background-size: auto 100%;
     background-attachment: fixed;
-    background-position: bottom left;
+    background-position: center center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     position: relative;
     z-index: -5;
