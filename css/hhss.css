@@ -219,11 +219,18 @@ img.hulalogo {
 .smoladclothes, .smoladquilts {
     background-attachment: fixed;
     background-size: auto 100%;
-    align-items: center;
+    align-content: center;
     height: 50vh;
     justify-items: center;
 }
 
+.smoladclothesbox, .smoladquiltsbox {
+    background-color: rgba(255, 255, 240, 0.733);
+    border: 2px solid #243466;
+    height: 60vw;
+    width: 60vw;
+    margin: auto;
+}
 
 
 /*==============================================================HOMESTYLES MOVE===========================*/
