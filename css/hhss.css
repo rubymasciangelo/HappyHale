@@ -202,7 +202,7 @@ img.hulalogo {
 }
 
 /*=================BLURB==============*/
-.smolblurbbox {
+.smolblurbbox{
     padding: 8vw 3vw;
 }
 
@@ -232,6 +232,12 @@ img.hulalogo {
     margin: auto;
 }
 
+.smolhgbanner {
+    color: #243466;
+    font-size: 20px;
+    padding: 3vw;
+}
+
 .wood {
     background: url(./images/shopcats/Monkey-Pod-Koa.jpeg) center center no-repeat;
 }
@@ -247,6 +253,9 @@ img.hulalogo {
 .funky {
     background: url(./images/shopcats/Funky-Mix.jpeg) center center no-repeat;
 }
+
+
+
 /*==============================================================HOMESTYLES MOVE===========================*/
 .cvit h1 {
     font-size: 25px;
