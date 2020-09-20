@@ -133,7 +133,7 @@ h2 {
 
 .smolhome {
     background: #e05e26;
-    background-image: linear-gradient(rgba(247, 177, 130, 0.411), rgba(252, 248, 245, 0.863)), url(./images/mobileboutique/HH6.jpg);
+    background-image: linear-gradient(rgba(247, 177, 130, 0.411), rgba(252, 248, 245, 0.863)), url(./images/smolbg.jpg);
     background-size: auto 100%;
     background-attachment: fixed;
     background-position: left center;
@@ -202,7 +202,6 @@ img.hulalogo {
 
 /*=================BLURB==============*/
 .smolblurbbox {
-    margin-top: 30vh;
     padding: 8vw 3vw;
 }
 
