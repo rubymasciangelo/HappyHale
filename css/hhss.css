@@ -58,6 +58,7 @@ h2 {
     top: 0;
     width: 100%;
     transition: top 0.3s;
+    z-index: 1050;
 }
 
 #smolnavlogo {
@@ -74,7 +75,7 @@ h2 {
     height: 100vh;
     width: 0;
     position: fixed;
-    z-index: 10;
+    z-index: 100000;
     top: 0;
     left: 0;
     background-color: #243466;
@@ -206,7 +207,9 @@ img.hulalogo {
 
 /*============ADS===============*/
 
-
+.smolhomeshop {
+    z-index: -1000;
+}
 
 
 
