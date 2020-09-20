@@ -232,7 +232,21 @@ img.hulalogo {
     margin: auto;
 }
 
+.wood {
+    background: url(./images/shopcats/Monkey-Pod-Koa.jpeg) center center no-repeat;
+}
 
+.glass {
+    background: url(./images/shopcats/Etched-Glass.jpeg) center center no-repeat;
+}
+
+.pottery {
+    background: url(./images/shopcats/California-Pottery.jpeg) center center no-repeat;
+}
+
+.funky {
+    background: url(./images/shopcats/Funky-Mix.jpeg) center center no-repeat;
+}
 /*==============================================================HOMESTYLES MOVE===========================*/
 .cvit h1 {
     font-size: 25px;
@@ -857,7 +871,7 @@ h2.hppltext {
     width: 100%;
 }
 
-.pplrow {
+.pplrow, .smolhgrow {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -865,20 +879,20 @@ h2.hppltext {
     padding: 50px 4px 0;
 }
 
-.pplcol {
+.pplcol, .smolhgcol {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
     padding: 0 4px;
 }
 
-.pplcol img {
+.pplcol img, .smolabox {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
 }
 
-.pplrow, .pplcol, .pplcol img {
+.pplrow, .pplcol, .pplcol img, .smolhgrow, .smolhgcol, .smolabox {
     box-sizing: border-box;
 }
 
