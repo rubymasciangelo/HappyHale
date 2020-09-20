@@ -194,6 +194,7 @@ img.hulalogo {
 
 .smolnalo {
     font-size: 2vw;
+    padding-top: -10px;
 }
 
 .smolcvit {
@@ -213,6 +214,14 @@ img.hulalogo {
 
 .smoladquilts {
     background: url(./images/shopcats/Quilts.jpg);
+}
+
+.smoladclothes, .smoladquilts {
+    background-attachment: fixed;
+    background-size: auto 100%;
+    align-items: center;
+    height: 50vh;
+    justify-items: center;
 }
 
 
