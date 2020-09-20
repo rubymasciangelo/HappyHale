@@ -157,7 +157,7 @@ h2 {
     justify-items: center;
     margin: auto;
     max-width: 310px;
-    padding-top: 30%;
+    padding-top: 30vh;
     row-gap: 5px;
     width: auto;
 }
