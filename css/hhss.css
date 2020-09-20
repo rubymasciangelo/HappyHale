@@ -232,25 +232,40 @@ img.hulalogo {
     background: url(./images/shopcats/Funky-Mix.jpeg) center center no-repeat;
 }
 
+.smolads {
+    align-items: center;
+    justify-content: center;
+}
+
 .smoladbox {
     background-size: auto 100%;
-    align-content: center;
+    align-items: center;
     height: 80vw;
     width: 80vw;
-    justify-items: center;
+    justify-content: center;
     position: relative;
-    padding: 5vw;
+    margin: 8vw auto;
 }
 
 .smoladlink {
+    text-align: center;
     background-color: rgba(255, 255, 240, 0.733);
-    border: 2px solid #243466;
+    /* border: 2px solid #283355; */
     height: 60vw;
     width: 60vw;
-    margin: auto;
+    margin: 10vw;
+    position: absolute;
 }
 
+.smoladlink a {
+    color: #243466;
+    font-size: 30px;
+    text-decoration: none;
+}
 
+.smoladlink a:hover, .smoladlink a:active {
+    color: #e05e26;
+}
 
 /*==============================================================HOMESTYLES MOVE===========================*/
 .cvit h1 {
