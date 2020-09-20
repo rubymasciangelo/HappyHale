@@ -871,7 +871,7 @@ h2.hppltext {
     width: 100%;
 }
 
-.pplrow, .smolhgrow {
+.pplrow {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -879,20 +879,20 @@ h2.hppltext {
     padding: 50px 4px 0;
 }
 
-.pplcol, .smolhgcol {
+.pplcol {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
     padding: 0 4px;
 }
 
-.pplcol img, .smolabox {
+.pplcol img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
 }
 
-.pplrow, .pplcol, .pplcol img, .smolhgrow, .smolhgcol, .smolabox {
+.pplrow, .pplcol, .pplcol img {
     box-sizing: border-box;
 }
 
