@@ -208,34 +208,12 @@ img.hulalogo {
 
 /*============ADS===============*/
 
-.smoladclothes {
-    background: url(./images/shopcats/AlohaWear.jpeg);
+.smolc {
+    background: url(./images/shopcats/AlohaWear.jpeg) center center no-repeat;
 }
 
-.smoladquilts {
-    background: url(./images/shopcats/Quilts.jpg);
-}
-
-.smoladclothes, .smoladquilts {
-    background-attachment: fixed;
-    background-size: auto 100%;
-    align-content: center;
-    height: 50vh;
-    justify-items: center;
-}
-
-.smoladclothesbox, .smoladquiltsbox {
-    background-color: rgba(255, 255, 240, 0.733);
-    border: 2px solid #243466;
-    height: 60vw;
-    width: 60vw;
-    margin: auto;
-}
-
-.smolhgbanner {
-    color: #243466;
-    font-size: 20px;
-    padding: 3vw;
+.smolq {
+    background: url(./images/shopcats/Quilts.jpg) center center no-repeat;
 }
 
 .wood {
@@ -252,6 +230,24 @@ img.hulalogo {
 
 .funky {
     background: url(./images/shopcats/Funky-Mix.jpeg) center center no-repeat;
+}
+
+.smoladbox {
+    background-size: auto 100%;
+    align-content: center;
+    height: 80vw;
+    width: 80vw;
+    justify-items: center;
+    position: relative;
+    padding: 5vw;
+}
+
+.smoladlink {
+    background-color: rgba(255, 255, 240, 0.733);
+    border: 2px solid #243466;
+    height: 60vw;
+    width: 60vw;
+    margin: auto;
 }
 
 
