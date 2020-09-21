@@ -151,15 +151,15 @@ h2 {
     align-content: center;
     align-items: center;
     display: grid;
-    grid-template-columns: 95vw;
-    grid-template-rows: 20vh 20vh 5vh 5vh;
+    grid-template-columns: 98vw;
+    grid-template-rows: 20vh 20vh 3vh 3vh;
     height: 70%;
     justify-content: center;
     justify-items: center;
     margin: auto;
     max-width: 310px;
     padding-top: 20vh;
-    row-gap: 5vh;
+    row-gap: 8vh;
     width: auto;
 }
 
@@ -185,7 +185,11 @@ img.hula {
     width: 30vw;
 }
 
-.cover h1, .smolcoverbox h1 {
+.smolcvit, .smolnalo {
+    text-shadow: 1.25px .75px #f0e193;
+}
+
+.cover h1 {
     text-shadow: .5px .25px #f0e193;
 }
 
@@ -1116,10 +1120,12 @@ h2.hppltext {
 
     .smolnalo {
         grid-area: 2 / 1 / 3 / 2;
+        font-size: 2vw;
     }
 
     .smolcvit {
         grid-area: 3 / 1 / 4 / 2;
+        font-size: 2vw;
     }
     
     .smolads {
