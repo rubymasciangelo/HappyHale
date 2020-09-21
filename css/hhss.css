@@ -631,7 +631,7 @@ img.quiltsimg {
 .trendtitle {
     column-gap: 3vw;
     display: grid;
-    grid-template-columns: .75fr .75fr;
+    grid-template-columns: 50vw 35vw;
     grid-template-rows: .1fr;
     padding: 100px 5vw 0;
 }
