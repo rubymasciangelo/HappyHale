@@ -152,7 +152,7 @@ h2 {
     align-items: center;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 20vh 20vh 20vh 20vh;
+    grid-template-rows: 20vh 20vh 10vh 10vh;
     height: 70%;
     justify-content: center;
     justify-items: center;
@@ -161,6 +161,10 @@ h2 {
     padding-top: 30vh;
     row-gap: 5px;
     width: auto;
+}
+
+.fhlogo {
+    display: none;
 }
 
 .hhlogo {
@@ -184,7 +188,7 @@ img.hhlogo {
 
 img.hula {
     height: auto;
-    width: 10vw;
+    width: 15vw;
 }
 
 .cover h1, .smolcoverbox h1 {
@@ -1097,24 +1101,25 @@ h2.hppltext {
         HOME 500px+
     =======================================================================*/
     .smolcoverbox {
-        grid-template-columns: 1fr;
-        grid-template-rows: 40vh 20vh 20vh 20vh;
+        grid-template-columns: 90vw;
+        grid-template-rows: 40vh 10vh 10vh;
     }
 
-    .hhlogo {
+    .hhlogo, .hula {
+        display: none;
+    }
+
+    .fhlogo {
         grid-area: 1 / 1 / 2 / 2;
-    }
-
-    .hula {
-        grid-area: 2 / 1 / 3 / 2;
+        display: block;
     }
 
     .smolnalo {
-        grid-area: 3 / 1 / 4 / 2;
+        grid-area: 2 / 1 / 3 / 2;
     }
 
     .smolcvit {
-        grid-area: 4 / 1 / 5 / 2;
+        grid-area: 3 / 1 / 4 / 2;
     }
     
     .smolads {
