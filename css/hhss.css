@@ -255,17 +255,45 @@ img.hulalogo {
     width: 60vw;
     margin: 10vw;
     position: absolute;
+    vertical-align: middle;
 }
 
 .smoladlink a {
+    text-align: center;
     color: #243466;
-    font-size: 30px;
+    font-size: 8vw;
     text-decoration: none;
+    width: 80%;
+    display: inline-block;
+}
+
+a.c, a.g {
+    padding: 40% 0;
+}
+
+a.p, a.f, a.q {
+    padding: 31% 0;
+}
+
+a.w {
+    padding: 22% 0;
 }
 
 .smoladlink a:hover, .smoladlink a:active {
     color: #e05e26;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*==============================================================HOMESTYLES MOVE===========================*/
 .cvit h1 {
