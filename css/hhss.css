@@ -1097,6 +1097,7 @@ h2.hppltext {
     .smolcoverbox {
         grid-template-columns: 90vw;
         grid-template-rows: 40vh 10vh 10vh;
+        padding-top: 20vh;
         row-gap: 1vw;
     }
 
