@@ -1133,11 +1133,22 @@ h2.hppltext {
         width: 93vw;
     }
 
+    .smolc .smoladlink, .smolq .smoladlink {
+        height: 35vw;
+        width: 83vw;
+        margin: 5vw;
+    }
+
     .wood, .glass, .pottery, .funky {
         height: 45vw;
         width: 45vw;
     }
     
+    .wood .smoladlink, .glass .smoladlink, .pottery .smoladlink, .funky .smoladlink {
+        height: 35vw;
+        width: 35vw;
+        margin: 5vw;
+    }
 
     /*===================================================================
         SHOP / POLICY 500PX+
