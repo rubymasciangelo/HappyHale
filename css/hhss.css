@@ -138,7 +138,7 @@ h2 {
     background-attachment: fixed;
     background-position: center bottom;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     position: relative;
     z-index: -5;
@@ -151,7 +151,7 @@ h2 {
     align-content: center;
     align-items: center;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 95vw;
     grid-template-rows: 20vh 20vh 5vh 5vh;
     height: 70%;
     justify-content: center;
@@ -159,7 +159,7 @@ h2 {
     margin: auto;
     max-width: 310px;
     padding-top: 20vh;
-    row-gap: 5vw;
+    row-gap: 5vh;
     width: auto;
 }
 
@@ -1097,7 +1097,7 @@ h2.hppltext {
     .smolcoverbox {
         grid-template-columns: 90vw;
         grid-template-rows: 40vh 10vh 10vh;
-        row-gap: 5vh;
+        row-gap: 10vh;
     }
 
     .hhlogo, .hula {
