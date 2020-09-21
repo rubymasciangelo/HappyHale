@@ -36,7 +36,7 @@ html, body {
 
 @media (hover: none) {
     .homeHero {
-        background-attachment: initial;
+        background-attachment: local;
     }
  }
 
