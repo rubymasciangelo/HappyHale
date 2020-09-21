@@ -133,7 +133,7 @@ h2 {
 
 .smolhome {
     background: #e05e26;
-    background-image: linear-gradient(rgba(252, 203, 170, 0.562), rgba(252, 248, 245, 0.938)), url(./images/smolbg.jpg);
+    background-image: linear-gradient(rgba(252, 220, 199, 0.699), rgba(252, 248, 245, 0.938)), url(./images/smolbg.jpg);
     background-size: auto 100%;
     background-attachment: fixed;
     background-position: center bottom;
