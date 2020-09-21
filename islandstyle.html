@@ -10,10 +10,29 @@
         <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Quicksand:wght@532&display=swap" rel="stylesheet">
     </head>
     <body>
+        <!--SMOLNAV-->
+        <div id="smolnavbar">
+            <div id="bbSmolnav" class="smolnav">
+                <a href="javascript:void(0)" class="closebtn"
+                onclick="closeNav()">&times;</a>
+                <a href="index.html" id="homea">HOME</a>
+                <a href="shop.html" id="shopa">SHOP</a>
+                <a href="mobileboutique.html#contact" id="contacta">CONTACT US</a>
+                <a href="mobileboutique.html" id="abouta">OUR STORY</a>
+                <a href="happypeople.html" id="peoplea">HAPPY PEOPLE</a>
+                <a href="islandstyle.html" id="trendsa">ISLAND STYLE</a>
+            </div>
+
+            <button class="openbtn" onclick="openNav()">&#9776;</button>
+
+            <div id="smolnavlogo">
+                <img src="css/images/hulalogo2.png" class="navhula fade" alt="Happy Hale">
+            </div>
+        </div>
         <!--NAVTABS-->
         <div id="nav">
             <div class="leftnav">
-                <a href="#home" id="homea">E KOMO MAI</a>
+                <a href="index.html" id="homea">E KOMO MAI</a>
                 <a href="mobileboutique.html" id="abouta">OUR STORY</a>
                 <a href="shop.html" id="shopa">SHOP</a>
             </div>
