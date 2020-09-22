@@ -759,9 +759,10 @@ h2.hppltext {
                     ABOUT/MOBILE BOUTIQUE/CONTACT FROM 0PX
 ======================================================================================*/
 .aboutcover {
-    background: url(./images/nalobayreal.jpeg) center center no-repeat;
+    background-image: url(./images/nalobayreal.jpeg);
     background-attachment: fixed;
-    background-position: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: 100% auto;
     height: 70vh; /*change for mobile */
     width: 100vw;
