@@ -694,18 +694,12 @@ img.quiltsimg {
 /*================================================================================
     OUR STORY / CONTACT FROM 0PX
 ==================================================================================*/
-#about {
-    height: 80vh;
-    width: 100vw;
-    padding-top: 5vw;
-}
-
 .aboutcover {
     background: url(./images/nalobayreal.jpeg) center center no-repeat;
     background-attachment: fixed;
     background-position: cover;
     background-size: 100vw;
-    height: 70vh; /*change for mobile */
+    height: 30vh; /*change for mobile */
     width: auto;
     padding-top: 90px;
 }
