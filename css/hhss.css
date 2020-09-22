@@ -35,8 +35,8 @@ html, body {
 }
 
 @media (hover: none) {
-    .homeHero {
-        background-attachment: local;
+    .aboutcover {
+        background-attachment: scroll;
     }
  }
 
@@ -760,7 +760,7 @@ h2.hppltext {
 ======================================================================================*/
 .aboutcover {
     background-image: url(./images/nalobayreal.png);
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
