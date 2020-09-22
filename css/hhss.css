@@ -760,14 +760,16 @@ h2.hppltext {
 ======================================================================================*/
 .aboutcover {
     background-image: url(./images/nalobayreal.png);
-    background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height: 70vh; /*change for mobile */
+    background-attachment: scroll;
+    height: 30vh;
+    padding-top: 0;
     width: 100vw;
-    padding-top: 90px;
 }
+
+
 
 h2.aboutcovertitle {
     font-size: 6vw;
@@ -1088,9 +1090,13 @@ input[type=submit]:hover {
 
 
     /*==================================================================
-        ABOUT / CONTACT 500PX+
+        ABOUT / MOBILE BOUTIQUE / CONTACT 500PX+
     =====================================================================*/
-
+    .aboutcover {
+        background-attachment: fixed;
+        height: 70vh;
+        padding-top: 90px;
+    }
 
     /*===============CONTACT 500+=======*/
     /* .smolcontactbox {
