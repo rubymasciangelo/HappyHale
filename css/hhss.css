@@ -772,7 +772,7 @@ h2.hppltext {
 h2.aboutcovertitle {
     font-size: 10vw;
     padding-left: 8vw;
-    padding-top: 10vh;
+    padding-top: 12vh;
 }
 
 
@@ -1100,6 +1100,7 @@ input[type=submit]:hover {
     h2.aboutcovertitle {
         font-size: 6vw;
         padding-left: 5vw;
+        padding-top: 8vh;
     }
 
 
