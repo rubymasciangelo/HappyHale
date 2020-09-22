@@ -36,7 +36,7 @@ html, body {
 
 @media (hover: none) {
     .aboutcover {
-        background-attachment: scroll;
+        background-attachment: scroll !important;
     }
  }
 
