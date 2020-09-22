@@ -760,7 +760,7 @@ h2.hppltext {
 ======================================================================================*/
 .aboutcover {
     background-image: url(./images/nalobayreal.png);
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
