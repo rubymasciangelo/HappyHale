@@ -769,12 +769,10 @@ h2.hppltext {
     width: 100vw;
 }
 
-
-
 h2.aboutcovertitle {
-    font-size: 6vw;
-    padding-left: 5vw;
-    padding-top: 2vw;
+    font-size: 50vw;
+    padding-left: 10vw;
+    padding-top: 20vh;
 }
 
 
@@ -1098,6 +1096,13 @@ input[type=submit]:hover {
         height: 70vh;
         padding-top: 90px;
     }
+
+    h2.aboutcovertitle {
+        font-size: 6vw;
+        padding-left: 5vw;
+        padding-top: 2vw;
+    }
+    
 
     /*===============CONTACT 500+=======*/
     /* .smolcontactbox {
