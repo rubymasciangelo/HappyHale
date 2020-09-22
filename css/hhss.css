@@ -761,10 +761,10 @@ h2.hppltext {
 .aboutcover {
     background: url(./images/nalobayreal.jpeg) center center no-repeat;
     background-attachment: fixed;
-    background-position: contain;
-    background-size: 100vw;
-    height: 30vh; /*change for mobile */
-    width: auto;
+    background-position: cover;
+    background-size: 100% auto;
+    height: 70vh; /*change for mobile */
+    width: 100vw;
     padding-top: 90px;
 }
 
