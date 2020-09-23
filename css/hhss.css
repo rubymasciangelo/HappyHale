@@ -785,16 +785,10 @@ h2.aboutcovertitle {
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin: 10vh auto;
+    margin: 150px auto;
     position: relative;
     height: 100vh;
 }
-
-/* .infobox {
-    display: inline-block;
-    margin: auto;
-    position: absolute;
-} */
 
 .bigbox {
     display: grid;
