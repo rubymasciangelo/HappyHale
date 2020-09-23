@@ -791,7 +791,6 @@ h2.aboutcovertitle {
     grid-template-rows: auto 15vw;
     row-gap: 2vw;
     column-gap: 2vw;
-    height: 110vh;
     justify-self: center;
 }
 
@@ -849,11 +848,11 @@ h2.aboutcovertitle {
 
 .iglinkalt a {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 1.5vw;
     font-weight: 500;
     color: ivory;
     display: block;
-    padding: none;
+    padding: 10% 5%;
     margin: none;
 }
 
@@ -877,6 +876,7 @@ h2.aboutcovertitle {
 
 .palt {
     grid-area: 2 / 2 / 3 / 3;
+    font-size: 20px;
 }
 
 
