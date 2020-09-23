@@ -762,7 +762,7 @@ h2.hppltext {
     background-image: url(./images/nalobayreal.png);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
     background-attachment: scroll;
     height: 50vh;
     padding-top: 0;
