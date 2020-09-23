@@ -787,8 +787,8 @@ h2.aboutcovertitle {
 
 .bigbox {
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto 30vh;
+    grid-template-columns: 20vw 50vw;
+    grid-template-rows: auto 15vw;
     row-gap: 2vw;
     column-gap: 2vw;
     height: 110vh;
