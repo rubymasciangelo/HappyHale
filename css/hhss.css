@@ -852,7 +852,7 @@ h2.aboutcovertitle {
 
 .iglinkalt a {
     text-decoration: none;
-    font-size: 1.5vw;
+    font-size: 1.6vw;
     font-weight: 500;
     color: ivory;
     display: block;
@@ -1094,9 +1094,7 @@ input[type=submit]:hover {
         ABOUT / MOBILE BOUTIQUE / CONTACT 500PX+
     =====================================================================*/
     .aboutcover {
-        background-attachment: fixed;
-        background-size: 100% auto;
-        height: 70vh;
+        background-position: bottom;
         padding-top: 90px;
     }
 
@@ -1413,6 +1411,12 @@ input[type=submit]:hover {
     /*============================================================================
         OUR STORY / CONTACT 826+
     =============================================================================*/
+    .aboutcover {
+        background-position: center center;
+        height: 55vh;
+    }
+    
+    
     /* .aboutbox {
         column-gap: 2.5vw;
         row-gap: 2vw;
