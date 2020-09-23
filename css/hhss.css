@@ -756,7 +756,8 @@ h2.hppltext {
 }
 
 /*======================================================================================
-                    ABOUT/MOBILE BOUTIQUE/CONTACT FROM 0PX
+                    ABOUT/MOBILE BOUTIQUE/CONTACT FROM 0PX  
+                    about us img is 18vw and slideshow is 53vw
 ======================================================================================*/
 .aboutcover {
     background-image: url(./images/nalobayreal.png);
@@ -786,8 +787,8 @@ h2.aboutcovertitle {
 
 .bigbox {
     display: grid;
-    grid-template-columns: 20vw 50vw;
-    grid-template-rows: 80vh 30vh;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto 30vh;
     row-gap: 2vw;
     column-gap: 2vw;
     height: 110vh;
@@ -798,37 +799,43 @@ h2.aboutcovertitle {
     display: block;
     height: auto;
     max-width: 100%;
+    /* max-height: 80vh; */
 }
 
-.imgalt {
+.ourimg {
     grid-area: 1 / 1 / 2 / 2;
+    height: 35vw;
+    overflow: hidden;
+    width: 20vw;
 }
 
-img.imgalt {
-    max-height: 80vh;
-}
 
 .mbalt {
     grid-area: 1 / 2 / 2 / 3;
 }
 
 .mbbox {
-    height: auto;
+    height: 35vw;
     justify-self: center;
     position: relative;
     margin: 0;
     padding: 0;
-    width: 55vw;
+    width: 50vw;
+    overflow: hidden;
 }
+
+/* img.slideimg {
+    width: 53vw;
+} */
 
 .mbbox img {
     display: block;
     position: absolute;
     transition: opacity 1s;
     opacity: 0;
-    height:auto;
-    width: 40vw;
-    max-height: 79vh;
+    /* height:auto; */
+    /* min-width: 40vw; */
+    /* max-height: 80vh; */
 }
 
 .mbbox img:first-child {
