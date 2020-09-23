@@ -764,7 +764,7 @@ h2.hppltext {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     height: 50vh;
     padding-top: 0;
     width: 100vw;
@@ -778,12 +778,23 @@ h2.aboutcovertitle {
 
 
 /*==================ABOUT/MOBILE BOUTIQUE==========*/
-#ourstory {
+.infosect {
     justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 5vw 11vw 10vw;
+    align-content: center;
+    margin: 10vh auto;
+    position: relative;
+    height: 100vh;
 }
+
+/* .infobox {
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+} */
 
 .bigbox {
     display: grid;
@@ -791,7 +802,6 @@ h2.aboutcovertitle {
     grid-template-rows: auto 15vw;
     row-gap: 2vw;
     column-gap: 2vw;
-    justify-self: center;
 }
 
 .bigbox img {
