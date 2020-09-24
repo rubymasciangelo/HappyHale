@@ -792,7 +792,7 @@ h2.aboutcovertitle {
     position: relative;
 }
 
-.bigbox { /*smollest*/
+.bigbox {
     display: grid;
     grid-template-columns: 42.5vw 42.5vw;
     grid-template-rows: auto auto auto;
@@ -1414,20 +1414,11 @@ input[type=submit]:hover {
     .aboutcover {
         background-position: center center;
         height: 55vh;
+        margin-bottom: 0;
     }
     
-    /*biggest*/
-
     .infosect {
-        justify-items: center;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
         margin: 150px auto;
-        position: relative;
-        height: 100vh;
     }
 
     .bigbox {
@@ -1450,38 +1441,24 @@ input[type=submit]:hover {
 
     .mbbox {
         height: 35vw;
-        justify-self: center;
-        position: relative;
-        margin: 0;
-        padding: 0;
         width: 50vw;
-        overflow: hidden;
     }
 
     .iglinkalt {
         grid-area: 2 / 1 / 3 / 2;
-        width: 100%;
-        background: #243466;
     }
 
     .iglinkalt a {
-        text-decoration: none;
         font-size: 1.6vw;
-        font-weight: 500;
-        color: ivory;
-        display: block;
         padding: 10% 5%;
-        margin: none;
     }
 
     .iglinkbox{
-        padding: 10px 15px 10px 10px;
         text-align: right;
     }
 
     .palt {
         grid-area: 2 / 2 / 3 / 3;
-        font-size: 20px;
     }
     
     /* .aboutbox {
