@@ -768,6 +768,7 @@ h2.hppltext {
     height: 50vh;
     padding-top: 0;
     width: 100vw;
+    position: relative;
 }
 
 h2.aboutcovertitle {
