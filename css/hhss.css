@@ -767,7 +767,6 @@ h2.hppltext {
     background-attachment: fixed;
     height: 50vh;
     padding-top: 0;
-    padding-bottom: 10vh;
     width: 100vw;
     position: relative;
 }
@@ -787,7 +786,7 @@ h2.aboutcovertitle {
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin: 20vh auto;
+    margin: 50px auto;
     position: relative;
     height: 100vh;
 }
