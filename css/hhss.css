@@ -1413,65 +1413,6 @@ input[type=submit]:hover {
         justify-self: left;
     }
 
-    
-
-    /* .aboutbox {
-        column-gap: 2.5vw;
-        row-gap: 2vw;
-        display: grid;
-        grid-template-columns: 1fr 30vw 30vw;
-        grid-template-rows: 1fr repeat(3, 5vw);
-        margin: 2vw 5vw 5vw;
-    } */
-
-/* 
-
-    .aboutimg {
-        grid-area: 1 / 1 / 5 / 2;
-    }
-
-    .pabout {
-        grid-area: 1 / 2 / 2 / 4;
-    } */
-
-    /* .smolcontactbox {
-        display: none;
-    } */
-
-    /* #contact {
-        height: auto;
-        margin-top: 0;
-    }
-
-    .contactbox {
-        display: block;
-    }
-
-    .igicon img, .mailicon img{
-        max-height: 5vw;
-        justify-self: end;
-        width: auto;
-    }
-
-    h1.ig, h1.mail {
-        font-size: 2vw;
-    }
-
-    .mailicon {
-        grid-area: 2 / 2 / 3 / 3;
-    }
-
-    .mail {
-        grid-area: 2 / 3 / 3 / 4;
-    }
-
-    .igicon {
-        grid-area: 3 / 2 / 4 / 3;
-    }
-
-    .ig {
-        grid-area: 3 / 3 / 4 / 4;
-    } */
 
     /*======================================================================================
                                 HAPPY PEOPLE 826+
