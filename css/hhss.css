@@ -886,7 +886,6 @@ h2.aboutcovertitle {
 
 /*=============== CONTACT BOX=============*/
 #contact {
-    height: 60vh;
     width: 100%;
     justify-content: center;
     justify-items: center;
@@ -900,7 +899,7 @@ h2.aboutcovertitle {
     border-radius: 5px;
     margin: auto;
     padding: 20px;
-    width: 50vw;
+    width: 70vw;
     box-shadow: 2px 3px 12px 0px rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: 2px 3px 12px 0px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 2px 3px 12px 0px rgba(0, 0, 0, 0.4);
@@ -1461,6 +1460,11 @@ input[type=submit]:hover {
         grid-area: 2 / 2 / 3 / 3;
     }
     
+    /*================CONTACT BOX===========*/
+    .contactbox {
+        width: 50vw;
+    }
+
     /* .aboutbox {
         column-gap: 2.5vw;
         row-gap: 2vw;
