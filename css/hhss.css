@@ -767,6 +767,7 @@ h2.hppltext {
     background-attachment: fixed;
     height: 50vh;
     padding-top: 0;
+    padding-bottom: 50px;
     width: 100vw;
     position: relative;
     display: block;
