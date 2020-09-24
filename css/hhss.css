@@ -769,6 +769,7 @@ h2.hppltext {
     padding-top: 0;
     width: 100vw;
     position: relative;
+    display: block;
 }
 
 h2.aboutcovertitle {
@@ -786,7 +787,7 @@ h2.aboutcovertitle {
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin: 100px auto;
+    margin: 50px auto;
     position: relative;
     height: 100vh;
 }
