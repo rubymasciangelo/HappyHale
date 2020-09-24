@@ -1409,67 +1409,7 @@ input[type=submit]:hover {
         justify-self: left;
     }
 
-    /*============================================================================
-        OUR STORY / CONTACT 826+
-    =============================================================================*/
-    .aboutcover {
-        background-position: center center;
-        height: 55vh;
-        margin-bottom: 0;
-    }
     
-    .infosect {
-        margin: 150px auto;
-    }
-
-    .bigbox {
-        grid-template-columns: 20vw 50vw;
-        grid-template-rows: auto 15vw;
-        row-gap: 2vw;
-        column-gap: 2vw;
-    } 
-
-    .ourimg {
-        grid-area: 1 / 1 / 2 / 2;
-        height: 35vw;
-        overflow: hidden;
-        width: 20vw;
-    }
-
-    .mbalt {
-        grid-area: 1 / 2 / 2 / 3;
-    }
-
-    .mbbox {
-        height: 35vw;
-        width: 50vw;
-    }
-
-    .iglinkalt {
-        grid-area: 2 / 1 / 3 / 2;
-    }
-
-    .iglinkalt a {
-        font-size: 1.6vw;
-        padding: 10% 5%;
-    }
-
-    .iglinkbox{
-        text-align: right;
-    }
-
-    .palt {
-        grid-area: 2 / 2 / 3 / 3;
-    }
-    
-    /*================CONTACT BOX===========*/
-    .contactbox {
-        width: 50vw;
-    }
-
-    input[type=submit] {
-        font-size: 1.5vw;
-    }
 
     /* .aboutbox {
         column-gap: 2.5vw;
@@ -1548,5 +1488,67 @@ input[type=submit]:hover {
         display: block;
         padding-top: -50px;
         margin-top: -50px;
+    }
+
+    /*============================================================================
+        OUR STORY / CONTACT 826+
+    =============================================================================*/
+    .aboutcover {
+        background-position: center center;
+        height: 55vh;
+        margin-bottom: 0;
+    }
+    
+    .infosect {
+        margin: 150px auto;
+    }
+
+    .bigbox {
+        grid-template-columns: 20vw 50vw;
+        grid-template-rows: auto 15vw;
+        row-gap: 2vw;
+        column-gap: 2vw;
+    } 
+
+    .ourimg {
+        grid-area: 1 / 1 / 2 / 2;
+        height: 35vw;
+        overflow: hidden;
+        width: 20vw;
+    }
+
+    .mbalt {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .mbbox {
+        height: 35vw;
+        width: 50vw;
+    }
+
+    .iglinkalt {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .iglinkalt a {
+        font-size: 1.6vw;
+        padding: 10% 5%;
+    }
+
+    .iglinkbox{
+        text-align: right;
+    }
+
+    .palt {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+    
+    /*================CONTACT BOX===========*/
+    .contactbox {
+        width: 50vw;
+    }
+
+    input[type=submit] {
+        font-size: 1.5vw;
     }
 }
