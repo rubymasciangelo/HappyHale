@@ -770,7 +770,7 @@ h2.hppltext {
     margin-bottom: 50px;
     width: 100vw;
     position: relative;
-    display: block;
+    display: flex;
 }
 
 h2.aboutcovertitle {
