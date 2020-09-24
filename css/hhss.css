@@ -957,6 +957,7 @@ input[type=submit] {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5vw;
     font-weight: 600;
+    -webkit-appearance: none;
 }
 
 input[type=submit]:hover {
