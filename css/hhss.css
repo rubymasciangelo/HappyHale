@@ -767,10 +767,10 @@ h2.hppltext {
     background-attachment: fixed;
     height: 50vh;
     padding-top: 0;
-    margin-bottom: 50px;
-    width: 100vw;
-    position: relative;
-    display: flex;
+    /* margin-bottom: 50px; */
+    /* width: 100vw; */
+    /* position: relative; */
+    /* display: flex; */
 }
 
 h2.aboutcovertitle {
@@ -789,7 +789,7 @@ h2.aboutcovertitle {
     align-items: center;
     align-content: center;
     margin: 50px auto;
-    position: relative;
+    /* position: relative; */
 }
 
 .bigbox {
