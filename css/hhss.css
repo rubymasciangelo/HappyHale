@@ -759,6 +759,12 @@ h2.hppltext {
                     ABOUT/MOBILE BOUTIQUE/CONTACT FROM 0PX  
                     about us img is 18vw and slideshow is 53vw
 ======================================================================================*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
 .aboutcover {
     background-image: url(./images/nalobayreal.png);
     background-position: center center;
