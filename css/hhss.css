@@ -799,76 +799,6 @@ h2.aboutcovertitle {
     column-gap: 5vw;
 }
 
-/*biggest*/
-/* 
-.infosect {
-    justify-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin: 150px auto;
-    position: relative;
-    height: 100vh;
-}
-
-.bigbox {
-    grid-template-columns: 20vw 50vw;
-    grid-template-rows: auto 15vw;
-    row-gap: 2vw;
-    column-gap: 2vw;
-} 
-
-.ourimg {
-    grid-area: 1 / 1 / 2 / 2;
-    height: 35vw;
-    overflow: hidden;
-    width: 20vw;
-}
-
-.mbalt {
-    grid-area: 1 / 2 / 2 / 3;
-}
-
-.mbbox {
-    height: 35vw;
-    justify-self: center;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    width: 50vw;
-    overflow: hidden;
-}
-
-.iglinkalt {
-    grid-area: 2 / 1 / 3 / 2;
-    width: 100%;
-    background: #243466;
-}
-
-.iglinkalt a {
-    text-decoration: none;
-    font-size: 1.6vw;
-    font-weight: 500;
-    color: ivory;
-    display: block;
-    padding: 10% 5%;
-    margin: none;
-}
-
-.iglinkbox{
-    padding: 10px 15px 10px 10px;
-    text-align: right;
-}
-
-.palt {
-    grid-area: 2 / 2 / 3 / 3;
-    font-size: 20px;
-}
-
-*/
-
 .bigbox img {
     display: block;
     height: auto;
@@ -1486,6 +1416,73 @@ input[type=submit]:hover {
         height: 55vh;
     }
     
+    /*biggest*/
+
+    .infosect {
+        justify-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 150px auto;
+        position: relative;
+        height: 100vh;
+    }
+
+    .bigbox {
+        grid-template-columns: 20vw 50vw;
+        grid-template-rows: auto 15vw;
+        row-gap: 2vw;
+        column-gap: 2vw;
+    } 
+
+    .ourimg {
+        grid-area: 1 / 1 / 2 / 2;
+        height: 35vw;
+        overflow: hidden;
+        width: 20vw;
+    }
+
+    .mbalt {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .mbbox {
+        height: 35vw;
+        justify-self: center;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 50vw;
+        overflow: hidden;
+    }
+
+    .iglinkalt {
+        grid-area: 2 / 1 / 3 / 2;
+        width: 100%;
+        background: #243466;
+    }
+
+    .iglinkalt a {
+        text-decoration: none;
+        font-size: 1.6vw;
+        font-weight: 500;
+        color: ivory;
+        display: block;
+        padding: 10% 5%;
+        margin: none;
+    }
+
+    .iglinkbox{
+        padding: 10px 15px 10px 10px;
+        text-align: right;
+    }
+
+    .palt {
+        grid-area: 2 / 2 / 3 / 3;
+        font-size: 20px;
+    }
     
     /* .aboutbox {
         column-gap: 2.5vw;
