@@ -669,33 +669,7 @@ img.quiltsimg {
 
 
 /*
-.trendtitle {
-    column-gap: 3vw;
-    display: grid;
-    grid-template-columns: 50vw 35vw;
-    grid-template-rows: .1fr;
-    padding: 100px 5vw 0;
-    width: auto;
-    text-align: unset;
-}
 
-.trendtitle h2 {
-    font-size: 3vw;
-    font-weight: 500;
-    grid-area: 1 / 1 / 2 / 2;
-    color: #243466;
-    background: none;
-    padding: 0; 
-}
-
-.trendtitleline {
-    display: block;
-    background-color: #243466;
-    grid-area: 1 / 2 / 2 / 3;
-    height: 5px;
-    align-self: center;
-    width: 100%;
-}
 
  .trendbox {
     grid-template-columns: .45fr .9fr;
@@ -1198,6 +1172,37 @@ input[type=submit]:hover {
         -ms-flex: 50%;
         flex: 50%;
         max-width: 50%;
+    }
+
+    /*======================================================================================
+                            ISLAND STYLE 500PX+
+    ======================================================================================*/
+    .trendtitle {
+        column-gap: 3vw;
+        display: grid;
+        grid-template-columns: 50vw 35vw;
+        grid-template-rows: .1fr;
+        padding: 100px 5vw 0;
+        width: auto;
+        text-align: unset;
+    }
+    
+    .trendtitle h2 {
+        font-size: 3vw;
+        font-weight: 500;
+        grid-area: 1 / 1 / 2 / 2;
+        color: #243466;
+        background: none;
+        padding: 0; 
+    }
+    
+    .trendtitleline {
+        display: block;
+        background-color: #243466;
+        grid-area: 1 / 2 / 2 / 3;
+        height: 5px;
+        align-self: center;
+        width: 100%;
     }
 
 }
