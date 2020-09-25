@@ -473,13 +473,13 @@ img.clothesimg {
 }
 
 .box3 {
-    background: url(./images/shopcats/California-Pottery.jpeg) center center no-repeat;
+    background: url(./images/shopcats/cal-pot-new.jpeg) center center no-repeat;
     background-size: contain;
     grid-area: 1 / 3 / 2 / 4;
     position: relative;
 }
 .box4 {
-    background: url(./images/shopcats/Funky-Mix.jpeg) center center no-repeat;
+    background: url(./images/shopcats/fun-mix-new.jpeg) center center no-repeat;
     background-size: contain;
     grid-area: 1 / 4 / 2 / 5;
     position: relative;
@@ -531,7 +531,7 @@ img.clothesimg {
 
 /*==============ADQUILTS================*/
 .adquilts {
-    background: url(./images/shopcats/Quilts.jpg);
+    background: url(./images/shopcats/quilts-new.jpeg);
     background-attachment: fixed;
     background-size: cover;
     align-items: center;
