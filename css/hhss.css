@@ -625,26 +625,28 @@ img.quiltsimg {
 /*================================================================================
     ISLAND STYLE FROM 0PX
 ==================================================================================*/
+#trends {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .trendtitle {
-    column-gap: 3vw;
-    display: grid;
-    grid-template-columns: 50vw 35vw;
-    grid-template-rows: .1fr;
-    padding: 100px 5vw 0;
+    padding: 50px 0 0;
+    width: 95vw;
+    text-align: center;
 }
 
 .trendtitle h2 {
-    font-size: 3vw;
-    font-weight: 500;
-    grid-area: 1 / 1 / 2 / 2;
+    color: ivory;
+    background: #243466;
+    font-size: 6vw;
+    padding: 3vw 0;
 }
 
 .trendtitleline {
-    background-color: #243466;
-    grid-area: 1 / 2 / 2 / 3;
-    height: 5px;
-    align-self: center;
-    width: 100%;
+    display: none;
 }
 
 .trendbox {
@@ -652,29 +654,71 @@ img.quiltsimg {
     display: grid;
     grid-template-columns: 90vw;
     grid-template-rows: auto auto auto;
+    margin: 50px auto;
+    padding: auto;
 }
 
 .trendimgbox {
     grid-area: 1 / 1 / 2 / 2;
     position: relative;
-    height: 40vw;
-    width: 50vw;
+    height: 70vw;
+    width: 90vw;
     overflow: hidden;
 }
 
+
+
 /*
+.trendtitle {
+    column-gap: 3vw;
+    display: grid;
+    grid-template-columns: 50vw 35vw;
+    grid-template-rows: .1fr;
+    padding: 100px 5vw 0;
+    width: auto;
+    text-align: unset;
+}
+
+.trendtitle h2 {
+    font-size: 3vw;
+    font-weight: 500;
+    grid-area: 1 / 1 / 2 / 2;
+    color: #243466;
+    background: none;
+    padding: 0; 
+}
+
+.trendtitleline {
+    display: block;
+    background-color: #243466;
+    grid-area: 1 / 2 / 2 / 3;
+    height: 5px;
+    align-self: center;
+    width: 100%;
+}
+
  .trendbox {
     grid-template-columns: .45fr .9fr;
     grid-template-rows: .5fr 10vw;
     margin: 5vw 2.5vw 10vw;
+    padding: 0;
 } 
 
 .trendimgbox {
     grid-area: 1 / 1 / 3 / 2;
+    height: 40vw;
+    width: 50vw;
 }
 
 .trendimglink {
     grid-area: 2 / 2 / 3 / 3;
+    height: 6vw;
+    width: 40vw;
+}
+
+.trendimglink a {
+    font-size: 1.5vw;
+    padding: 5% 2%;
 }
 
 .trendtext {
@@ -693,15 +737,15 @@ img.quiltsimg {
     background: #243466;
     display: block;
     grid-area: 3 / 1 / 4 / 2;
-    height: 6vw;
-    width: 40vw;
+    height: 10vw;
+    width: 90vw;
 }
 
 .trendimglink a {
     color: ivory;
     display: flex;
-    font-size: 1.5vw;
-    padding: 5% 2%;
+    font-size: 3.5vw;
+    padding: 3% 7%;
     font-weight: 400;
     text-decoration: none;
 }
