@@ -1557,6 +1557,10 @@ input[type=submit]:hover {
     /*============================================================================
         ISLAND STYLE 1100PX+
     =============================================================================*/
+    #trends {
+        height: auto;
+    }
+
     .trendbox {
         grid-template-columns: .45fr .9fr;
         grid-template-rows: .5fr 10vw;
