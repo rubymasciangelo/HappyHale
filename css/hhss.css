@@ -1562,8 +1562,8 @@ input[type=submit]:hover {
     }
 
     .trendbox {
-        grid-template-columns: .45fr .9fr;
-        grid-template-rows: .5fr 10vw;
+        grid-template-columns: 50vw auto;
+        grid-template-rows: auto auto;
         margin: 5vw 2.5vw 10vw;
         padding: 0;
     } 
