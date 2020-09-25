@@ -650,18 +650,38 @@ img.quiltsimg {
 .trendbox {
     column-gap: 2.5vw;
     display: grid;
-    grid-template-columns: .45fr .9fr;
-    grid-template-rows: .5fr 10vw;
-    margin: 5vw 2.5vw 10vw;
+    grid-template-columns: 90vw;
+    grid-template-rows: auto auto auto;
 }
 
 .trendimgbox {
-    grid-area: 1 / 1 / 3 / 2;
+    grid-area: 1 / 1 / 2 / 2;
     position: relative;
     height: 40vw;
     width: 50vw;
     overflow: hidden;
 }
+
+/*
+ .trendbox {
+    grid-template-columns: .45fr .9fr;
+    grid-template-rows: .5fr 10vw;
+    margin: 5vw 2.5vw 10vw;
+} 
+
+.trendimgbox {
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+.trendimglink {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.trendtext {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+*/
 
 .trendimgbox img {
     display: block;
@@ -672,7 +692,7 @@ img.quiltsimg {
 .trendimglink {
     background: #243466;
     display: block;
-    grid-area: 2 / 2 / 3 / 3;
+    grid-area: 3 / 1 / 4 / 2;
     height: 6vw;
     width: 40vw;
 }
@@ -691,7 +711,7 @@ img.quiltsimg {
 }
 
 .trendtext {
-    grid-area: 1 / 2 / 2 / 3;
+    grid-area: 2 / 1 / 3 / 2;
 }
 
 
