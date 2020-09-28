@@ -369,6 +369,8 @@ a.w {
 /*=============ADCLOTHES============*/
 .adclothes {
     background: url(./images/shopcats/AlohaWear.jpeg);
+    -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
     background-attachment: fixed !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -534,6 +536,8 @@ img.clothesimg {
 /*==============ADQUILTS================*/
 .adquilts {
     background: url(./images/shopcats/quilts-new.jpeg);
+    -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
     background-attachment: fixed !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
