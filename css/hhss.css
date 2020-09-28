@@ -368,6 +368,7 @@ a.w {
 
 .adclothes, .adquilts {
     padding: 100px 0;
+    position: relative;
 }
 
 /*=============ADCLOTHES============*/
@@ -537,11 +538,6 @@ img.clothesimg {
     align-items: center;
     height: auto;
     justify-items: center;
-}
-
-.adclothes, .adquilts {
-    transform: translate3d(0,0,0);
-    -webkit-transform: translate3d(0,0,0);
 }
 
 .adquiltsgrid {
