@@ -369,16 +369,17 @@ a.w {
 .adclothes, .adquilts {
     padding: 100px 0;
     position: relative;
-}
-
-/*=============ADCLOTHES============*/
-.adclothes {
-    background: url(./images/shopcats/AlohaWear.jpeg);
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     align-items: center;
     height: auto;
     justify-items: center;
+}
+
+/*=============ADCLOTHES============*/
+.adclothes {
+    background: url(./images/shopcats/AlohaWear.jpeg);
 }
 
 .adclothesgrid {
@@ -533,11 +534,6 @@ img.clothesimg {
 /*==============ADQUILTS================*/
 .adquilts {
     background: url(./images/shopcats/quilts-new.jpeg);
-    background-attachment: fixed;
-    background-size: cover;
-    align-items: center;
-    height: auto;
-    justify-items: center;
 }
 
 .adquiltsgrid {
