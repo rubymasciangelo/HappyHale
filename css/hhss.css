@@ -366,12 +366,6 @@ a.w {
     padding-bottom: 50px;
 }
 
-.adclothes, .adquilts {
-    padding: 100px 0;
-    position: relative;
-    background-repeat: no-repeat;
-}
-
 /*=============ADCLOTHES============*/
 .adclothes {
     background: url(./images/shopcats/AlohaWear.jpeg);
@@ -584,6 +578,13 @@ img.quiltsimg {
     text-decoration: none;
 }
 
+
+
+.adclothes, .adquilts {
+    padding: 100px 0;
+    position: relative;
+    background-repeat: no-repeat;
+}
 /*==============HOME HAPPY PEOPLE================*/
 #homehppl {
     display: none;
