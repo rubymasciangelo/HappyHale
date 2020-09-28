@@ -368,7 +368,7 @@ a.w {
 
 /*=============ADCLOTHES============*/
 .adclothes {
-    background: url(./images/shopcats/AlohaWear.png);
+    /* background: url(./images/shopcats/AlohaWear.png); */
     background-image: url(./images/shopcats/AlohaWear.png);
     -webkit-background-attachment: fixed;
     -moz-background-attachment: fixed;
@@ -536,7 +536,7 @@ img.clothesimg {
 
 /*==============ADQUILTS================*/
 .adquilts {
-    background: url(./images/shopcats/quilts-new.png);
+    /* background: url(./images/shopcats/quilts-new.png); */
     background-image: url(./images/shopcats/quilts-new.png);
     -webkit-background-attachment: fixed;
     -moz-background-attachment: fixed;
