@@ -539,6 +539,11 @@ img.clothesimg {
     justify-items: center;
 }
 
+.adclothes, .adquilts {
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+}
+
 .adquiltsgrid {
     display: grid;
     grid-template-columns: .25fr 1fr;
