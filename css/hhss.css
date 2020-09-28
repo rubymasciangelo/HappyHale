@@ -588,8 +588,6 @@ img.quiltsimg {
     text-decoration: none;
 }
 
-
-
 .adclothes, .adquilts {
     padding: 100px 0;
     background-repeat: no-repeat;
@@ -597,6 +595,12 @@ img.quiltsimg {
     -ms-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0); */
 }
+
+/*safari only override*/
+::i-block-chrome, .adquilts, .adclothes {
+    background-attachment: scroll;
+}
+
 /*==============HOME HAPPY PEOPLE================*/
 #homehppl {
     display: none;
