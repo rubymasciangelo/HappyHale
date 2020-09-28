@@ -584,6 +584,9 @@ img.quiltsimg {
     padding: 100px 0;
     position: relative;
     background-repeat: no-repeat;
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
 }
 /*==============HOME HAPPY PEOPLE================*/
 #homehppl {
