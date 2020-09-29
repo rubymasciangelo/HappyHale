@@ -387,7 +387,7 @@ a.w {
     background-image: url(./images/shopcats/AlohaWear.png);
     -webkit-background-attachment: fixed;
     -moz-background-attachment: fixed;
-    background-attachment: fixed !important;
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -555,7 +555,7 @@ img.clothesimg {
     background-image: url(./images/shopcats/quilts-new.png);
     -webkit-background-attachment: fixed;
     -moz-background-attachment: fixed;
-    background-attachment: fixed !important;
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -749,6 +749,8 @@ img.quiltsimg {
 ======================================================================================*/
 .hppltitle {
     padding: 100px 5vw 0;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -767,6 +769,7 @@ img.quiltsimg {
 
 .pplrow {
     display: -ms-flexbox;
+    display: -webkit-box;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -775,6 +778,7 @@ img.quiltsimg {
 
 .pplcol {
     -ms-flex: 100%;
+    -webkit-box-flex: 100%;
     flex: 100%;
     max-width: 100%;
     padding: 0 4px;
