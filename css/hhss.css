@@ -1375,7 +1375,7 @@ input[type=submit]:hover {
         display: -ms-grid;
         display: grid;
         -ms-grid-columns: 1fr .5fr 1fr;
-        grid-template-columns: 33vw 25vw 35vw 5vw;
+        grid-template-columns: 35vw 25vw 35vw 5vw;
         -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
         height: 90px;
