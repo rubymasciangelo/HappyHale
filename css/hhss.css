@@ -1435,7 +1435,7 @@ input[type=submit]:hover {
         justify-self: end;
     }
 
-    h1 {
+    /* h1 {
         color:#243466;
         font-weight: 700;
         margin: 0;
@@ -1445,20 +1445,27 @@ input[type=submit]:hover {
     .msg h1 {
         font-weight: 532;
         font-family: 'Kaushan Script', cursive;
-    }
+    } */
 
     .msg {
+        color:#243466;
+        font-weight: 700;
+        margin: 0;
+        padding: 0;
         width: 25vw;
+        font-weight: 532;
+        font-size: 1.5vw;
+        font-family: 'Kaushan Script', cursive;
     }
 
     .msg2 {
         display: none;
         font-family: 'Kaushan Script', cursive;
     }
-
+/* 
     #nav h1 {
         font-size: 3vw;
-    }
+    } */
 
     #navlogo {
         display: none;
