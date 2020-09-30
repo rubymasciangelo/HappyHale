@@ -1362,7 +1362,7 @@ input[type=submit]:hover {
         display: -ms-grid;
         display: grid;
         -ms-grid-columns: 1fr .5fr 1fr;
-        grid-template-columns: 1fr .5fr 1fr;
+        grid-template-columns: 33vw 25vw 35vw 5vw;
         -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
         height: 90px;
@@ -1397,10 +1397,19 @@ input[type=submit]:hover {
         float: right;
     }
 
+    .ec-cart-widget {
+        grid-area: 1 / 4 / 2 / 5;
+        float: right;
+        justify-self: end;
+        margin-right: 1vw;
+        -ms-transform: scale(0.75,075); /* IE 9 */
+        transform: scale(0.75,0.75); /* Standard syntax */
+    }
+
     .leftnav {
         grid-area: 1 / 1 / 2 / 2;
         justify-self: start;
-        margin-left: .75vw;
+        margin-left: 1vw;
     }
 
     .midnav {
@@ -1411,8 +1420,7 @@ input[type=submit]:hover {
     .rightnav {
         grid-area: 1 / 3 / 2 / 4;
         justify-self: end;
-        margin-right: .75vw;
-     }
+    }
 
     h1 {
         color:#243466;
