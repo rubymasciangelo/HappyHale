@@ -397,7 +397,7 @@ a.w {
 /*=============ADCLOTHES============*/
 .adclothes {
     /* background: url(./images/shopcats/AlohaWear.png); */
-    background-image: url("./images/shopcats/AlohaWear.png");
+    background-image: url('./images/shopcats/AlohaWear.png');
     -webkit-background-attachment: fixed;
     -moz-background-attachment: fixed;
     background-attachment: fixed;
@@ -565,7 +565,7 @@ img.clothesimg {
 /*==============ADQUILTS================*/
 .adquilts {
     /* background: url(./images/shopcats/quilts-new.png); */
-    background-image: url("./images/shopcats/quilts-new.png");
+    background-image: url('./images/shopcats/quilts-new.png');
     -webkit-background-attachment: fixed;
     -moz-background-attachment: fixed;
     background-attachment: fixed;
@@ -1445,7 +1445,10 @@ input[type=submit]:hover {
     .msg h1 {
         font-weight: 532;
         font-family: 'Kaushan Script', cursive;
-        /* width: 25vw; */
+    }
+
+    .msg1, .msg2 {
+        width: 25vw;
     }
 
     .msg2 {
