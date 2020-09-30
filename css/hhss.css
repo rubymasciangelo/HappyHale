@@ -1445,16 +1445,17 @@ input[type=submit]:hover {
     .msg h1 {
         font-weight: 532;
         font-family: 'Kaushan Script', cursive;
+        width: 25vw;
     }
 
     .msg2 {
         display: none;
         font-family: 'Kaushan Script', cursive;
+        width: 25vw;
     }
 
     #nav h1 {
         font-size: 3vw;
-        width: 25vw;
     }
 
     #navlogo {
