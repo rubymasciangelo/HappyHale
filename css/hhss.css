@@ -1451,7 +1451,6 @@ input[type=submit]:hover {
     .msg2 {
         display: none;
         font-family: 'Kaushan Script', cursive;
-        width: 25vw;
     }
 
     #nav h1 {
