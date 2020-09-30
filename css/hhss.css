@@ -976,7 +976,7 @@ h2.aboutcovertitle {
 }
 
 
-input[type=text], textarea {
+input[type=text], input[type=email], textarea {
     background-color: ivory;
     box-sizing: border-box;
     color: #243466;
@@ -987,7 +987,7 @@ input[type=text], textarea {
     resize: vertical;
 }
 
-input[type=text]:focus, textarea:focus {
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
     outline: none;
 }
 

@@ -1,21 +1,53 @@
 <?php
 
-if($_POST["submit"]) {
-    $recipient="72hermitcrabs@gmail.com";
-    $subject="A site visitor sent you a message!";
-    $sender=$_POST["sender"];
-    $senderEmail=$_POST["senderEmail"];
-    $message=$_POST["message"];
+if($_POST) {
+    $visName = "";
+    $visEmail = "";
+    $visMessage = "";
+    $email_body = "<div>"
 
-    $mailBody="Name: $sender\nEmail:
-$senderEmail\n\n$message";
+    if(isset($_POST['visName'])) {
+        $visName = filter_var($_POST['visName'], FILTER_SANITIZE_STRING);
+        $email_body .= "<div>
+                            <label><b>You recieved this message from</b></label>&nbsp;<span>".$visName."</span>
+                        </div>";
+    }
 
-    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+    if(isset($_POST['visEmail'])) {
+        $visEmail = str_replace(array("\r", "\n", "%0a", "%0d"), '', $_POST['visEmail']);
+        $visEmail = filter_var($visEmail, FILTER_VALIDATE_EMAIL);
+        $email_body .= "<div>
+                            <label><b>They provided the email address</b></label>&nbsp;<span>".$visEmail."</span>
+                        </div>";
+    }
 
-    $thankYou="<p>Mahalo! Your message has been sent.</p>";
+    if(isset($_POST['visMessage'])) {
+        $visMessage = htmlspecialchars($_POST['visMessage']);
+        $email_body .= "<div>
+                            <label><b>Their message:</b></label>
+                            <div>".$visMessage."</div>
+                        </div>"
+    }
+
+    $recipient = "72hermitcrabs@gmail.com";
+
+    $email_body .= "</div>";
+
+    $headers = 'MIME-Version: 1.0' . "\r\n"
+    .'Content-type: text/html; charset=utf-8' . "\r\n"
+    .'From: ' . $visEmail . "\r\n";
+
+    if(mail($recipient, $email_body, $headers)) {
+        echo "<p>Thank you for contacting us, $visName!</p>";
+    } else {
+        echo '<p>Your message can not be sent at this time. Please email us at happyhale808@gmail.com</p>';
+    }
+
+} else {
+    echo '<p>Oops! Something went wrong...</p>';
 }
-
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -120,35 +152,33 @@ $senderEmail\n\n$message";
         <!-- https://htmldog.com/techniques/formtoemail/ -->
         <div id="contact">
             <div class="contactbox">
-                <?=$thankYou ?>
-
-                <form method="POST" action="contact.php">
+                <form action="contact.php" method="post">
                     <div class="row">
                         <div class="col">
-                            <label>Name</label>
+                            <label for="name">Name</label>
                         </div>
                         <div class="col">
-                            <input type="text" id="visName" name="sender" placeholder="Your name">
+                            <input type="text" id="name" name="visName" placeholder="Your name" pattern=[A-Z\sa-z]{3,20} required>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
-                            <label>Email</label>
+                            <label for="email">Email</label>
                         </div>
                         <div class="col">
-                            <input type="text" id="visEmail" name="senderEmail" placeholder="Your email address">
+                            <input type="email" id="email" name="visEmail" placeholder="Your email address" required>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
-                            <label>Send us a message!</label>
+                            <label for="message">Send us a message!</label>
                         </div>
                         <div class="col">
-                            <textarea rows="5" cols="20" name="message"></textarea>
+                            <textarea id="message" rows="5" cols="20" name="visMessage" required></textarea>
                         </div>
                     </div>
                     <div class="row">
-                        <input type="submit" id="visMsg" name="submit">
+                        <input type="submit">
                     </div>
                 </form>
             </div>
