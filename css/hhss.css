@@ -1447,7 +1447,7 @@ input[type=submit]:hover {
         font-family: 'Kaushan Script', cursive;
     }
 
-    .msg1, .msg2 {
+    .msg {
         width: 25vw;
     }
 
