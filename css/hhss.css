@@ -258,8 +258,6 @@ img.hula {
     -ms-flex-align: center;
     -ms-grid-row-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -271,8 +269,6 @@ img.hula {
     align-items: center;
     height: 80vw;
     width: 80vw;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
     position: relative;
     margin: 8vw auto;
@@ -401,8 +397,6 @@ a.w {
     -webkit-background-attachment: fixed;
     -moz-background-attachment: fixed;
     background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
     background-size: cover;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -417,7 +411,8 @@ a.w {
     display: grid;
     grid-template-columns: 1fr .25fr;
     grid-template-rows: 1.5fr;
-    column-gap: 5vw;
+    -moz-column-gap: 5vw;
+         column-gap: 5vw;
     margin: 0 5vw;
 }
 
@@ -569,8 +564,6 @@ img.clothesimg {
     -webkit-background-attachment: fixed;
     -moz-background-attachment: fixed;
     background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
     background-size: cover;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -585,7 +578,8 @@ img.clothesimg {
     display: grid;
     grid-template-columns: .25fr 1fr;
     grid-template-rows: 1.5fr;
-    column-gap: 5vw;
+    -moz-column-gap: 5vw;
+         column-gap: 5vw;
     margin: 0 5vw;
 }
 
@@ -655,7 +649,8 @@ img.quiltsimg {
 /*==================POLICY 0px================*/
 .policybox {
     align-items: center;
-    column-gap: 0px;
+    -moz-column-gap: 0px;
+         column-gap: 0px;
     display: grid;
     font-style: italic;
     grid-template-columns: 1fr;
@@ -708,8 +703,8 @@ img.quiltsimg {
 }
 
 .trendbox {
-    -webkit-column-gap: 2.5vw;
-    column-gap: 2.5vw;
+    -moz-column-gap: 2.5vw;
+         column-gap: 2.5vw;
     display: grid;
     grid-template-columns: 90vw;
     grid-template-rows: auto auto auto;
@@ -765,8 +760,6 @@ img.quiltsimg {
 ======================================================================================*/
 .hppltitle {
     padding: 100px 5vw 0;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -784,17 +777,12 @@ img.quiltsimg {
 }
 
 .pplrow {
-    display: -ms-flexbox;
-    display: -webkit-box;
     display: flex;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding: 50px 4px 0;
 }
 
 .pplcol {
-    -ms-flex: 100%;
-    -webkit-box-flex: 100%;
     flex: 100%;
     max-width: 100%;
     padding: 0 4px;
@@ -995,6 +983,22 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
     outline: none;
 }
 
+::-webkit-input-placeholder {
+    color: #2435668a;
+}
+
+::-moz-placeholder {
+    color: #2435668a;
+}
+
+:-ms-input-placeholder {
+    color: #2435668a;
+}
+
+::-ms-input-placeholder {
+    color: #2435668a;
+}
+
 ::placeholder {
     color: #2435668a;
 }
@@ -1076,7 +1080,8 @@ input[type=submit]:hover {
         display: grid;
         grid-template-columns: 45vw 45vw;
         grid-template-rows: repeat(4, 45vw);
-        column-gap: 3vw;
+        -moz-column-gap: 3vw;
+             column-gap: 3vw;
         row-gap: 3vw;
         margin: 5vw 0;
     }
@@ -1189,13 +1194,13 @@ input[type=submit]:hover {
                                 HAPPY PEOPLE 500PX+
     ======================================================================================*/
     .pplcol {
-        -ms-flex: 50%;
         flex: 50%;
         max-width: 50%;
     }
 
     .hppltitle {
-        column-gap: 3vw;
+        -moz-column-gap: 3vw;
+             column-gap: 3vw;
         display: grid;
         grid-template-columns: .43fr 1fr .43fr;
         grid-template-rows: .4fr;
@@ -1234,8 +1239,8 @@ input[type=submit]:hover {
                             ISLAND STYLE 500PX+
     ======================================================================================*/
     .trendtitle {
-        -webkit-column-gap: 3vw;
-        column-gap: 3vw;
+        -moz-column-gap: 3vw;
+             column-gap: 3vw;
         display: grid;
         grid-template-columns: 50vw 35vw;
         grid-template-rows: .1fr;
@@ -1419,8 +1424,7 @@ input[type=submit]:hover {
         grid-area: 1 / 4 / 2 / 5;
         float: right;
         justify-self: end;
-        margin-right: 1vw;
-        -ms-transform: scale(0.75,075); /* IE 9 */
+        margin-right: 1vw; /* IE 9 */
         transform: scale(0.75,0.75); /* Standard syntax */
     }
 
@@ -1571,7 +1575,6 @@ input[type=submit]:hover {
                                 HAPPY PEOPLE 826+
     ======================================================================================*/
     .pplcol {
-        -ms-flex: 25%;
         flex: 25%;
         max-width: 25%;
     }
@@ -1607,7 +1610,8 @@ input[type=submit]:hover {
         -webkit-column-gap: 2vw;
         -webkit-row-gap: 2vw;
         row-gap: 2vw;
-        column-gap: 2vw;
+        -moz-column-gap: 2vw;
+             column-gap: 2vw;
     } 
 
     .ourimg {
