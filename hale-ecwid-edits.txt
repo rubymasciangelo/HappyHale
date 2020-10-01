@@ -1,0 +1,44 @@
+html#ecwid_html body#ecwid_body .ec-size .ec-store {
+
+    font-family: "Quicksand",Arial,sans-serif;
+
+}
+
+span {
+
+    font-family: "Quicksand" !important;
+
+}
+
+html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__categories--appearance-hover .grid-category--dark .grid-category__wrap-inner:hover .grid-category__shadow {
+    background-color: rgba(255,255,240,0.733);
+}
+
+html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__categories--appearance-hover .grid-category__wrap-inner:hover .grid-category__shadow {
+
+    background-color: rgba(255,255,255,0.6);
+    transition: background-color 0s ease 0s;
+        transition-property: background-color;
+        transition-duration: 0s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+
+}
+
+html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__categories--appearance-hover .grid-category--dark .grid-category__title-inner {
+
+    color: #243466;
+
+}
+
+html#ecwid_html body#ecwid_body .ec-size .ec-store .grid__categories {
+
+    padding-bottom: 150px;
+
+}
+
+.ec-header-h1 {
+
+    font-family: "Kaushan Script",sans-serif;
+
+}
