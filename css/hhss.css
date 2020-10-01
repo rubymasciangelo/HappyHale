@@ -355,13 +355,13 @@ a.w {
     padding-bottom: 2vw;
 }
 
-.blurbtext1 { 
+.blurbtext1 {
     grid-area: 1 / 1 / 3 / 2;
     /* grid-area: 1 / 1 / 2 / 2;  perhaps mobile*/
-    padding: 3vw 0 0 5vw; 
+    padding: 3vw 0 0 5vw;
 }
 .blurbtext2 { grid-area: 1 / 2 / 2 / 3; padding: 6vw 5vw 3vw 5vw; }
-.blurblink { 
+.blurblink {
     grid-area: 2 / 2 / 3 / 3;
     /* grid-area: 2 / 1 / 3 / 3; perhaps mobile*/
     padding-right: 5vw;
@@ -390,11 +390,28 @@ a.w {
     padding-bottom: 50px;
 }
 
-.bigadboxcq {
+/*=============ADCLOTHES============*/
+.bigadboxc, .bigadboxh, .bigadboxq, .homepplbox {
     position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
-/*=============ADCLOTHES============*/
+.bigadboxc, .bigadboxq {
+    height: 30vw;
+}
+
+.bigadboxh {
+    height: 40vw;
+}
+
+.homepplbox {
+    height: 450%;
+}
+
+
 .adclothes {
     /* background: url(./images/shopcats/AlohaWear.png); */
     background: url("./images/shopcats/AlohaWearTiny.jpeg");
@@ -410,6 +427,7 @@ a.w {
     -ms-grid-column-align: center;
     justify-items: center;
     position: absolute;
+    width: 100%;
 }
 
 .adclothesgrid {
@@ -453,13 +471,17 @@ img.clothesimg {
     align-items: center;
     height: auto;
     justify-items: center;
+    position: absolute;
+    width: 100%;
 }
 
 .adhomegoodsgrid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: .75fr;
-    margin: 0 1vw 100px 1vw;
+    grid-template-rows: 1.5fr;
+    margin: 0 1vw;
+    position: relative;
+    width: 100%;
 }
 
 .hgbanner {
@@ -578,6 +600,7 @@ img.clothesimg {
     -ms-grid-column-align: center;
     justify-items: center;
     position: absolute;
+    width: 100%;
 }
 
 .adquiltsgrid {
@@ -626,15 +649,19 @@ img.quiltsimg {
 
 
 /*safari only override*/
-@media screen and (-webkit-min-device-pixel-ratio:0)
+/* @media screen and (-webkit-min-device-pixel-ratio:0)
 {
     ::i-block-chrome, .adquilts, .adclothes {
         background-attachment: scroll;
     }
-}
+} */
 /*==============HOME HAPPY PEOPLE================*/
-#homehppl {
+.homepplbox {
     display: none;
+}
+
+.homepplinner {
+    position: absolute;
 }
 
 /*==============FOOTER================*/
@@ -815,7 +842,7 @@ img.quiltsimg {
 }
 
 /*======================================================================================
-                    ABOUT/MOBILE BOUTIQUE/CONTACT FROM 0PX  
+                    ABOUT/MOBILE BOUTIQUE/CONTACT FROM 0PX
                     about us img is 18vw and slideshow is 53vw
 ======================================================================================*/
 .aboutcover {
@@ -1091,7 +1118,7 @@ input[type=submit]:hover {
         grid-area: 3 / 1 / 4 / 2;
         font-size: 2vw;
     }
-    
+
     .smolads {
         display: grid;
         grid-template-columns: 45vw 45vw;
@@ -1101,7 +1128,7 @@ input[type=submit]:hover {
         row-gap: 3vw;
         margin: 5vw 0;
     }
-    
+
     .smolc {
         grid-area: 1 / 1 / 2 / 3;
     }
@@ -1141,7 +1168,7 @@ input[type=submit]:hover {
         height: 45vw;
         width: 45vw;
     }
-    
+
     .wood .smoladlink, .glass .smoladlink, .pottery .smoladlink, .funky .smoladlink {
         height: 35vw;
         width: 35vw;
@@ -1188,7 +1215,7 @@ input[type=submit]:hover {
     }
 
 
-    
+
 
     /*===============CONTACT 500+=======*/
     /* .smolcontactbox {
@@ -1223,16 +1250,16 @@ input[type=submit]:hover {
         padding: 100px 5vw 0;
         justify-content: center;
     }
-    
+
     .hppltitle h2 {
         font-size: 7vw;
         font-weight: 500;
     }
-    
+
     h2.hppltext {
         grid-area: 1 / 2 / 2 / 3;
     }
-    
+
     .hppllinel {
         display: block;
         background-color: #243466;
@@ -1241,7 +1268,7 @@ input[type=submit]:hover {
         align-self: center;
         width: 100%;
     }
-    
+
     .hpplliner {
         display: block;
         background-color: #243466;
@@ -1264,16 +1291,16 @@ input[type=submit]:hover {
         width: auto;
         text-align: unset;
     }
-    
+
     .trendtitle h2 {
         font-size: 3vw;
         font-weight: 500;
         grid-area: 1 / 1 / 2 / 2;
         color: #243466;
         background: none;
-        padding: 0; 
+        padding: 0;
     }
-    
+
     .trendtitleline {
         display: block;
         background-color: #243466;
@@ -1376,7 +1403,7 @@ input[type=submit]:hover {
     /*==================================================================
             ABOUT / MOBILE BOUTIQUE / CONTACT 768PX+
     =====================================================================*/
- 
+
     h2.aboutcovertitle {
         padding-top: 2vw;
     }
@@ -1487,7 +1514,7 @@ input[type=submit]:hover {
         display: none;
         font-family: 'Kaushan Script', cursive;
     }
-/* 
+/*
     #nav h1 {
         font-size: 3vw;
     } */
@@ -1605,7 +1632,7 @@ input[type=submit]:hover {
                                 WIDTH 1100px+
 ============================================================================================*/
 @media screen and (min-width: 1100px) {
-    #homehppl {
+    .homepplbox {
         display: block;
         padding-top: -50px;
         margin-top: -50px;
@@ -1619,7 +1646,7 @@ input[type=submit]:hover {
         height: 55vh;
         margin-bottom: 0;
     }
-    
+
     .infosect {
         margin: 150px auto;
     }
@@ -1632,7 +1659,7 @@ input[type=submit]:hover {
         row-gap: 2vw;
         -moz-column-gap: 2vw;
              column-gap: 2vw;
-    } 
+    }
 
     .ourimg {
         grid-area: 1 / 1 / 2 / 2;
@@ -1666,7 +1693,7 @@ input[type=submit]:hover {
     .palt {
         grid-area: 2 / 2 / 3 / 3;
     }
-    
+
     /*================CONTACT BOX===========*/
     .contactbox {
         width: 50vw;
@@ -1688,25 +1715,25 @@ input[type=submit]:hover {
         grid-template-rows: auto auto;
         margin: 5vw 2.5vw 10vw;
         padding: 0;
-    } 
-    
+    }
+
     .trendimgbox {
         grid-area: 1 / 1 / 3 / 2;
         height: 40vw;
         width: 50vw;
     }
-    
+
     .trendimglink {
         grid-area: 2 / 2 / 3 / 3;
         height: 6vw;
         width: 40vw;
     }
-    
+
     .trendimglink a {
         font-size: 1.5vw;
         padding: 5% 2%;
     }
-    
+
     .trendtext {
         grid-area: 1 / 2 / 2 / 3;
     }
