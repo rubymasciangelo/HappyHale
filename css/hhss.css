@@ -1599,6 +1599,8 @@ input[type=submit]:hover {
     .bigbox {
         grid-template-columns: 20vw 50vw;
         grid-template-rows: auto 15vw;
+        -webkit-column-gap: 2vw;
+        -webkit-row-gap: 2vw;
         row-gap: 2vw;
         column-gap: 2vw;
     } 
