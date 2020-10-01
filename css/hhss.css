@@ -654,17 +654,21 @@ img.quiltsimg {
     display: grid;
     font-style: italic;
     grid-template-columns: 1fr;
-    grid-template-rows: .5fr 1fr;
+    grid-template-rows: .5fr .5fr;
     justify-items: center; /*was justify-items: start;*/
     row-gap: 20px;
+    padding-bottom: 100px;
+    margin: 0 5vw;
 }
 
 .policylogo {
     grid-area: 1 / 1 / 2 / 2;
     height: auto;
-    max-width: 70%;
+    width: 20%;
 }
-.ppolicy {grid-area: 2 / 1 / 3 / 2;}
+.policytext {
+    grid-area: 2 / 1 / 3 / 2;
+}
 
 .ppolicy a {
     text-decoration: none;
@@ -673,6 +677,11 @@ img.quiltsimg {
 
 .ppolicy a:hover {
     color: #ac4113;
+}
+
+.ppmahalo {
+    padding-top: 10px;
+    text-align: center;
 }
 
 /*================================================================================
@@ -1568,6 +1577,10 @@ input[type=submit]:hover {
     .policytext {
         grid-area: 1 / 2 / 2 / 3;
         justify-self: left;
+    }
+
+    .ppmahalo {
+        text-align: left;
     }
 
 
