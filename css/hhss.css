@@ -390,6 +390,10 @@ a.w {
     padding-bottom: 50px;
 }
 
+.bigadboxcq {
+    position: relative;
+}
+
 /*=============ADCLOTHES============*/
 .adclothes {
     /* background: url(./images/shopcats/AlohaWear.png); */
@@ -405,6 +409,7 @@ a.w {
     height: auto;
     -ms-grid-column-align: center;
     justify-items: center;
+    position: absolute;
 }
 
 .adclothesgrid {
@@ -572,6 +577,7 @@ img.clothesimg {
     height: auto;
     -ms-grid-column-align: center;
     justify-items: center;
+    position: absolute;
 }
 
 .adquiltsgrid {
