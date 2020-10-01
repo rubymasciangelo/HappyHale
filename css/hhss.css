@@ -649,12 +649,12 @@ img.quiltsimg {
 
 
 /*safari only override*/
-/* @media screen and (-webkit-min-device-pixel-ratio:0)
+@media screen and (-webkit-min-device-pixel-ratio:0)
 {
     ::i-block-chrome, .adquilts, .adclothes {
         background-attachment: scroll;
     }
-} */
+}
 /*==============HOME HAPPY PEOPLE================*/
 .homepplbox {
     display: none;
