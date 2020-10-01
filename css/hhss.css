@@ -393,7 +393,7 @@ a.w {
 /*=============ADCLOTHES============*/
 .adclothes {
     /* background: url(./images/shopcats/AlohaWear.png); */
-    background-image: url('./images/shopcats/AlohaWearTiny.jpeg');
+    background: url("./images/shopcats/AlohaWearTiny.jpeg");
     -webkit-background-attachment: fixed;
     -moz-background-attachment: fixed;
     background-attachment: fixed;
@@ -560,7 +560,7 @@ img.clothesimg {
 /*==============ADQUILTS================*/
 .adquilts {
     /* background: url(./images/shopcats/quilts-new.png); */
-    background-image: url('./images/shopcats/quilts-newTiny.png');
+    background: url("./images/shopcats/quilts-newTiny.png");
     -webkit-background-attachment: fixed;
     -moz-background-attachment: fixed;
     background-attachment: fixed;
