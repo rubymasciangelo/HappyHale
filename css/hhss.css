@@ -632,7 +632,7 @@ img.quiltsimg {
     }
 }
 /*==============HOME HAPPY PEOPLE================*/
-#homeppl {
+#homehppl {
     display: none;
 }
 
@@ -1604,10 +1604,12 @@ input[type=submit]:hover {
                                 WIDTH 1100px+
 ============================================================================================*/
 @media screen and (min-width: 1100px) {
-    #homeppl {
+    #homehppl {
         display: block;
-        padding-top: -50px;
-        margin-top: -50px;
+    }
+
+    .homehpplt {
+        padding-top: 25px;
     }
 
     /*============================================================================
