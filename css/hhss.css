@@ -981,7 +981,7 @@ h2.aboutcovertitle {
 }
 
 .mail a, .mailbox a {
-    text-decoration-color: #243466;
+    text-decoration: none;
     font-size: 3vw;
     font-weight: 500;
     color: #243466;
@@ -1414,6 +1414,29 @@ input[type=submit]:hover {
 
     input[type=submit] {
         font-size: 2.5vw;
+    }
+
+    #contact {
+        margin: 100px auto;
+    }
+
+    .mailbox {
+        display: grid;
+        grid-template-columns: 10vw;
+        grid-template-rows: auto;
+    }
+
+    .mail {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .mail a, .mailbox a {
+        font-size: 1vw;
+        text-align: center;
+    }
+
+    .mailicon img {
+        max-width: 15vw;
     }
 
 }
