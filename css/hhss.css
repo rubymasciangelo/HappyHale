@@ -1722,3 +1722,25 @@ input[type=submit]:hover {
     }
 
 }
+
+
+/*======================================================================================
+                SAFARI ONLY
+=========================================================================================*/
+/* 6.1-10.0 */
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { @media { .adclothes, .adquilts { background-attachment: scroll; } } } 
+
+
+/* 10+ */
+@media not all and (min-resolution:.001dpcm) { @supports (-webkit-appearance:none) { 
+    .adclothes, .adquilts {
+        background-attachment: scroll;
+    }
+} }
+
+/* 13+ */
+@media not all and (min-resolution:.001dpcm) { @supports (-webkit-appearance:none) and (display:flow-root) { 
+    .adclothes, .adquilts {
+        background-attachment: scroll;
+    }
+} }
