@@ -52,6 +52,8 @@ h2 {
     padding: 0;
 }
 
+@media (hover: none) {
+
 /*================NAV============*/
 #nav {
     display: none;
@@ -656,6 +658,7 @@ h2.aboutcovertitle {
     font-weight: 500;
     color: #243466;
     display: block;
+}
 }
 
 
