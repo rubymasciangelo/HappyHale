@@ -424,7 +424,7 @@ a.w {
     color: ivory;
     display: flex;
     font-size: 3.5vw;
-    padding: 3% 7%;
+    padding: 3%;
     font-weight: 400;
     text-decoration: none;
 }
@@ -1714,7 +1714,7 @@ input[type=submit]:hover {
 
     .trendimglink a {
         font-size: 1.5vw;
-        padding: 5% 2%;
+        padding: 5%;
     }
 
     .trendtext {
