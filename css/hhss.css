@@ -316,317 +316,6 @@ a.w {
 
 
 
-
-
-
-
-
-
-
-
-/*==============================================================HOMESTYLES MOVE===========================*/
-.cvit h1 {
-    font-size: 25px;
-}
-
-.cvit {
-    margin-top: -55px;
-}
-
-/*=================BLURB==============*/
-.blurbbox p {
-    font-size: 20px;
-}
-
-.blurbbox {
-    background-color: ivory;
-    position: relative;
-    display: grid;
-    grid-template-columns: 30vw 70vw;
-    grid-template-rows: 1fr .2fr;
-    /* margin-top: 80px; */
-    overflow: visible;
-    padding-bottom: 2vw;
-}
-
-.blurbtext1 {
-    grid-area: 1 / 1 / 3 / 2;
-    /* grid-area: 1 / 1 / 2 / 2;  perhaps mobile*/
-    padding: 3vw 0 0 5vw;
-    font-size: 3.5vw;
-    font-weight: 500;
-    line-height: 1.2;
-}
-
-.blurbtext2 { 
-    grid-area: 1 / 2 / 2 / 3;
-    padding: 6vw 5vw 3vw 5vw;
- }
-
-.blurblink {
-    grid-area: 2 / 2 / 3 / 3;
-    /* grid-area: 2 / 1 / 3 / 3; perhaps mobile*/
-    padding-right: 5vw;
-    justify-self: center;
-}
-
-.blurblink a {
-    border: 2px solid #243466;
-    color: #243466;
-    padding: 15px;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 1.6vw;
-}
-
-.blurblink a:hover, .clothesh2 a:hover, .quiltsh2 a:hover {
-    color: #e05e26;
-}
-
-/*============ADS===============*/
-.adbox {
-    background-color: ivory;
-    justify-items: center;
-    width: 100vw;
-    position: relative;
-    padding-bottom: 50px;
-}
-
-/*=============ADCLOTHES============*/
-.adclothes {
-    background: url("./images/shopcats/AlohaWearTiny.jpeg");
-    -webkit-background-attachment: fixed;
-    -moz-background-attachment: fixed;
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -ms-grid-row-align: center;
-    align-items: center;
-    height: auto;
-    -ms-grid-column-align: center;
-    justify-items: center;
-    width: 100%;
-}
-
-.adclothesgrid {
-    display: grid;
-    grid-template-columns: 1fr .25fr;
-    grid-template-rows: 1.5fr;
-    -moz-column-gap: 5vw;
-         column-gap: 5vw;
-    margin: 0 5vw;
-}
-
-.clothesimg {
-    grid-area: 1 / 1 / 4 / 2;
-}
-
-img.clothesimg {
-    height: auto;
-    width: 100%;
-}
-
-.clothesh2 {
-    background-color: rgba(255, 255, 240, 0.938);
-    grid-area: 1 / 2 / 3 / 3;
-    height: 20vw;
-    width: 20vw;
-}
-
-.clothesh2 a {
-    color: #243466;
-    display: flex;
-    font-size: 3vw;
-    font-weight: 500;
-    /* margin: 8vw auto; */
-    padding: 29% 3%;
-    text-align: center;
-    text-decoration: none;
-}
-
-/*====================ADHOMEGOODS===============*/
-.adhomegoods {
-    align-items: center;
-    height: auto;
-    justify-items: center;
-}
-
-.hgbanner {
-    display: block;
-    padding: 50px 5vw 20px 3vw;
-    color: #243466;
-    font-size: 3.5vw;
-    font-weight: 500;
-    text-align: center;
-}
-
-.adhomegoodsgrid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: .75fr;
-    margin: 0 1vw 100px 1vw;
-}
-
-.box1, .box2, .box3, .box4 {
-    height: 23vw;
-    width: 23vw;
-}
-
-.box1 {
-    background: url(./images/shopcats/Monkey-Pod-Koa.jpeg) center center no-repeat;
-    background-size: contain;
-    grid-area: 1 / 1 / 2 / 2;
-    position: relative;
-}
-.box2 {
-    background: url(./images/shopcats/Etched-Glass.jpeg) center center no-repeat;
-    background-size: contain;
-    grid-area: 1 / 2 / 2 / 3;
-    position: relative;
-}
-
-.box3 {
-    background: url(./images/shopcats/cal-pot-new.jpeg) center center no-repeat;
-    background-size: contain;
-    grid-area: 1 / 3 / 2 / 4;
-    position: relative;
-}
-.box4 {
-    background: url(./images/shopcats/fun-mix-new.jpeg) center center no-repeat;
-    background-size: contain;
-    grid-area: 1 / 4 / 2 / 5;
-    position: relative;
-}
-
-.abox {
-    background-color: rgba(255, 255, 240, 0.938);
-    display: block;
-    height: 18vw;
-    left: 50%;
-    opacity: 0;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    transition: .5s ease;
-    width: 18vw;
-}
-
-.abox:hover {
-    opacity: .9;
-}
-
-.abox a:active {
-    color: #e05e26;
-}
-
-.box1 a, .box2 a, .box3 a, .box4 a {
-    color: #243466;
-    display: flex;
-    font-size: 2.5vw;
-    font-weight: 500;
-    position: absolute;
-    text-align: center;
-    text-decoration: none;
-}
-
-.box1 a {
-    padding: 19% 3%;
-}
-
-.box2 a {
-    padding: 39% 16%;
-}
-
-.box3 a, .box4 a {
-    padding: 30% 0;
-}
-
-/*==============ADQUILTS================*/
-.adquilts {
-    /* background: url(./images/shopcats/quilts-new.png); */
-    background: url("./images/shopcats/quilts-newTiny.png");
-    -webkit-background-attachment: fixed;
-    -moz-background-attachment: fixed;
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -ms-grid-row-align: center;
-    align-items: center;
-    height: auto;
-    -ms-grid-column-align: center;
-    justify-items: center;
-}
-
-.adquiltsgrid {
-    display: grid;
-    grid-template-columns: .25fr 1fr;
-    grid-template-rows: 1.5fr;
-    -moz-column-gap: 5vw;
-         column-gap: 5vw;
-    margin: 0 5vw;
-}
-
-.quiltsimg {
-    grid-area: 1 / 2 / 3 / 3;
-}
-
-img.quiltsimg {
-    height: auto;
-    width: 100%;
-}
-
-.quiltsh2 {
-    background-color: rgba(255, 255, 240, 0.938);
-    grid-area: 1 / 1 / 4 / 2;
-    height: 20vw;
-    width: 20vw;
-}
-
-.quiltsh2 a {
-    color: #243466;
-    display: flex;
-    font-size: 3vw;
-    font-weight: 500;
-    /* margin: 8vw auto; */
-    padding: 7% 3%;
-    text-align: center;
-    text-decoration: none;
-}
-
-.adclothes, .adquilts {
-    padding: 100px 0;
-    background-repeat: no-repeat;
-    /* -webkit-transform: translate3d(0,0,0);
-    -ms-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0); */
-}
-
-
-/*safari only override*/
-@media screen and (-webkit-min-device-pixel-ratio:0)
-{
-    ::i-block-chrome, .adquilts, .adclothes {
-        background-attachment: scroll;
-    }
-}
-/*==============HOME HAPPY PEOPLE================*/
-#homehppl {
-    display: none;
-}
-
-/*==============FOOTER================*/
-.foot {
-    position: relative;
-    justify-self: start;
-}
-
-.foot small.cr {
-    width: 300px;
-}
-
 /*==================================================================================
     SHOP / POLICY FROM 0PX
 ===================================================================================*/
@@ -1383,7 +1072,308 @@ input[type=submit]:hover {
         display: none;
     }
 
+    /*==============================================================HOMESTYLES MOVE===========================*/
+    .cvit h1 {
+        font-size: 25px;
+    }
 
+    .cvit {
+        margin-top: -55px;
+    }
+
+    /*=================BLURB==============*/
+    .blurbbox p {
+        font-size: 20px;
+    }
+
+    .blurbbox {
+        background-color: ivory;
+        position: relative;
+        display: grid;
+        grid-template-columns: 30vw 70vw;
+        grid-template-rows: 1fr .2fr;
+        /* margin-top: 80px; */
+        overflow: visible;
+        padding-bottom: 2vw;
+    }
+
+    .blurbtext1 {
+        grid-area: 1 / 1 / 3 / 2;
+        /* grid-area: 1 / 1 / 2 / 2;  perhaps mobile*/
+        padding: 3vw 0 0 5vw;
+        font-size: 3.5vw;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    .blurbtext2 { 
+        grid-area: 1 / 2 / 2 / 3;
+        padding: 6vw 5vw 3vw 5vw;
+    }
+
+    .blurblink {
+        grid-area: 2 / 2 / 3 / 3;
+        /* grid-area: 2 / 1 / 3 / 3; perhaps mobile*/
+        padding-right: 5vw;
+        justify-self: center;
+    }
+
+    .blurblink a {
+        border: 2px solid #243466;
+        color: #243466;
+        padding: 15px;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1.6vw;
+    }
+
+    .blurblink a:hover, .clothesh2 a:hover, .quiltsh2 a:hover {
+        color: #e05e26;
+    }
+
+    /*============ADS===============*/
+    .adbox {
+        background-color: ivory;
+        justify-items: center;
+        width: 100vw;
+        position: relative;
+        padding-bottom: 50px;
+    }
+
+    /*=============ADCLOTHES============*/
+    .adclothes {
+        background: url("./images/shopcats/AlohaWearTiny.jpeg");
+        -webkit-background-attachment: fixed;
+        -moz-background-attachment: fixed;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -ms-grid-row-align: center;
+        align-items: center;
+        height: auto;
+        -ms-grid-column-align: center;
+        justify-items: center;
+        width: 100%;
+    }
+
+    .adclothesgrid {
+        display: grid;
+        grid-template-columns: 1fr .25fr;
+        grid-template-rows: 1.5fr;
+        -moz-column-gap: 5vw;
+            column-gap: 5vw;
+        margin: 0 5vw;
+    }
+
+    .clothesimg {
+        grid-area: 1 / 1 / 4 / 2;
+    }
+
+    img.clothesimg {
+        height: auto;
+        width: 100%;
+    }
+
+    .clothesh2 {
+        background-color: rgba(255, 255, 240, 0.938);
+        grid-area: 1 / 2 / 3 / 3;
+        height: 20vw;
+        width: 20vw;
+    }
+
+    .clothesh2 a {
+        color: #243466;
+        display: flex;
+        font-size: 3vw;
+        font-weight: 500;
+        /* margin: 8vw auto; */
+        padding: 29% 3%;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    /*====================ADHOMEGOODS===============*/
+    .adhomegoods {
+        align-items: center;
+        height: auto;
+        justify-items: center;
+    }
+
+    .hgbanner {
+        display: block;
+        padding: 50px 5vw 20px 3vw;
+        color: #243466;
+        font-size: 3.5vw;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .adhomegoodsgrid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: .75fr;
+        margin: 0 1vw 100px 1vw;
+    }
+
+    .box1, .box2, .box3, .box4 {
+        height: 23vw;
+        width: 23vw;
+    }
+
+    .box1 {
+        background: url(./images/shopcats/Monkey-Pod-Koa.jpeg) center center no-repeat;
+        background-size: contain;
+        grid-area: 1 / 1 / 2 / 2;
+        position: relative;
+    }
+    .box2 {
+        background: url(./images/shopcats/Etched-Glass.jpeg) center center no-repeat;
+        background-size: contain;
+        grid-area: 1 / 2 / 2 / 3;
+        position: relative;
+    }
+
+    .box3 {
+        background: url(./images/shopcats/cal-pot-new.jpeg) center center no-repeat;
+        background-size: contain;
+        grid-area: 1 / 3 / 2 / 4;
+        position: relative;
+    }
+    .box4 {
+        background: url(./images/shopcats/fun-mix-new.jpeg) center center no-repeat;
+        background-size: contain;
+        grid-area: 1 / 4 / 2 / 5;
+        position: relative;
+    }
+
+    .abox {
+        background-color: rgba(255, 255, 240, 0.938);
+        display: block;
+        height: 18vw;
+        left: 50%;
+        opacity: 0;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        transition: .5s ease;
+        width: 18vw;
+    }
+
+    .abox:hover {
+        opacity: .9;
+    }
+
+    .abox a:active {
+        color: #e05e26;
+    }
+
+    .box1 a, .box2 a, .box3 a, .box4 a {
+        color: #243466;
+        display: flex;
+        font-size: 2.5vw;
+        font-weight: 500;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .box1 a {
+        padding: 19% 3%;
+    }
+
+    .box2 a {
+        padding: 39% 16%;
+    }
+
+    .box3 a, .box4 a {
+        padding: 30% 0;
+    }
+
+    /*==============ADQUILTS================*/
+    .adquilts {
+        /* background: url(./images/shopcats/quilts-new.png); */
+        background: url("./images/shopcats/quilts-newTiny.png");
+        -webkit-background-attachment: fixed;
+        -moz-background-attachment: fixed;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -ms-grid-row-align: center;
+        align-items: center;
+        height: auto;
+        -ms-grid-column-align: center;
+        justify-items: center;
+    }
+
+    .adquiltsgrid {
+        display: grid;
+        grid-template-columns: .25fr 1fr;
+        grid-template-rows: 1.5fr;
+        -moz-column-gap: 5vw;
+             column-gap: 5vw;
+        margin: 0 5vw;
+    }
+
+    .quiltsimg {
+        grid-area: 1 / 2 / 3 / 3;
+    }
+
+    img.quiltsimg {
+        height: auto;
+        width: 100%;
+    }
+
+    .quiltsh2 {
+        background-color: rgba(255, 255, 240, 0.938);
+        grid-area: 1 / 1 / 4 / 2;
+        height: 20vw;
+        width: 20vw;
+    }
+
+    .quiltsh2 a {
+        color: #243466;
+        display: flex;
+        font-size: 3vw;
+        font-weight: 500;
+        /* margin: 8vw auto; */
+        padding: 7% 3%;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .adclothes, .adquilts {
+        padding: 100px 0;
+        background-repeat: no-repeat;
+        /* -webkit-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0); */
+    }
+
+
+    /*safari only override*/
+    @media screen and (-webkit-min-device-pixel-ratio:0)
+    {
+        ::i-block-chrome, .adquilts, .adclothes {
+            background-attachment: scroll;
+        }
+    }
+    /*==============HOME HAPPY PEOPLE================*/
+    #homehppl {
+        display: none;
+    }
+
+    /*==============FOOTER================*/
+    .foot {
+        position: relative;
+        justify-self: start;
+    }
+
+    .foot small.cr {
+        width: 300px;
+    }
 
     /*==================================================================
             ABOUT / MOBILE BOUTIQUE / CONTACT 768PX+
