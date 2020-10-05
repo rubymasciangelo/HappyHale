@@ -1,5 +1,5 @@
 <!--CONTACT FORM-->
-        <!-- https://htmldog.com/techniques/formtoemail/ -->
+        <!-- https://code.tutsplus.com/tutorials/create-a-contact-form-in-php--cms-32314 -->
         <div id="contact">
             <div class="contactbox">
                 <form action="contact.php" method="POST">
