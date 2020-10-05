@@ -52,8 +52,6 @@ h2 {
     padding: 0;
 }
 
-@media (hover: none) {
-
 /*================NAV============*/
 #nav {
     display: none;
@@ -659,7 +657,7 @@ h2.aboutcovertitle {
     color: #243466;
     display: block;
 }
-}
+
 
 
 
@@ -1664,3 +1662,618 @@ h2.aboutcovertitle {
         background-attachment: scroll;
     }
 } }
+
+
+/*======================================================================================
+                hover:none like ig biolink
+=========================================================================================*/
+
+@media (hover: none) {
+
+    /*================NAV============*/
+    #nav {
+        display: none;
+    }
+    
+    #smolnavbar {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+        background-color: ivory;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        transition: top 0.3s;
+        z-index: 1050;
+    }
+    
+    #smolnavlogo {
+        grid-area: 1 / 2 / 2 / 3;
+        text-align: center;
+        padding: 5px 0;
+        margin: auto;
+    }
+    
+    #smolnavlogo img {
+        height: 40px;
+        width: auto;
+    }
+    
+    .ec-cart-widget {
+        align-self: center;
+        justify-self: end;
+        grid-area: 1 / 3 / 2 / 4;
+    }
+    
+    .smolnav {
+        height: 100vh;
+        width: 0;
+        position: fixed;
+        z-index: 100000;
+        top: 0;
+        left: 0;
+        background-color: #243466;
+        overflow-x: hidden;
+        padding-top: 60px;
+        transition: 0.5s;
+    }
+    
+    .smolnav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #e05e26;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    .smolnav a:hover {
+        color: #ac4113;
+    }
+    
+    .smolnav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    
+    .openbtn {
+        grid-area: 1 / 1 / 2 / 2;
+        font-size: 20px;
+        justify-self: start;
+        cursor: pointer;
+        background-color:ivory;
+        color: #243466;
+        padding: 10px 15px;
+        border: none;
+    }
+    
+    .openbtn:hover {
+        color: #ac4113;
+    }
+    
+    /*===================FOOTER===========*/
+    .cr {
+        padding-left: 3px;
+        position: absolute;
+    }
+    
+    /*==========================================================================================
+        HOME PAGE FROM 0PX
+    ============================================================================================*/
+    #homepage {
+        display: none;
+    }
+    
+    .smolhome {
+        background: #e05e26;
+        background-image: linear-gradient(rgba(252, 220, 199, 0.699), rgba(252, 248, 245, 0.938)), url(./images/smolbg.jpg);
+        background-size: auto 100%;
+        background-attachment: fixed;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        height: 110vh;
+        width: 100%;
+        position: relative;
+        z-index: -5;
+        margin-top: -10vh;
+    }
+    
+    /*================SMOLHOME=================*/
+    
+    .smolcoverbox {
+        align-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 98vw;
+        grid-template-rows: 20vh 20vh 3vh 3vh;
+        height: 70%;
+        justify-content: center;
+        justify-items: center;
+        margin: auto;
+        max-width: 310px;
+        padding-top: 20vh;
+        row-gap: 8vh;
+        width: auto;
+    }
+    
+    .fhlogo {
+        display: none;
+    }
+    
+    .hhlogo {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    
+    .hula {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    
+    img.hhlogo {
+        height: auto;
+        width: 80vw;
+    }
+    
+    img.hula {
+        height: auto;
+        width: 30vw;
+    }
+    
+    .smolcvit, .smolnalo {
+        text-shadow: 1.25px .75px #f0e193;
+    }
+    
+    .cover h1 {
+        text-shadow: .5px .25px #f0e193;
+    }
+    
+    .smolnalo {
+        font-size: 2.3vw;
+        grid-area: 3 / 1 / 4 / 2;
+        padding-top: -10px;
+    }
+    
+    .smolcvit {
+        font-size: 2.3vw;
+        grid-area: 4 / 1 / 5 / 2;
+    }
+    
+    /*=================BLURB==============*/
+    .smolblurbbox{
+        padding: 8vw 3vw;
+    }
+    
+    /*============ADS===============*/
+    
+    .smolc {
+        background: url(./images/shopcats/AlohaWearOG.jpeg) center center no-repeat;
+    }
+    
+    .smolq {
+        background: url(./images/shopcats/quilts-new.jpeg) center center no-repeat;
+    }
+    
+    .wood {
+        background: url(./images/shopcats/Monkey-Pod-Koa.jpeg) center center no-repeat;
+    }
+    
+    .glass {
+        background: url(./images/shopcats/Etched-Glass.jpeg) center center no-repeat;
+    }
+    
+    .pottery {
+        background: url(./images/shopcats/cal-pot-new.jpeg) center center no-repeat;
+    }
+    
+    .funky {
+        background: url(./images/shopcats/fun-mix-new.jpeg) center center no-repeat;
+    }
+    
+    .smolads {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -ms-grid-row-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .smoladbox {
+        background-size: auto 100%;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -ms-grid-row-align: center;
+        align-items: center;
+        height: 80vw;
+        width: 80vw;
+        justify-content: center;
+        position: relative;
+        margin: 8vw auto;
+    }
+    
+    .smoladlink {
+        text-align: center;
+        background-color: rgba(255, 255, 240, 0.733);
+        /* border: 2px solid #283355; */
+        height: 60vw;
+        width: 60vw;
+        margin: 10vw;
+        position: absolute;
+        vertical-align: middle;
+    }
+    
+    .smoladlink a {
+        text-align: center;
+        color: #243466;
+        font-size: 8vw;
+        text-decoration: none;
+        width: 80%;
+        display: inline-block;
+    }
+    
+    a.c, a.g {
+        padding: 40% 0;
+    }
+    
+    a.p, a.f, a.q {
+        padding: 31% 0;
+    }
+    
+    a.w {
+        padding: 22% 0;
+    }
+    
+    .smoladlink a:hover, .smoladlink a:active {
+        color: #e05e26;
+    }
+    
+    .smolcr {
+        padding-top: 5vh;
+    }
+    
+    
+    
+    /*==================================================================================
+        SHOP / POLICY FROM 0PX
+    ===================================================================================*/
+    
+    
+    /*==================POLICY 0px================*/
+    .policybox {
+        align-items: center;
+        -moz-column-gap: 0px;
+             column-gap: 0px;
+        display: grid;
+        font-style: italic;
+        grid-template-columns: 1fr;
+        grid-template-rows: .5fr .5fr;
+        justify-items: center; /*was justify-items: start;*/
+        row-gap: 20px;
+        padding-bottom: 100px;
+        margin: 0 5vw;
+    }
+    
+    .policylogo {
+        grid-area: 1 / 1 / 2 / 2;
+        height: auto;
+        width: 20%;
+    }
+    .policytext {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    
+    .ppolicy a {
+        text-decoration: none;
+        color: #e05e26;
+    }
+    
+    .ppolicy a:hover {
+        color: #ac4113;
+    }
+    
+    .ppmahalo {
+        padding-top: 10px;
+        text-align: center;
+    }
+    
+    /*================================================================================
+        ISLAND STYLE FROM 0PX
+    ==================================================================================*/
+    #trends {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .trendtitle {
+        padding: 50px 0 0;
+        width: 95vw;
+        text-align: center;
+    }
+    
+    .trendtitle h2 {
+        color: ivory;
+        background: #243466;
+        font-size: 4vw;
+        padding: 3vw 0;
+    }
+    
+    .trendtitleline {
+        display: none;
+    }
+    
+    .trendbox {
+        -moz-column-gap: 2.5vw;
+             column-gap: 2.5vw;
+        display: grid;
+        grid-template-columns: 90vw;
+        grid-template-rows: auto auto auto;
+        margin: 50px auto;
+        padding: auto;
+        -webkit-row-gap: 5vw;
+        row-gap: 5vw;
+    }
+    
+    .trendimgbox {
+        grid-area: 1 / 1 / 2 / 2;
+        position: relative;
+        height: 70vw;
+        width: 90vw;
+        overflow: hidden;
+    }
+    
+    .trendimgbox img {
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+    
+    .trendimglink {
+        background: #243466;
+        display: block;
+        grid-area: 3 / 1 / 4 / 2;
+        height: 10vw;
+        width: 90vw;
+    }
+    
+    .trendimglink a {
+        color: ivory;
+        display: flex;
+        font-size: 3.5vw;
+        padding: 3%;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    
+    .trendimglink a:hover {
+        color: #e05e26;
+    }
+    
+    .trendtext {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    
+    
+    
+    /*======================================================================================
+                                    HAPPY PEOPLE FROM 0PX
+    ======================================================================================*/
+    .hppltitle {
+        padding: 100px 5vw 0;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .hppltitle h2 {
+        font-size: 15vw;
+        font-weight: 500;
+    }
+    
+    .hppllinel {
+        display: none;
+    }
+    
+    .hpplliner {
+        display: none;
+    }
+    
+    .pplrow {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px 4px 0;
+    }
+    
+    .pplcol {
+        flex: 100%;
+        max-width: 100%;
+        padding: 0 4px;
+    }
+    
+    .pplcol img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
+    
+    .pplrow, .pplcol, .pplcol img {
+        box-sizing: border-box;
+    }
+    
+    /*======================================================================================
+                        ABOUT/MOBILE BOUTIQUE/CONTACT FROM 0PX
+                        about us img is 18vw and slideshow is 53vw
+    ======================================================================================*/
+    .aboutcover {
+        background-image: url(./images/nalobayreal.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 50vh;
+        padding-top: 0;
+        /* margin-bottom: 50px; */
+        /* width: 100vw; */
+        /* position: relative; */
+        /* display: flex; */
+    }
+    
+    h2.aboutcovertitle {
+        font-size: 10vw;
+        padding-left: 8vw;
+        padding-top: 12vh;
+    }
+    
+    
+    /*==================ABOUT/MOBILE BOUTIQUE==========*/
+    .infosect {
+        justify-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 50px auto;
+        /* position: relative; */
+    }
+    
+    .bigbox {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 42.5vw 42.5vw;
+        grid-template-columns: 42.5vw 42.5vw;
+        -ms-grid-rows: auto auto auto;
+        grid-template-rows: auto auto auto;
+        -webkit-row-gap: 5vw;
+        -moz-column-gap: 5vw;
+        column-gap: 5vw;
+        row-gap: 5vw;
+    }
+    
+    .bigbox img {
+        display: block;
+        height: auto;
+        max-width: 100%;
+    }
+    
+    .ourimg {
+        grid-area: 3 / 1 / 4 / 2;
+        height: 55vw;
+        overflow: hidden;
+        width: 42.5vw;
+    }
+    
+    
+    .mbalt {
+        grid-area: 1 / 1 / 2 / 3;
+    }
+    
+    .mbbox {
+        height: 60vw;
+        justify-self: center;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 90vw;
+        overflow: hidden;
+    }
+    
+    .mbbox img {
+        display: block;
+        position: absolute;
+        transition: opacity 1s;
+        opacity: 0;
+    }
+    
+    .mbbox img:first-child {
+        z-index: 2;
+        opacity: 1;
+    }
+    
+    .mbbox img:last-child {
+        z-index: 1;
+        opacity: 1;
+    }
+    
+    
+    .iglinkalt {
+        grid-area: 3 / 2 / 4 / 3;
+        width: 100%;
+        background: #243466;
+    }
+    
+    .iglinkalt a {
+        text-decoration: none;
+        font-size: 5vw;
+        font-weight: 500;
+        color: ivory;
+        display: block;
+        padding: 23% 10%;
+        margin: none;
+    }
+    
+    .orange {
+        color: #e05e26;
+        margin: 0px;
+    }
+    
+    .mbp {
+        margin: 0;
+    }
+    
+    .iglinkalt a:hover, .mailbox a:hover {
+        color: #e05e26;
+    }
+    
+    .iglinkbox{
+        text-align: left;
+    }
+    
+    .palt {
+        grid-area: 2 / 1 / 3 / 3;
+        font-size: 20px;
+    }
+    
+    
+    /*=============== CONTACT BOX=============*/
+    #contact {
+        display: block;
+        width: 100%;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        margin: 25px auto;
+        text-align: center;
+    }
+    
+    .mailbox {
+        display: grid;
+        grid-template-columns: 80vw;
+        grid-template-rows: auto;
+    }
+    
+    .mailicon {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    
+    .mailicon img {
+        max-width: 150px;
+        height: auto;
+    }
+    
+    .mail {
+        grid-area: 2 / 1 / 3 / 2;
+        margin-top: 15px;
+    }
+    
+    .mail a, .mailbox a {
+        text-decoration: none;
+        font-size: 3vw;
+        font-weight: 500;
+        color: #243466;
+        display: block;
+    }
+    }
+    
