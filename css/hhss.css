@@ -379,7 +379,7 @@ a.w {
     font-size: 1.6vw;
 }
 
-.blurblink a:hover, .clothesh2 a:hover, .quiltsh2 a:hover, .hgbanner a:hover {
+.blurblink a:hover, .clothesh2 a:hover, .quiltsh2 a:hover {
     color: #e05e26;
 }
 
@@ -452,36 +452,20 @@ img.clothesimg {
     justify-items: center;
 }
 
+.hgbanner {
+    display: block;
+    padding: 50px 5vw 20px 3vw;
+    color: #243466;
+    font-size: 3.5vw;
+    font-weight: 500;
+    text-align: center;
+}
+
 .adhomegoodsgrid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: .75fr;
     margin: 0 1vw 100px 1vw;
-}
-
-.hgbanner {
-    display: grid;
-    grid-template-columns: 755vw 15vw;
-    grid-template-rows: .1fr;
-    padding: 50px 5vw 20px 5vw;
-}
-
-.hgbanner a {
-    color: #243466;
-    display: flex;
-    font-size: 5vw;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: none;
-    grid-area: 1 / 1 / 2 / 2;
-}
-
-.hgline {
-    background-color: #243466;
-    grid-area: 1 / 2 / 2 / 3;
-    height: 5px;
-    align-self: center;
-    width: 100%;
 }
 
 .box1, .box2, .box3, .box4 {
